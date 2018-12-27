@@ -1,0 +1,209 @@
+{
+    "frameRate": 24,
+    "name": "heixian",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Sheet",
+            "frameRate": 24,
+            "name": "Sprite",
+            "aabb": {
+                "x": -500,
+                "y": -500,
+                "width": 1000,
+                "height": 1000
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 18,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "恐龙-10001"
+                                },
+                                {
+                                    "name": "恐龙-10002"
+                                },
+                                {
+                                    "name": "恐龙-10003"
+                                },
+                                {
+                                    "name": "恐龙-10004"
+                                },
+                                {
+                                    "name": "恐龙-10005"
+                                },
+                                {
+                                    "name": "恐龙-10006"
+                                },
+                                {
+                                    "name": "恐龙-10007"
+                                },
+                                {
+                                    "name": "恐龙-10008"
+                                },
+                                {
+                                    "name": "恐龙-10009"
+                                },
+                                {
+                                    "name": "恐龙-10010"
+                                },
+                                {
+                                    "name": "恐龙-10011"
+                                },
+                                {
+                                    "name": "恐龙-10012"
+                                },
+                                {
+                                    "name": "恐龙-10013"
+                                },
+                                {
+                                    "name": "恐龙-10014"
+                                },
+                                {
+                                    "name": "恐龙-10015"
+                                },
+                                {
+                                    "name": "恐龙-10016"
+                                },
+                                {
+                                    "name": "恐龙-10017"
+                                },
+                                {
+                                    "name": "恐龙-10018"
+                                },
+                                {
+                                    "name": "恐龙-10019"
+                                },
+                                {
+                                    "name": "恐龙-10020"
+                                },
+                                {
+                                    "name": "恐龙-10021"
+                                },
+                                {
+                                    "name": "恐龙-10022"
+                                },
+                                {
+                                    "name": "恐龙-10023"
+                                },
+                                {
+                                    "name": "恐龙-10024"
+                                },
+                                {
+                                    "name": "恐龙-10025"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 25,
+                    "playTimes": 0,
+                    "name": "Sprite",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                },
+                                {
+                                    "value": 16
+                                },
+                                {
+                                    "value": 17
+                                },
+                                {
+                                    "value": 18
+                                },
+                                {
+                                    "value": 19
+                                },
+                                {
+                                    "value": 20
+                                },
+                                {
+                                    "value": 21
+                                },
+                                {
+                                    "value": 22
+                                },
+                                {
+                                    "value": 23
+                                },
+                                {
+                                    "value": 24
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "Sprite"
+                }
+            ]
+        }
+    ]
+}

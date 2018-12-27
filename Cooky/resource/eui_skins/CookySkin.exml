@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CookySkinSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<w:Declarations>
+		<tween:TweenGroup id="subject">
+			<tween:TweenItem target="{subjectBj}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:Set/>
+				<tween:To duration="500" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{1.1}" scaleY="{1.2}" />
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="over01">
+			<tween:TweenItem target="{image}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{360}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="cookyScale1">
+			<tween:TweenItem target="{cooky1}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1801}" y="{466.64}" width="{316.61}" height="{134.87}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="cookyScale3">
+			<tween:TweenItem target="{cooky3}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object width="{272.38}" height="{161.43}" x="{1374.48}" y="{677.92}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="cookyScale2">
+			<tween:TweenItem target="{cooky2}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object width="{253}" height="{189.28}" x="{1376.53}" y="{464.24}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="165e5498b68"></w:Config>
+	<e:Image source="cookybj_jpg" x="0" y="0" anchorOffsetX="0" width="1920" anchorOffsetY="0" height="1080" />
+	<e:Image id="subjectBj" source="subject_png" anchorOffsetX="703.5" anchorOffsetY="50" width="1407" height="130"
+	         x="799.53" y="48.91" />
+	<e:Image source="plank_png" left="45" verticalCenter="0" top="123" right="686" bottom="123" />
+	<e:Image source="plank-right_png" right="66" top="126" left="1262" bottom="125" />
+	<e:Button id="start" label="" anchorOffsetX="149" anchorOffsetY="71" enabled="false" top="940" bottom="-2" left="489"
+	          right="1133">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="start_png" source.disabled="start-disabled_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="hortation" label="" anchorOffsetX="138" anchorOffsetY="50.5" top="955" bottom="24" left="1422" right="222"
+	          enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hortation_png" source.disabled="hortation-disabled_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="clearBtn" label="" x="1692.73" y="963.06" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="clearBtn_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="uradBorder" source="border2_png" x="527.5" y="215.32" anchorOffsetX="119" anchorOffsetY="51.5" />
+	<e:Image id="ormosiaBorder" source="border2_png" x="962.03" y="212.91" anchorOffsetX="119" anchorOffsetY="51.5" />
+	<e:Label id="urad" text="请输入" x="428" y="182" anchorOffsetX="0" width="194" anchorOffsetY="0" height="62"
+	         verticalAlign="middle" textAlign="center" textColor="0xd3af8f" size="36" bold="true" fontFamily="SimHei" />
+	<e:Label id="ormosia" text="请输入" x="872" y="182" anchorOffsetX="0" width="184" anchorOffsetY="0" height="62"
+	         verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xd3af8f" size="36" bold="true" />
+	<e:Image id="cooky1" source="cooky1_png" x="633.31" y="641.68" anchorOffsetX="435.31" width="870.62" anchorOffsetY="185.44" height="370.87"/>
+	<e:Image id="cooky2" source="cooky2_png" x="449.41" y="311.7" anchorOffsetX="0" width="495" anchorOffsetY="0" height="507.58"/>
+	<e:Image id="cooky3" source="cooky3_png" x="320.85" y="445.64" anchorOffsetX="0" width="622.38" anchorOffsetY="0" height="368.87"/>
+	<e:Rect id="canvasDiv" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" enabled="true" fillColor="0xffffff"
+	        bottom="243" top="300" left="179" right="834" strokeColor="0xf9f9f9" strokeAlpha="0" strokeWeight="65" />
+	<e:Rect id="lineRect" width="902" height="526" x="180.9" y="311.7" fillAlpha="0" skinName="Subject1" />
+	<e:Button id="r00" label="" x="179.22" y="300.3" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42"></e:Button>
+	<e:Button id="r01" label="" x="179.22" y="424.1" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42"></e:Button>
+	<e:Button id="r04" label="" x="178.72" y="796.85" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r03" label="" x="178.72" y="672.5" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42"/>
+	<e:Button id="r10" label="" x="302.81" y="300.25" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r11" label="" x="302.81" y="424.64" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r02" label="" x="179.22" y="547.92" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" skinName="skins.ButtonSkin"/>
+	<e:Button id="r12" label="" x="302.81" y="548.5" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42"
+	          skinName="skins.ButtonSkin" />
+	<e:Button id="r13" label="" x="302.81" y="673.16" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r14" label="" x="302.31" y="797.35" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r20" label="" x="427" y="300.25" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r21" label="" x="427" y="424.64" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r22" label="" x="427" y="547.92" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r23" label="" x="427" y="673.12" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r24" label="" x="426.5" y="797.31" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r30" label="" x="551.23" y="300.25" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r31" label="" x="551.23" y="424.64" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r32" label="" x="551.23" y="547.92" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r33" label="" x="551.23" y="673" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r34" label="" x="551.23" y="797.31" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r40" label="" x="674.91" y="300.25" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r41" label="" x="674.91" y="424.1" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r42" label="" x="674.91" y="547.92" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r43" label="" x="673.91" y="673" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r44" label="" x="674.5" y="797.35" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r50" label="" x="798.9" y="299.21" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r51" label="" x="798" y="424.1" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r52" label="" x="798.9" y="547.92" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r53" label="" x="798" y="673.12" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r54" label="" x="798.53" y="796.81" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r60" label="" x="922.5" y="299.21" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r61" label="" x="922.5" y="424.1" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r62" label="" x="922.5" y="547.5" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r63" label="" x="922.5" y="673.12" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r64" label="" x="922.5" y="796.81" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42"
+	          skinName="skins.ButtonSkin" />
+	<e:Button id="r70" label="" x="1046.67" y="300.25" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r71" label="" x="1046.67" y="424.64" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r72" label="" x="1046.67" y="547.92" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r73" label="" x="1047.17" y="673.12" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="r74" label="" x="1046.67" y="796.31" anchorOffsetX="0" width="42" anchorOffsetY="0" height="42" />
+	<e:Button id="music" label="" x="1748" y="20.91">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="music_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="onLoad" label="" x="1594.36" y="23.91">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="load_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="revise" label="" x="1091" y="169.88" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="revise_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="cookyLabel1" text="" x="1663" y="381.74" anchorOffsetY="0" height="52" verticalAlign="middle"
+	         textAlign="center" textColor="0xf2ede8" bold="true" size="42" fontFamily="SimHei" anchorOffsetX="0" width="77" />
+	<e:Label id="cookyLabel2" text="" x="1663" y="584.5" anchorOffsetY="0" height="54" verticalAlign="middle"
+	         textAlign="center" textColor="0xf2ede8" bold="true" size="42" fontFamily="SimHei" anchorOffsetX="0" width="81" />
+	<e:Label id="cookyLabel3" text="" x="1663" y="781.35" anchorOffsetY="0" height="52" verticalAlign="middle"
+	         textAlign="center" textColor="0xf2ede8" bold="true" size="42" fontFamily="SimHei" anchorOffsetX="0" width="77" />
+	<e:Group id="subjectAlert" x="0" y="0" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.6"/>
+		<e:Image source="subjectAlert_png" x="198.5" y="234.94"/>
+	</e:Group>
+	<e:Group id="alertMask" x="0" y="0">
+		<e:Rect width="1920" height="1080" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x000000"
+		        fillAlpha="0.2" strokeColor="0xffffff" strokeAlpha="0" />
+		<e:Group x="219.5" y="126.09">
+			<e:Image source="alert1_png" x="-10" y="-8" />
+			<e:Image id="surfaceCell" source="alertBtn2_png" x="354.23" y="300.6" />
+			<e:Image id="indoorCell" source="alertBtn3_png" x="659.5" y="300.6" />
+			<e:Button id="suface" label="" x="218.5" y="187.28" anchorOffsetX="0" width="232" anchorOffsetY="0" height="103"
+			           skinName="surfaceCellCount"/>
+			<e:Button id="indoor" label="" x="522.25" y="184.21" anchorOffsetX="0" width="232" anchorOffsetY="0" height="103"
+			          skinName="indoorCellBtn" />
+			<e:Image id="labelAClick" source="border2_png" x="238.56" y="412.48" />
+			<e:Image id="labelBClick" source="border2_png" x="539.07" y="412.56" />
+			<e:Image id="labelFClick" source="border2_png" x="870.56" y="418.41" anchorOffsetX="0" width="136" anchorOffsetY="0" height="99"/>
+			<e:Image id="labelEClick" source="border2_png" x="1007.88" y="415.08" anchorOffsetX="0" width="209.22"
+			         anchorOffsetY="0" height="99.97" />
+			<e:Group id="lvCount" x="353.57" y="524">
+				<e:Image source="alertBtn4_png" x="0" y="0" />
+				<e:Label id="labelC" text="10" y="20" anchorOffsetX="0" width="217.95" anchorOffsetY="0" height="61.82"
+				         textColor="0xA94701" size="46" verticalAlign="middle" textAlign="right" fontFamily="SimHei"
+				         horizontalCenter="0"  bold="true"/>
+			</e:Group>
+			<e:Group id="redCount" x="665.13" y="524">
+				<e:Image x="0" y="0"  source="alertBtn1_png"/>
+				<e:Label id="labelD" text="11" y="20.25" anchorOffsetX="0" width="216.43" anchorOffsetY="0" height="61.82"
+				         textColor="0xa94701" size="46" verticalAlign="middle" textAlign="right" fontFamily="SimHei"
+				         horizontalCenter="0"  bold="true"/>
+			</e:Group>
+			<e:Label id="labelA" text="" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center"
+			         textColor="0xA94701" size="46" top="437" right="882" left="269" bottom="354" fontFamily="SimHei"  bold="true"/>
+			<e:Label id="labelB" text="Label" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center"
+			         textColor="0xa94701" size="46" top="437" bottom="356" left="570" right="582" fontFamily="SimHei"  bold="true"/>
+			<e:Label id="labelE" text="Label" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center"
+			         textColor="0xA94701" size="46" top="433" bottom="350" left="1036" right="145" fontFamily="SimHei"  bold="true"/>
+			<e:Label id="labelF" text="Label" x="885" y="442" textColor="0xa94701" bold="true" verticalAlign="middle" textAlign="center" size="46" fontFamily="SimHei" anchorOffsetY="0" height="52" anchorOffsetX="0" width="110"/>
+			<e:Button id="alertOk" label="" x="519.13" y="638.85">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="alertOk_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group id="gameOver" x="0" y="-12.31" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="12.31" fillAlpha="0.6" strokeAlpha="0" enabled="true"/>
+		<e:Image source="gameoverbj01_png" x="374" y="0"/>
+		<e:Image id="image" source="gameoverbj02_png" x="964.5" y="546.5" anchorOffsetX="548.5" anchorOffsetY="540"/>
+		<e:Image source="cooky-over_png" x="716.91" y="183.19"/>
+		<e:Label text="点击任意位置重新开始游戏" x="105" y="936" anchorOffsetX="0" width="1710" anchorOffsetY="0" height="144" fontFamily="SimHei" size="40" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

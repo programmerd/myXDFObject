@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KingKongSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="endHuan">
+			<tween:TweenItem target="{image}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{360}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{-360}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{360}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{-360}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="result">
+			<tween:TweenItem target="{gameOver}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{374.63}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="166525952db"></w:Config>
+	<e:Image x="0" y="0" width="1920" height="1080" source="beam_bj_png" />
+	<e:Image id="PlaneV" x="0" y="0" source="V1_png"  visible="false"/>
+	<e:Image id="bottomCount" source="bottom_count_png" x="862" y="634"  visible="false"/>
+	<e:Image source="subject_top_png" x="100.49" y="-2.03" />
+	<e:Image id="subject01" source="subject_top1_png" x="503" y="37.97" />
+	<e:Image id="subject02" source="subject_top2_png" x="467.99" y="17.5" visible="false" />
+	<e:Rect id="yanwu" width="512" height="257" x="699.33" y="603.63" anchorOffsetX="0" anchorOffsetY="0"
+	        fillColor="0xffffff" strokeColor="0x444444" strokeAlpha="0" fillAlpha="0" />
+	<e:Button id="beam" label="" y="954.21" horizontalCenter="36.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="beam_png" source.down="beam_click_png"
+				         source.disabled="beam_disable_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="capacity" label="" x="1444.5" y="775.71" width="527" height="357" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="capacity_png" source.down="capacity_click_png"
+				         source.disabled="capacity_disable_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="next" label="" x="1756" y="635" width="200" height="235">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="next_png" source.down="next_click_png"
+				         source.disabled="next_disable_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="music" source="music_png" x="1763" y="26" />
+	<e:Button id="revise" label="" x="1613.21" y="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="revise_png" source.down="revise_png" source.disabled="revise_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="-66" y="190" locked="true">
+		<e:Image source="left_count_png" bottom="0" left="0" right="0" top="0" />
+		<e:Label text="×1000000" x="293" y="58" fontFamily="fz" anchorOffsetX="0" width="210" anchorOffsetY="0" height="60"
+		         textColor="0xb8fefc" bold="true" size="40" verticalAlign="middle" />
+		<e:Label text="×100000" x="293" y="127" fontFamily="fz" anchorOffsetX="0" width="204" anchorOffsetY="0" height="60"
+		         textColor="0xB8FEFC" bold="true" size="40" verticalAlign="middle" />
+		<e:Label text="×10000" x="294" y="194.96" fontFamily="fz" anchorOffsetX="0" width="201" anchorOffsetY="0" height="60"
+		         textColor="0xB8FEFC" bold="true" size="40" verticalAlign="middle" />
+		<e:Label text="×1000" x="295" y="264.4" fontFamily="fz" anchorOffsetX="0" width="195" anchorOffsetY="0" height="60"
+		         textColor="0xB8FEFC" bold="true" size="40" verticalAlign="middle" />
+		<e:Label text="×100" x="296" y="332.88" fontFamily="fz" anchorOffsetX="0" width="195" anchorOffsetY="0" height="60"
+		         textColor="0xB8FEFC" bold="true" size="40" verticalAlign="middle" />
+		<e:Label text="×10" x="296" y="402.36" fontFamily="fz" anchorOffsetX="0" width="195" anchorOffsetY="0" height="60"
+		         textColor="0xB8FEFC" bold="true" size="40" verticalAlign="middle" />
+		<e:Label text="×1" x="297" y="468.8" fontFamily="fz" anchorOffsetX="0" width="195" anchorOffsetY="0" height="60"
+		         textColor="0xB8FEFC" bold="true" size="40" verticalAlign="middle" />
+	</e:Group>
+	<e:Group id="gameOver" x="581" y="-458">
+		<e:Image source="result_png" x="0" y="0" />
+		<e:Image source="resultSize_png" x="255" y="166.4" />
+	</e:Group>
+	<e:Image id="overImage" source="King_bj_jpg" x="0" y="0" locked="true" visible="false" />
+	<e:Image id="GAMEOVER" source="gameOver_png" x="0" y="0" visible="false" />
+	<e:Group id="huan" x="218.5" y="207.13" visible="false">
+		<e:Image source="huan02_png" x="-92.5" y="-78.76"  anchorOffsetX="0" width="482" anchorOffsetY="0" height="482"/>
+		<e:Image source="huan04_png" x="-103.64" y="-90.42" anchorOffsetX="0" width="506.97" anchorOffsetY="0" height="506.97" />
+		<e:Image id="image0" source="huan01_png" x="148.5" y="162.61" anchorOffsetX="174" width="348" anchorOffsetY="174"
+		         height="348" />
+		<e:Image id="image" source="huan03_png" x="149.44" y="161.65" anchorOffsetX="149.44" width="298.93"
+		         anchorOffsetY="147.42" height="294.84" />
+	</e:Group>
+	<e:Group id="huan0" x="1427" y="451.13" visible="false">
+		<e:Image source="huan02_png" x="10.17" y="17.04"  anchorOffsetX="0" width="430" anchorOffsetY="0" height="430"/>
+		<e:Image source="huan04_png" x="-0.97" y="5.38" anchorOffsetX="0" width="454.97" anchorOffsetY="0" height="454.97" />
+		<e:Image id="image1" source="huan01_png" x="225.17" y="232.41" anchorOffsetX="148" width="296" anchorOffsetY="148"
+		         height="296" />
+		<e:Image id="image2" source="huan03_png" x="225.15" y="230.85" anchorOffsetX="122.48" width="244.99"
+		         anchorOffsetY="120.82" height="241.64" />
+	</e:Group>
+	<e:Group id="overTX" width="1920" height="1080" x="0" y="0" visible="false">
+	</e:Group>
+	<e:Group id="startGroup" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5" strokeColor="0xffffff" strokeAlpha="0" />
+		<e:Image id="startBtn" source="startpic_png" x="741.5" y="458" />
+	</e:Group>
+</e:Skin>

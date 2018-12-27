@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ClickBtn" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="76" height="76" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="165f03b03aa"/>
+</e:Skin>

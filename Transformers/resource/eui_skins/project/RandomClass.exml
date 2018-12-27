@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RandomClassSkin" width="33" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166578c776f" ></w:Config>
+	<e:Group width="33" height="40" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Scroller id="randomScroll" width="33" height="40" x="0.25" y="0" enabled="false">
+			<e:Group id="randomGroup" x="-4.75" y="-6" anchorOffsetY="0" height="40">
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

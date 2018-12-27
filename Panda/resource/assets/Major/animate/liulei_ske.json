@@ -1,0 +1,124 @@
+{
+    "frameRate": 24,
+    "name": "liulei",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "liulei",
+            "aabb": {
+                "x": -32.49,
+                "y": -8.9,
+                "width": 500,
+                "height": 300.02
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "length": 149,
+                    "name": "熊猫30002",
+                    "parent": "root",
+                    "transform": {
+                        "x": 222.70285,
+                        "y": 215.5586,
+                        "skX": -89.7793,
+                        "skY": -89.7793
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "熊猫30002",
+                    "parent": "熊猫30002"
+                },
+                {
+                    "name": "熊猫30001",
+                    "parent": "熊猫30002"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "熊猫30002",
+                            "display": [
+                                {
+                                    "name": "熊猫30002",
+                                    "transform": {
+                                        "x": 74.44,
+                                        "y": -5.48,
+                                        "skX": 89.78,
+                                        "skY": 89.78
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "熊猫30001",
+                            "display": [
+                                {
+                                    "name": "熊猫30001",
+                                    "transform": {
+                                        "x": 74.42,
+                                        "y": -5.48,
+                                        "skX": 89.78,
+                                        "skY": 89.78
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 4,
+                    "playTimes": 0,
+                    "name": "liulei",
+                    "slot": [
+                        {
+                            "name": "熊猫30002",
+                            "displayFrame": [
+                                {
+                                    "duration": 2,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "熊猫30001",
+                            "displayFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "liulei"
+                }
+            ]
+        }
+    ]
+}

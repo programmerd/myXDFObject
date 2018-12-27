@@ -1,0 +1,26 @@
+{
+  "165e5498b68": {
+    "path": "CookySkin.ts",
+    "class": "CookySkin",
+    "parentPath": "",
+    "bindingDataTestObj": [],
+    "guideLinesEnabled": true
+  },
+  "global": {
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": "42",
+    "globalBindingDataTestObj": [],
+    "globalAutoLayerMarkEnable": true
+  },
+  "165f03b03aa": {
+    "bindingDataTestObj": [],
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}

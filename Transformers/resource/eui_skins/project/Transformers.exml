@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TransformersSkin" width="60" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1661e01efd6" ></w:Config>
+	<e:Group width="60" height="60" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="btn" label="Button" x="1" y="3" anchorOffsetX="0" width="54.55" anchorOffsetY="0" height="116.66" visible="false"/>
+		<e:Scroller id="myScroller" width="60" height="60" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0">
+			<e:Group id="listGroup" anchorOffsetY="0" height="60" width="60">
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

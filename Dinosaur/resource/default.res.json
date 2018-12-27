@@ -1,0 +1,715 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,top_png,A_png,B_png,bj_jpg,border02_png,border03_png,C_png,D_png,E_png,egg_png,egg1_png,egg2_png,egg3_png,meat_png,n_rectangle_png,next_png,previous_png,rectangle_png,s1_png,s2_png,s3_png,s4_png,s5_png,s6_png,s7_png,s8_png,s9_png,stone_bj_png,subject_png,stone03_png,stone01_png,stone02_png,border04_png,border2_png,rectangle02_png,rectangle03_png,rectangle01_png,sum_png,clickStone03_png,clickStone01_png,clickStone02_png,key0_png,key1_png,key2_png,key3_png,key4_png,key5_png,key6_png,key7_png,key8_png,key9_png,keyset-mask_png,keyset-revise_png,ok_png,add_png,amount_png,cacl_png,cacl00_png,cacl0_png,cacl1_png,cacl2_png,cacl3_png,cacl4_png,cacl5_png,cacl6_png,cacl7_png,cacl8_png,cacl9_png,caclAC_png,caclx_png,minus_png,remove_png,caclButton_png,taoxin02_json,taoxin02_png,poke1_tex_png,poke_ske_json,poke_tex_json,poke_tex_png,poke1_ske_json,poke1_tex_json,heixian_ske_json,heixian_tex_json,heixian_tex_png,heixian_json,heixian_png,tanqi_ske_json,tanqi_tex_json,tanqi_tex_png,chi1_ske_json,chi1_tex_png,chi1_tex_json,chi2_tex_png,chi2_ske_json,chi2_tex_json,chi3_tex_png,chi3_ske_json,chi3_tex_json,chi4_tex_png,chi4_ske_json,chi4_tex_json,startpic_png,revise_png,music_png,music_close_png,kl_bj_mp3,kl_egg_l_mp3,kl_up_mp3,kl_chi_mp3,kl_chi_2_mp3,kl_error_mp3,kl_tip_mp3,taoxin01_json,taoxin01_png,subjectTip_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Dinosaur/top.png",
+			"type": "image",
+			"name": "top_png"
+		},
+		{
+			"url": "assets/Dinosaur/A.png",
+			"type": "image",
+			"name": "A_png"
+		},
+		{
+			"url": "assets/Dinosaur/B.png",
+			"type": "image",
+			"name": "B_png"
+		},
+		{
+			"url": "assets/Dinosaur/bj.jpg",
+			"type": "image",
+			"name": "bj_jpg"
+		},
+		{
+			"url": "assets/Dinosaur/border02.png",
+			"type": "image",
+			"name": "border02_png"
+		},
+		{
+			"url": "assets/Dinosaur/border03.png",
+			"type": "image",
+			"name": "border03_png"
+		},
+		{
+			"url": "assets/Dinosaur/C.png",
+			"type": "image",
+			"name": "C_png"
+		},
+		{
+			"url": "assets/Dinosaur/D.png",
+			"type": "image",
+			"name": "D_png"
+		},
+		{
+			"url": "assets/Dinosaur/E.png",
+			"type": "image",
+			"name": "E_png"
+		},
+		{
+			"url": "assets/Dinosaur/egg.png",
+			"type": "image",
+			"name": "egg_png"
+		},
+		{
+			"url": "assets/Dinosaur/egg1.png",
+			"type": "image",
+			"name": "egg1_png"
+		},
+		{
+			"url": "assets/Dinosaur/egg2.png",
+			"type": "image",
+			"name": "egg2_png"
+		},
+		{
+			"url": "assets/Dinosaur/egg3.png",
+			"type": "image",
+			"name": "egg3_png"
+		},
+		{
+			"url": "assets/Dinosaur/meat.png",
+			"type": "image",
+			"name": "meat_png"
+		},
+		{
+			"url": "assets/Dinosaur/n_rectangle.png",
+			"type": "image",
+			"name": "n_rectangle_png"
+		},
+		{
+			"url": "assets/Dinosaur/next.png",
+			"type": "image",
+			"name": "next_png"
+		},
+		{
+			"url": "assets/Dinosaur/previous.png",
+			"type": "image",
+			"name": "previous_png"
+		},
+		{
+			"url": "assets/Dinosaur/rectangle.png",
+			"type": "image",
+			"name": "rectangle_png"
+		},
+		{
+			"url": "assets/Dinosaur/s1.png",
+			"type": "image",
+			"name": "s1_png"
+		},
+		{
+			"url": "assets/Dinosaur/s2.png",
+			"type": "image",
+			"name": "s2_png"
+		},
+		{
+			"url": "assets/Dinosaur/s3.png",
+			"type": "image",
+			"name": "s3_png"
+		},
+		{
+			"url": "assets/Dinosaur/s4.png",
+			"type": "image",
+			"name": "s4_png"
+		},
+		{
+			"url": "assets/Dinosaur/s5.png",
+			"type": "image",
+			"name": "s5_png"
+		},
+		{
+			"url": "assets/Dinosaur/s6.png",
+			"type": "image",
+			"name": "s6_png"
+		},
+		{
+			"url": "assets/Dinosaur/s7.png",
+			"type": "image",
+			"name": "s7_png"
+		},
+		{
+			"url": "assets/Dinosaur/s8.png",
+			"type": "image",
+			"name": "s8_png"
+		},
+		{
+			"url": "assets/Dinosaur/s9.png",
+			"type": "image",
+			"name": "s9_png"
+		},
+		{
+			"url": "assets/Dinosaur/stone_bj.png",
+			"type": "image",
+			"name": "stone_bj_png"
+		},
+		{
+			"url": "assets/Dinosaur/subject.png",
+			"type": "image",
+			"name": "subject_png"
+		},
+		{
+			"url": "assets/Dinosaur/stone03.png",
+			"type": "image",
+			"name": "stone03_png"
+		},
+		{
+			"url": "assets/Dinosaur/stone01.png",
+			"type": "image",
+			"name": "stone01_png"
+		},
+		{
+			"url": "assets/Dinosaur/stone02.png",
+			"type": "image",
+			"name": "stone02_png"
+		},
+		{
+			"url": "assets/Dinosaur/border04.png",
+			"type": "image",
+			"name": "border04_png"
+		},
+		{
+			"url": "assets/Dinosaur/border.png",
+			"type": "image",
+			"name": "border2_png"
+		},
+		{
+			"url": "assets/Dinosaur/rectangle02.png",
+			"type": "image",
+			"name": "rectangle02_png"
+		},
+		{
+			"url": "assets/Dinosaur/rectangle03.png",
+			"type": "image",
+			"name": "rectangle03_png"
+		},
+		{
+			"url": "assets/Dinosaur/rectangle01.png",
+			"type": "image",
+			"name": "rectangle01_png"
+		},
+		{
+			"url": "assets/Dinosaur/sum.png",
+			"type": "image",
+			"name": "sum_png"
+		},
+		{
+			"url": "assets/Dinosaur/clickStone03.png",
+			"type": "image",
+			"name": "clickStone03_png"
+		},
+		{
+			"url": "assets/Dinosaur/clickStone01.png",
+			"type": "image",
+			"name": "clickStone01_png"
+		},
+		{
+			"url": "assets/Dinosaur/clickStone02.png",
+			"type": "image",
+			"name": "clickStone02_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key0.png",
+			"type": "image",
+			"name": "key0_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key1.png",
+			"type": "image",
+			"name": "key1_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key2.png",
+			"type": "image",
+			"name": "key2_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key3.png",
+			"type": "image",
+			"name": "key3_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key4.png",
+			"type": "image",
+			"name": "key4_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key5.png",
+			"type": "image",
+			"name": "key5_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key6.png",
+			"type": "image",
+			"name": "key6_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key7.png",
+			"type": "image",
+			"name": "key7_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key8.png",
+			"type": "image",
+			"name": "key8_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/key9.png",
+			"type": "image",
+			"name": "key9_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/keyset-mask.png",
+			"type": "image",
+			"name": "keyset-mask_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/keyset-revise.png",
+			"type": "image",
+			"name": "keyset-revise_png"
+		},
+		{
+			"url": "assets/Dinosaur/input/ok.png",
+			"type": "image",
+			"name": "ok_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/add.png",
+			"type": "image",
+			"name": "add_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/amount.png",
+			"type": "image",
+			"name": "amount_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl.png",
+			"type": "image",
+			"name": "cacl_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl00.png",
+			"type": "image",
+			"name": "cacl00_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl0.png",
+			"type": "image",
+			"name": "cacl0_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl1.png",
+			"type": "image",
+			"name": "cacl1_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl2.png",
+			"type": "image",
+			"name": "cacl2_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl3.png",
+			"type": "image",
+			"name": "cacl3_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl4.png",
+			"type": "image",
+			"name": "cacl4_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl5.png",
+			"type": "image",
+			"name": "cacl5_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl6.png",
+			"type": "image",
+			"name": "cacl6_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl7.png",
+			"type": "image",
+			"name": "cacl7_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl8.png",
+			"type": "image",
+			"name": "cacl8_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/cacl9.png",
+			"type": "image",
+			"name": "cacl9_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/caclAC.png",
+			"type": "image",
+			"name": "caclAC_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/caclx.png",
+			"type": "image",
+			"name": "caclx_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/minus.png",
+			"type": "image",
+			"name": "minus_png"
+		},
+		{
+			"url": "assets/Dinosaur/cacl/remove.png",
+			"type": "image",
+			"name": "remove_png"
+		},
+		{
+			"url": "assets/Dinosaur/caclButton.png",
+			"type": "image",
+			"name": "caclButton_png"
+		},
+		{
+			"url": "assets/Dinosaur/animation/taoxin02.json",
+			"type": "json",
+			"name": "taoxin02_json"
+		},
+		{
+			"url": "assets/Dinosaur/animation/taoxin02.png",
+			"type": "image",
+			"name": "taoxin02_png"
+		},
+		{
+			"name": "poke1_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/poke1_tex.png"
+		},
+		{
+			"name": "poke_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/poke_ske.json"
+		},
+		{
+			"name": "poke_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/poke_tex.json"
+		},
+		{
+			"name": "poke_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/poke_tex.png"
+		},
+		{
+			"name": "poke1_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/poke1_ske.json"
+		},
+		{
+			"name": "poke1_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/poke1_tex.json"
+		},
+		{
+			"name": "heixian_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/heixian_ske.json"
+		},
+		{
+			"name": "heixian_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/heixian_tex.json"
+		},
+		{
+			"name": "heixian_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/heixian_tex.png"
+		},
+		{
+			"name": "heixian_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/heixian.json"
+		},
+		{
+			"name": "heixian_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/heixian.png"
+		},
+		{
+			"name": "tanqi_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/tanqi_ske.json"
+		},
+		{
+			"name": "tanqi_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/tanqi_tex.json"
+		},
+		{
+			"name": "tanqi_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/tanqi_tex.png"
+		},
+		{
+			"name": "chi1_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi1_ske.json"
+		},
+		{
+			"name": "chi1_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/chi1_tex.png"
+		},
+		{
+			"name": "chi1_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi1_tex.json"
+		},
+		{
+			"name": "chi2_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/chi2_tex.png"
+		},
+		{
+			"name": "chi2_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi2_ske.json"
+		},
+		{
+			"name": "chi2_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi2_tex.json"
+		},
+		{
+			"name": "chi3_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/chi3_tex.png"
+		},
+		{
+			"name": "chi3_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi3_ske.json"
+		},
+		{
+			"name": "chi3_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi3_tex.json"
+		},
+		{
+			"name": "chi4_tex_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/chi4_tex.png"
+		},
+		{
+			"name": "chi4_ske_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi4_ske.json"
+		},
+		{
+			"name": "chi4_tex_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/chi4_tex.json"
+		},
+		{
+			"name": "startpic_png",
+			"type": "image",
+			"url": "assets/Dinosaur/startpic.png"
+		},
+		{
+			"name": "revise_png",
+			"type": "image",
+			"url": "assets/Dinosaur/revise.png"
+		},
+		{
+			"name": "music_png",
+			"type": "image",
+			"url": "assets/Dinosaur/music.png"
+		},
+		{
+			"name": "music_close_png",
+			"type": "image",
+			"url": "assets/Dinosaur/music_close.png"
+		},
+		{
+			"name": "kl_bj_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_bj.mp3"
+		},
+		{
+			"name": "kl_egg_l_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_egg_l.mp3"
+		},
+		{
+			"name": "kl_up_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_up.mp3"
+		},
+		{
+			"name": "kl_chi_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_chi.mp3"
+		},
+		{
+			"name": "kl_chi_2_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_chi_2.mp3"
+		},
+		{
+			"name": "kl_error_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_error.mp3"
+		},
+		{
+			"name": "kl_tip_mp3",
+			"type": "sound",
+			"url": "assets/Dinosaur/music/kl_tip.mp3"
+		},
+		{
+			"name": "taoxin01_json",
+			"type": "json",
+			"url": "assets/Dinosaur/animation/taoxin01.json"
+		},
+		{
+			"name": "taoxin01_png",
+			"type": "image",
+			"url": "assets/Dinosaur/animation/taoxin01.png"
+		},
+		{
+			"name": "subjectTip_png",
+			"type": "image",
+			"url": "assets/Dinosaur/subjectTip.png"
+		}
+	]
+}

@@ -1,0 +1,219 @@
+{
+    "frameRate": 24,
+    "name": "fuhuo",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "fuhuo",
+            "frameRate": 12,
+            "name": "fuhuo",
+            "aabb": {
+                "x": -122.43,
+                "y": -130.21,
+                "width": 873,
+                "height": 873
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 11,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "16",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "01",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "02",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "03",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "04",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "05",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "06",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "07",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "08",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "09",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "10",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "11",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "12",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "13",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "14",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                },
+                                {
+                                    "name": "15",
+                                    "transform": {
+                                        "x": 314.07,
+                                        "y": 306.29
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 16,
+                    "playTimes": 0,
+                    "name": "fuhuo",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "fuhuo"
+                }
+            ]
+        }
+    ]
+}

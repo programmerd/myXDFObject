@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WarcraftSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="doudong">
+			<tween:TweenItem target="{warcraftGroup}">
+				<tween:Set/>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{0}" x="{1834}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{1586}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="aida">
+			<tween:TweenItem target="{dapao}">
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{-3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{-3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="outGo">
+			<tween:TweenItem target="{warcraftGroup}">
+				<tween:To duration="1000"/>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="166a92356c0"></w:Config>
+	<e:Group id="bj" x="0" y="0" locked="true">
+		<e:Image source="bj_jpg" x="0" y="0" />
+		<e:Image id="tipAsk" source="subject_png" x="0" y="0" />
+		<e:Image id="music" source="music_png" x="1748" y="24.5" />
+		<e:Image id="revise" source="revise_png" x="1616" y="24.5" />
+	</e:Group>
+	<e:Group id="dapao" x="586" y="540" anchorOffsetX="422" anchorOffsetY="197" locked="true">
+		<e:Image id="ordnance" source="ordnance_png" x="0" y="0" />
+		<e:Button id="clickFire" label="" x="317.5" y="117">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fire_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="timu" x="0" y="880" locked="true">
+		<e:Image id="subject" x="588" y="0" source="subject3_png" />
+		<e:Image id="subjectMax" x="0" y="35" source="resultMax1_png" />
+		<e:Image id="subjectMin" x="1318.5" y="15" source="resultMin1_png" />
+	</e:Group>
+	<e:Group id="energyGroup" width="200" height="200" x="172" y="528" />
+	<e:Group id="fashe" width="820" height="64" x="996" y="510" anchorOffsetY="0" anchorOffsetX="0" />
+	<e:Group id="warcraftGroup" width="660" height="732" x="1586" y="518" anchorOffsetX="330" anchorOffsetY="366" />
+	<e:Group id="write" x="0" y="914.79" locked="true">
+		<e:Group x="0.84" y="0.71" id="write1" anchorOffsetX="0.67" width="1917" anchorOffsetY="0.33" height="163.99"
+		         visible="false">
+			<e:Label text="10" x="190.66" y="97.99" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="306.51" y="79.99" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="401.67" y="80.66" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1589.5" y="84.49" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1675.49" y="59.61" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1764.16" y="26" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1764.15" y="83.96" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+		</e:Group>
+		<e:Group id="write2" x="0.84" y="0.66" anchorOffsetX="0.67" width="1917" anchorOffsetY="0.33" height="163.99"
+		         visible="false">
+			<e:Label text="10" x="190.66" y="97.99" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="306.51" y="79.99" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="401.67" y="81.33" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1588.83" y="85.16" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1675.49" y="59.71" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1764.15" y="25.34" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+			<e:Label text="10" x="1764.15" y="84.63" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" />
+		</e:Group>
+		<e:Group id="write3" x="0" y="0" anchorOffsetX="0.67" width="1917" anchorOffsetY="0.33" height="163.99"
+		         visible="false">
+			<e:Label text="153" x="148.83" y="105.66" anchorOffsetX="0" width="41.33" anchorOffsetY="0" height="38"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="223" y="89.84" anchorOffsetX="0" width="39.33" anchorOffsetY="0" height="37.33"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="296.84" y="50.52" anchorOffsetX="0" width="40.67" anchorOffsetY="0" height="36.67"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="295.5" y="106.32" anchorOffsetX="0" width="40.67" anchorOffsetY="0" height="36.67"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="367.33" y="89.84" anchorOffsetX="0" width="40.67" anchorOffsetY="0" height="36.67"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="417.32" y="49.82" anchorOffsetX="0" width="40.67" anchorOffsetY="0" height="36.67"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="417.32" y="103.64" anchorOffsetX="0" width="40.67" anchorOffsetY="0" height="36.67"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="1556.16" y="85.83" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="1632.83" y="72.2" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="1722.33" y="28.82" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="1723" y="87.16" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+			<e:Label text="10" x="1808.99" y="60.33" anchorOffsetX="0" width="46" anchorOffsetY="0" height="42"
+			         borderColor="0xF90000" border="false" bold="true" blendMode="normal" backgroundColor="0xEF0000"
+			         background="false" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x000000" size="20" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="gameOver" width="1920" height="1080" x="0" y="0" visible="false" locked="true">
+		<e:Rect id="gameOverMask" width="1920" height="1080" x="0" y="0" fillAlpha="0" scaleX="1" scaleY="1" />
+	</e:Group>
+	<e:Image id="subTip" source="subTip_png" x="0" y="0" visible="false"/>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.7"/>
+		<e:Image id="clickStart" source="startpic_png" x="738.5" y="451.5"/>
+	</e:Group>
+</e:Skin>

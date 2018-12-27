@@ -1,0 +1,429 @@
+{
+    "frameRate": 24,
+    "name": "taiqiu",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "taiqiu",
+            "aabb": {
+                "x": -929.98,
+                "y": -428.57,
+                "width": 1867.24,
+                "height": 1056.3
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "length": 672,
+                    "name": "huanletaiqiu_05_1",
+                    "parent": "root",
+                    "transform": {
+                        "x": 5.45,
+                        "y": 261.8,
+                        "skX": -90.6217,
+                        "skY": -90.6217
+                    }
+                },
+                {
+                    "length": 640,
+                    "name": "左手",
+                    "parent": "huanletaiqiu_05_1",
+                    "transform": {
+                        "x": -272.6288,
+                        "y": -846.6582,
+                        "skX": 33.8159,
+                        "skY": 33.8159
+                    }
+                },
+                {
+                    "length": 667,
+                    "name": "右手",
+                    "parent": "huanletaiqiu_05_1",
+                    "transform": {
+                        "x": -301.7685,
+                        "y": 829.4743,
+                        "skX": -33.1541,
+                        "skY": -33.1541
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "huanletaiqiu_05_1",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "QQ图片20181102141326",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "QQ图片20181102105655",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "QQ图片20181102142117",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "QQ图片20181102105705",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "huanletaiqiu_06",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "huanletaiqiu_05_2",
+                    "parent": "huanletaiqiu_05_1"
+                },
+                {
+                    "name": "左手",
+                    "parent": "左手"
+                },
+                {
+                    "name": "右手",
+                    "parent": "右手"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "huanletaiqiu_05_2",
+                            "display": [
+                                {
+                                    "name": "huanletaiqiu_05_2",
+                                    "transform": {
+                                        "x": 325.26,
+                                        "y": 2.36,
+                                        "skX": 90.62,
+                                        "skY": 90.62
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左手",
+                            "display": [
+                                {
+                                    "name": "左手",
+                                    "transform": {
+                                        "x": 336.48,
+                                        "y": 28.69,
+                                        "skX": 56.81,
+                                        "skY": 56.81
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102141326",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102141326",
+                                    "transform": {
+                                        "x": 355.13,
+                                        "y": 1.15,
+                                        "skX": 90.62,
+                                        "skY": 90.62,
+                                        "scX": 0.9557,
+                                        "scY": 0.9557
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102142117",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102142117",
+                                    "transform": {
+                                        "x": 354.93,
+                                        "y": 1.7,
+                                        "skX": 90.62,
+                                        "skY": 90.62,
+                                        "scX": 0.9523,
+                                        "scY": 0.9523
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "huanletaiqiu_05_1",
+                            "display": [
+                                {
+                                    "name": "huanletaiqiu_05_1",
+                                    "transform": {
+                                        "x": 325.4,
+                                        "y": 2.92,
+                                        "skX": 90.62,
+                                        "skY": 90.62
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "huanletaiqiu_06",
+                            "display": [
+                                {
+                                    "name": "huanletaiqiu_06",
+                                    "transform": {
+                                        "x": 355.56,
+                                        "y": 1.42,
+                                        "skX": 90.62,
+                                        "skY": 90.62,
+                                        "scX": 0.9548,
+                                        "scY": 0.9548
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102105705",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102105705",
+                                    "transform": {
+                                        "x": 354.56,
+                                        "y": 1.22,
+                                        "skX": 90.62,
+                                        "skY": 90.62,
+                                        "scX": 0.9503,
+                                        "scY": 0.9503
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102105655",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102105655",
+                                    "transform": {
+                                        "x": 356.38,
+                                        "y": 1.39,
+                                        "skX": 90.62,
+                                        "skY": 90.62,
+                                        "scX": 0.956,
+                                        "scY": 0.956
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右手",
+                            "display": [
+                                {
+                                    "name": "右手",
+                                    "transform": {
+                                        "x": 342.54,
+                                        "y": -12.58,
+                                        "skX": 123.78,
+                                        "skY": 123.78
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 30,
+                    "playTimes": 0,
+                    "name": "taiqiu",
+                    "bone": [
+                        {
+                            "name": "huanletaiqiu_05_1",
+                            "translateFrame": [
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 18.1
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 36.2
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 18.1
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "y": -3.64
+                                },
+                                {
+                                    "duration": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左手",
+                            "translateFrame": [
+                                {
+                                    "duration": 18,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "x": -168.54,
+                                    "y": -172.24
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右手",
+                            "translateFrame": [
+                                {
+                                    "duration": 18,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "x": -172.24,
+                                    "y": 168.54
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "huanletaiqiu_06",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102105655",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102105705",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102141326",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102142117",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左手",
+                            "colorFrame": [
+                                {
+                                    "duration": 18
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右手",
+                            "colorFrame": [
+                                {
+                                    "duration": 18
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "taiqiu"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "16675716d44": {
+        "path": "Dinosaur.ts",
+        "class": "Dinosaur",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAutoLayerMarkEnable": false
+    },
+    "1667ac697f0": {
+        "path": "component\\cacl.ts",
+        "class": "cacl",
+        "parentPath": ""
+    }
+}

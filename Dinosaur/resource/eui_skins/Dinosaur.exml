@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DinosaurSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16675716d44" ></w:Config>
+	<e:Group x="0" y="0" locked="true">
+		<e:Image source="bj_jpg" x="0" y="0"/>
+		<e:Image source="stone_bj_png" x="130.4" y="618.48"/>
+		<e:Image source="rectangle_png" x="920.41" y="348.73"/>
+		<e:Image id="stone00" source="stone01_png" x="1062.65" y="363.32" scaleX="1" scaleY="1"/>
+		<e:Image id="stone01" source="stone01_png" x="1245.8000000000002" y="366" scaleX="1" scaleY="1"/>
+		<e:Image id="stone02" source="stone01_png" x="1437.98" y="364" scaleX="1" scaleY="1"/>
+		<e:Image id="stone10" source="stone01_png" x="1018.7200000000001" y="556.32" scaleX="1" scaleY="1"/>
+		<e:Image id="stone11" source="stone01_png" x="1243.72" y="556.32" scaleX="1" scaleY="1"/>
+		<e:Image id="stone12" source="stone01_png" x="1464.8" y="556.32" scaleX="1" scaleY="1"/>
+		<e:Image id="stone20" source="stone01_png" x="990.61" y="744.15" scaleX="1" scaleY="1"/>
+		<e:Image id="stone21" source="stone01_png" x="1243.72" y="744.15" scaleX="1" scaleY="1"/>
+		<e:Image id="stone22" source="stone01_png" x="1511.48" y="750.8100000000001" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="sum" source="sum_png" x="1178.72" y="288.66"/>
+	<e:Image id="tip" source="top_png" x="990.3" y="951"/>
+	<e:Image id="cacl" source="caclButton_png" x="1388.72" y="947"/>
+	<e:Image id="music" source="music_png" x="1683.8" y="25"/>
+	<e:Image id="revise" source="revise_png" x="1538" y="29"/>
+	<e:Image id="meat" source="meat_png" x="79" y="947" visible="false"/>
+	<e:Image id="egg" source="egg_png" x="270.09" y="287.99"/>
+	<e:Group id="pokrGroup" width="890" height="1078" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:Group id="wrong" width="242" height="304" x="318" y="247" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:Image id="next" source="next_png" x="1683.8" y="549"/>
+	<e:Image id="previous" source="previous_png" x="895" y="547"/>
+	<e:Label id="labelSum" text="点击输入" x="1310.72" y="285.99" anchorOffsetX="0" width="156" anchorOffsetY="0" height="54" verticalAlign="middle" textAlign="center" fontFamily="fz" size="30" scaleX="1" scaleY="1" bold="true" textColor="0xd4670d"/>
+	<e:Group id="inputLabel" x="996.3" y="392" locked="true">
+		<e:Label id="label00" text="" x="68" y="0" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635f39" bold="true" size="45"/>
+		<e:Label id="label12" text="" x="470.42" y="194" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+		<e:Label id="label21" text="" x="251.7" y="383" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+		<e:Label id="label20" text="" x="-2" y="383" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+		<e:Label id="label11" text="" x="247.7" y="194" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+		<e:Label id="label10" text="" x="25" y="194" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="45" textColor="0xd4670d"/>
+		<e:Label id="label01" text="" x="253.7" y="0" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+		<e:Label id="label02" text="" x="443.7" y="0" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+		<e:Label id="label22" text="" x="516" y="383" anchorOffsetX="0" width="106" anchorOffsetY="0" height="104" verticalAlign="middle" textAlign="center" fontFamily="fz" textColor="0x635F39" bold="true" size="45"/>
+	</e:Group>
+	<e:Image id="subject" source="subject_png" x="261" y="-21"/>
+	<e:Group id="tipGroup" x="0" y="0" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5" strokeAlpha="0" strokeWeight="0"/>
+		<e:Image id="tipImage" source="rectangle01_png" x="676.09" y="183"/>
+	</e:Group>
+	<e:Group id="subjectTip" x="0" y="0" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.7"/>
+		<e:Image source="subjectTip_png" x="533.72" y="251"/>
+	</e:Group>
+	<e:Group id="startGroupe" x="0" y="0" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.7" strokeAlpha="0"/>
+		<e:Image id="startButton" source="startpic_png" x="741.5" y="487"/>
+	</e:Group>
+</e:Skin>

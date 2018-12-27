@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>-->
+    <title>大炮游戏</title>
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="ordnance-bj">
+    <div class="ship">
+        <img src="./img/ship.png" id="ship">
+        <img src="./img/bg1.png" id="ordnance-bj">
+        <div class="start">
+            <div class="startBtn">
+                <img src="./img/start.png">
+            </div>
+
+            <div class="faceplate">
+                <div class="faceplate-text faceplate-self is-self">
+                    <span class="subjectCount">xxx</span>
+                    <span class="subjectTime"></span>
+                </div>
+                <div class="faceplate-text faceplate-double is-double">
+                   <span class="subjectCount1">xxx</span>
+                    <span class="subjectTime1"></span>
+                    <span class="subjectCount2">xxx</span>
+                    <span class="subjectTime2"></span>
+                    <span class="subjectResult"></span>
+                </div>
+                <div class="reset">
+                    <img src="./img/resetting.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="mode" data-switch="false">
+            <img src="./img/mode.png">
+            <div class="change">
+                <img src="./img/self.png" data-mode="self">
+                <img src="./img/double.png" data-mode="double">
+            </div>
+        </div>
+        <div class="diff" data-switch="false">
+            <img src="./img/diff.png">
+            <div class="change">
+                <img src="./img/elementary.png" data-diff="elementary">
+                <img src="./img/intermediate.png" data-diff="intermediate">
+                <img src="./img/senior.png" data-diff="senior">
+            </div>
+        </div>
+        <!--生命-->
+        <div class="life is-self">
+            <img src="./img/life.png" >
+            <img src="./img/life.png">
+            <img src="./img/life.png">
+        </div>
+        <!--<div class="life-double is-double">-->
+            <!--<div class="life-double1">-->
+                <!--<img src="./img/life.png" >-->
+                <!--<img src="./img/life.png">-->
+                <!--<img src="./img/life.png">-->
+            <!--</div>-->
+            <!--<div class="life-double2">-->
+                <!--<img src="./img/life.png" >-->
+                <!--<img src="./img/life.png">-->
+                <!--<img src="./img/life.png">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--结果-->
+        <div class="result is-self">
+            <span></span>
+        </div>
+        <div class="result-double is-double">
+            <span></span>
+            <span></span>
+        </div>
+        <!--题目-->
+        <div class="subject">
+            <div class="subject-self is-self" >
+                <div class="subject-self1"></div>
+            </div>
+            <div class="subject-double is-double">
+                <div class="subject-double1"></div>
+                <div class="subject-double2"></div>
+            </div>
+            <div class="subject-quick-fry-self  is-self">
+                <div class="quick-fry-self"></div>
+            </div>
+            <div class="subject-quick-fry is-double">
+                 <div class="quick-fry-1"></div>
+                 <div class="quick-fry-2"></div>
+            </div>
+
+        </div>
+        <!--大炮-->
+        <div class="ordnance">
+            <div class="ordnance-self is-self">
+                <div class="ordnance-self1">
+                    <img class="ordnance-1" src="./img/ordnance-1.png">
+                    <img src="./img/ordnance-bottom.png">
+                    <div class="special"></div>
+                    <div class="quick-fry">
+                        <img src="./img/ordnance-double.png" >
+                    </div>
+                </div>
+            </div>
+            <div class="ordnance-double is-double">
+                <div class="ordnance-double1">
+                    <img class="ordnance-1" src="./img/ordnance-1.png">
+                    <img src="./img/ordnance-bottom.png">
+                    <div class="special"></div>
+                    <div class="quick-fry">
+                        <img src="./img/ordnance-double.png" >
+                    </div>
+                </div>
+                <div class="ordnance-double2">
+                    <img class="ordnance-1" src="./img/ordnance-2.png">
+                    <img src="./img/ordnance-bottom.png">
+                    <div class="special"></div>
+                    <div class="quick-fry">
+                        <img src="./img/ordnance-self.png" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--弹炮答案-->
+        <div class="ordnance-key">
+            <div class="self-key  is-self">
+                <img src="./img/self/key-1-a.png" >
+                <img src="./img/self/key-1-b.png" >
+                <img src="./img/self/key-1-c.png" >
+            </div>
+            <!--双炮-->
+            <div class="double-key is-double">
+                <div class="double-one">
+                    <img src="./img/double/key-1-a.png" >
+                    <img src="./img/double/key-1-b.png" >
+                    <img src="./img/double/key-1-c.png" >
+                </div>
+                <div class="double-tow">
+                    <img src="./img/double2/key-1-a.png" >
+                    <img src="./img/double2/key-1-b.png" >
+                    <img src="./img/double2/key-1-c.png" >
+                </div>
+            </div>
+        </div>
+        <!--双人游戏结束-->
+        <div class="is-over1"></div>
+        <div class="is-over2"></div>
+    </div>
+    <audio id="bjMusic" src="./img/music/bjMusic.mp3" loop ></audio>
+    <audio id="dapao" src="./img/music/paodan.mp3"></audio>
+    <audio id="dapao2" src="./img/music/paodan.mp3"></audio>
+    <audio id="baozha" src="./img/music/baozha.mp3"></audio>
+    <audio id="baozha2" src="./img/music/baozha.mp3"></audio>
+    <audio id="qingzhu" src="./img/music/qingzhu.mp3"></audio>
+    <audio id="doudong" src="./img/music/doudong.mp3"></audio>
+    <audio id="doudong2" src="./img/music/doudong.mp3"></audio>
+    <audio id="anniu" src="./img/music/anniu.mp3"></audio>
+    <audio id="anniu2" src="./img/music/anniu.mp3"></audio>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/ordnance.js"></script>
+</html>

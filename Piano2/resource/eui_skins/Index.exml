@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166f66674ae" ></w:Config>
+	<e:Image x="0" y="0" source="beijing_png"/>
+	<e:Group id="yue" x="156" y="327.5" locked="true">
+		<e:Image source="yue5_png" x="1570" y="140" anchorOffsetX="71" anchorOffsetY="87.5"/>
+		<e:Image source="yue4_png" x="341.5" y="301.5" anchorOffsetX="55.5" anchorOffsetY="74.5"/>
+		<e:Image source="yue3_png" x="871" y="347" anchorOffsetX="67" anchorOffsetY="75.5"/>
+		<e:Image source="yue2_png" x="1109" y="87.5" anchorOffsetX="74.5" anchorOffsetY="87.5"/>
+		<e:Image source="yue1_png" x="67" y="151.5" anchorOffsetX="67" anchorOffsetY="75.5"/>
+	</e:Group>
+	<e:Image id="music" source="music_png" x="1724.7" y="19" locked="true"/>
+	<e:Image id="reset" source="revise_png" x="1579.12" y="25" locked="true"/>
+	<e:Image id="timu" source="timu_png" x="463" y="0"/>
+	<e:Image id="tipBtn" source="tishi_png" x="266" y="17.5"/>
+	<e:Image id="shuject" x="336.5" y="237.5" source="sub2_png"/>
+	<e:Image id="gequ" source="gequ1_png" x="1000" y="237.5"/>
+	<e:Image id="next" source="xiayishou_png" x="1604" y="169"/>
+	<e:Image id="prev" source="prev_png" x="22" y="168.5"/>
+	<e:Group id="clickNum" x="155.5" y="354" name="group">
+		<e:Image x="263" y="81" anchorOffsetX="80.5" anchorOffsetY="81" source="1001_png"/>
+		<e:Image x="524" y="198.5" anchorOffsetY="117.5" anchorOffsetX="117.5" source="125532_png"/>
+		<e:Image x="835" y="117.5" anchorOffsetX="117.5" anchorOffsetY="117.5" source="143605_png"/>
+		<e:Image x="1145" y="235" anchorOffsetX="80.5" anchorOffsetY="81" source="321_png"/>
+		<e:Image x="1438.5" y="223" anchorOffsetX="117.5" anchorOffsetY="117" source="15261719_png"/>
+	</e:Group>
+	<e:Group id="clickNum1" x="155.5" y="354" name="group" locked="true" visible="false">
+		<e:Image x="263" y="143.5" anchorOffsetX="117.5" anchorOffsetY="117.5" source="1101912_png"/>
+		<e:Image x="623.5" y="222.5" anchorOffsetX="117.5" anchorOffsetY="117.5" source="445900_png"/>
+		<e:Image x="992" y="130.5" anchorOffsetX="117.5" anchorOffsetY="117.5" source="236327_png"/>
+		<e:Image x="1321" y="186" anchorOffsetX="139" anchorOffsetY="138.5" source="143143143_png"/>
+	</e:Group>
+	<e:Rect id="overMask2" width="1920" height="1080" x="0" y="0" fillAlpha="0.5" enabled="true" visible="false"/>
+	<e:Group id="starts" width="132" height="82" x="1394" y="240.5" anchorOffsetY="0" anchorOffsetX="0" locked="true">
+		<e:Image id="start1" x="6" y="12" source="xing2_png" visible="false"/>
+		<e:Image id="start2" source="xing2_png" x="76" y="12"/>
+	</e:Group>
+	<e:Image source="di_png" x="5.5" y="750.5" locked="true"/>
+	<e:Group id="keySet" x="185" y="751" anchorOffsetX="0" width="1558" anchorOffsetY="0" height="325" name="group" locked="true">
+		<e:Button label="" x="1.97" y="-1" name="Do">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_Do_png" source.down="do_png" source.disabled="do2-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="197" y="-1" name="Re">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_Re_png" source.down="re_png" source.disabled="re-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="392" y="-1" name="Mi">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_Mi_png" source.down="mi_png" source.disabled="mi-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="587" y="-1" name="Fa">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_Fa_png" source.down="fa_png" source.disabled="fa-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="782" y="-1" name="So">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_So_png" source.down="so_png" source.disabled="so-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="977" y="-1" name="La">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_La_png" source.down="la_png" source.disabled="la-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1172" y="-1" name="Ti">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_Ti_png" source.down="si_png" source.disabled="si-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1367.4" y="-1" name="Do8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="click_Do2_png" source.down="do2_png" source.disabled="do2-_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="keySetGroupAnimate" width="1883" height="326" x="26" y="750" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false"/>
+	<e:Group id="keyLabelGroup" x="214" y="814" touchEnabled="false" touchChildren="false" locked="true">
+		<e:Label text="" x="0" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xfcdd3d" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="194" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="1" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="387" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="581" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="775" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="969" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="1162" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" size="60" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true"/>
+		<e:Label text="" x="1356" y="0" anchorOffsetX="0" width="156" anchorOffsetY="0" height="60" textColor="0xFCDD3D" fontFamily="fz" verticalAlign="middle" textAlign="center" stroke="2" strokeColor="0x663500" touchEnabled="false" bold="true" size="60"/>
+	</e:Group>
+	<e:Group id="timuGroup" x="-1.5" y="0" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image source="timu-big_png" x="204.5" y="439"/>
+	</e:Group>
+	<e:Group id="tipGroup" x="0" y="0" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image x="367" y="198.5" source="tishikuang2_png"/>
+	</e:Group>
+	<e:Rect id="overMask" width="1920" height="1080" x="0" y="0" fillAlpha="0.1" locked="true" visible="false"/>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="clickStart" source="startpic_png" x="741.5" y="451.5"/>
+	</e:Group>
+</e:Skin>

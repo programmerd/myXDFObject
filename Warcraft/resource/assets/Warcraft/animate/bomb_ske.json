@@ -1,0 +1,1153 @@
+{
+    "frameRate": 24,
+    "armature": [
+        {
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 66,
+                    "transform": {
+                        "skX": -88.7949,
+                        "skY": -88.7949
+                    },
+                    "parent": "root",
+                    "name": "bone"
+                },
+                {
+                    "length": 153,
+                    "transform": {
+                        "skX": 1.4526,
+                        "y": -42.4928,
+                        "skY": 1.4526,
+                        "x": 57.5936
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物3"
+                },
+                {
+                    "length": 257,
+                    "transform": {
+                        "skX": -26.9255,
+                        "y": -42.8329,
+                        "skY": -26.9255,
+                        "x": 17.4673
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物1"
+                },
+                {
+                    "length": 152,
+                    "transform": {
+                        "skX": 45.3114,
+                        "y": 22.0155,
+                        "skY": 45.3114,
+                        "x": 67.14
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物4"
+                },
+                {
+                    "length": 171,
+                    "transform": {
+                        "skX": 160.5183,
+                        "y": 69.2799,
+                        "skY": 160.5183,
+                        "x": 108.4681
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物11"
+                },
+                {
+                    "length": 110,
+                    "transform": {
+                        "skX": 156.175,
+                        "y": 24.0942,
+                        "skY": 156.175,
+                        "x": 67.0704
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物12"
+                },
+                {
+                    "length": 175,
+                    "transform": {
+                        "skX": 141.6513,
+                        "y": 3.5917,
+                        "skY": 141.6513,
+                        "x": 59.3429
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物7"
+                },
+                {
+                    "length": 117,
+                    "transform": {
+                        "skX": 179.4772,
+                        "y": -8.3587,
+                        "skY": 179.4772,
+                        "x": 26.5252
+                    },
+                    "parent": "bone",
+                    "name": "bone1"
+                },
+                {
+                    "length": 172,
+                    "transform": {
+                        "skX": -145.5574,
+                        "y": 3.3967,
+                        "skY": -145.5574,
+                        "x": 68.2419
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物10"
+                },
+                {
+                    "length": 187,
+                    "transform": {
+                        "skX": -61.7281,
+                        "y": 146.5384,
+                        "skY": -61.7281,
+                        "x": 23.0562
+                    },
+                    "parent": "bone",
+                    "name": "bone2"
+                },
+                {
+                    "length": 93,
+                    "transform": {
+                        "skX": -125.1322,
+                        "y": -5.3805,
+                        "skY": -125.1322,
+                        "x": 53.6951
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物13"
+                },
+                {
+                    "length": 155,
+                    "transform": {
+                        "skX": 11.9468,
+                        "y": -7.7981,
+                        "skY": 11.9468,
+                        "x": 68.5357
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物6"
+                },
+                {
+                    "length": 199,
+                    "transform": {
+                        "skX": 8.184,
+                        "y": 0.9568,
+                        "skY": 8.184,
+                        "x": 83.4418
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物8"
+                },
+                {
+                    "length": 292,
+                    "transform": {
+                        "skX": 5.4749,
+                        "y": 228.8713,
+                        "skY": 5.4749,
+                        "x": 58.9815
+                    },
+                    "parent": "bone",
+                    "name": "太空怪物5"
+                }
+            ],
+            "aabb": {
+                "width": 616.7938066465256,
+                "y": -388.21053625377647,
+                "height": 487.7896525679759,
+                "x": -293.8347809667673
+            },
+            "type": "bomb",
+            "name": "bomb",
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "newAnimation"
+                }
+            ],
+            "ik": [],
+            "slot": [
+                {
+                    "name": "太空怪物1",
+                    "parent": "太空怪物1",
+                    "color": {}
+                },
+                {
+                    "z": 1,
+                    "name": "太空怪物2",
+                    "parent": "bone2",
+                    "color": {}
+                },
+                {
+                    "z": 2,
+                    "name": "太空怪物3",
+                    "parent": "太空怪物3",
+                    "color": {}
+                },
+                {
+                    "z": 3,
+                    "name": "太空怪物4",
+                    "parent": "太空怪物4",
+                    "color": {}
+                },
+                {
+                    "z": 4,
+                    "name": "太空怪物5",
+                    "parent": "太空怪物5",
+                    "color": {}
+                },
+                {
+                    "z": 5,
+                    "name": "太空怪物6",
+                    "parent": "太空怪物6",
+                    "color": {}
+                },
+                {
+                    "z": 6,
+                    "name": "太空怪物7",
+                    "parent": "太空怪物7",
+                    "color": {}
+                },
+                {
+                    "z": 7,
+                    "name": "太空怪物8",
+                    "parent": "太空怪物8",
+                    "color": {}
+                },
+                {
+                    "z": 8,
+                    "name": "太空怪物9",
+                    "parent": "bone1",
+                    "color": {}
+                },
+                {
+                    "z": 9,
+                    "name": "太空怪物10",
+                    "parent": "太空怪物10",
+                    "color": {}
+                },
+                {
+                    "z": 10,
+                    "name": "太空怪物11",
+                    "parent": "太空怪物11",
+                    "color": {}
+                },
+                {
+                    "z": 11,
+                    "name": "太空怪物12",
+                    "parent": "太空怪物12",
+                    "color": {}
+                },
+                {
+                    "z": 12,
+                    "name": "太空怪物13",
+                    "parent": "太空怪物13",
+                    "color": {}
+                }
+            ],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物10",
+                                    "type": "image",
+                                    "name": "太空怪物10",
+                                    "transform": {
+                                        "skX": -125.6477,
+                                        "y": 6.4994,
+                                        "skY": -125.6477,
+                                        "x": 101.5515
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物10"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物8",
+                                    "type": "image",
+                                    "name": "太空怪物8",
+                                    "transform": {
+                                        "skX": 80.6109,
+                                        "y": -15.2145,
+                                        "skY": 80.6109,
+                                        "x": 83.5685
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物8"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物6",
+                                    "type": "image",
+                                    "name": "太空怪物6",
+                                    "transform": {
+                                        "skX": 76.848,
+                                        "y": -8.3825,
+                                        "skY": 76.848,
+                                        "x": 69.2517
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物6"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物13",
+                                    "type": "image",
+                                    "name": "太空怪物13",
+                                    "transform": {
+                                        "skX": -146.073,
+                                        "y": -0.7662,
+                                        "skY": -146.073,
+                                        "x": 47.5276
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物13"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物4",
+                                    "type": "image",
+                                    "name": "太空怪物4",
+                                    "transform": {
+                                        "skX": 43.4835,
+                                        "y": 15.3523,
+                                        "skY": 43.4835,
+                                        "x": 124.7103
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物4"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物11",
+                                    "type": "image",
+                                    "name": "太空怪物11",
+                                    "transform": {
+                                        "skX": -71.7235,
+                                        "y": 10.7078,
+                                        "skY": -71.7235,
+                                        "x": 78.8243
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物11"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物2",
+                                    "type": "image",
+                                    "name": "太空怪物2",
+                                    "transform": {
+                                        "skX": 150.523,
+                                        "y": 22.5075,
+                                        "skY": 150.523,
+                                        "x": 90.0865
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物9",
+                                    "type": "image",
+                                    "name": "太空怪物9",
+                                    "transform": {
+                                        "skX": -90.6824,
+                                        "y": 15.5128,
+                                        "skY": -90.6824,
+                                        "x": 38.8866
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物9"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物7",
+                                    "type": "image",
+                                    "name": "太空怪物7",
+                                    "transform": {
+                                        "skX": -52.8565,
+                                        "y": -1.9605,
+                                        "skY": -52.8565,
+                                        "x": 84.741
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物7"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物1",
+                                    "type": "image",
+                                    "name": "太空怪物1",
+                                    "transform": {
+                                        "skX": 115.7203,
+                                        "y": 12.5702,
+                                        "skY": 115.7203,
+                                        "x": 135.5776
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物5",
+                                    "type": "image",
+                                    "name": "太空怪物5",
+                                    "transform": {
+                                        "skX": 83.3199,
+                                        "y": -14.143,
+                                        "skY": 83.3199,
+                                        "x": 141.3703
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物5"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物12",
+                                    "type": "image",
+                                    "name": "太空怪物12",
+                                    "transform": {
+                                        "skX": -67.3801,
+                                        "y": -0.1074,
+                                        "skY": -67.3801,
+                                        "x": 64.8849
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物12"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "太空怪物3",
+                                    "type": "image",
+                                    "name": "太空怪物3",
+                                    "transform": {
+                                        "skX": 87.3422,
+                                        "y": -103.9814,
+                                        "skY": 87.3422,
+                                        "x": 92.8788
+                                    }
+                                }
+                            ],
+                            "name": "太空怪物3"
+                        }
+                    ]
+                }
+            ],
+            "frameRate": 24,
+            "animation": [
+                {
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "name": "root",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [],
+                            "name": "bone",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": -122.3064,
+                                    "duration": 4,
+                                    "x": 672.1346
+                                }
+                            ],
+                            "name": "太空怪物3",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": -664.8078,
+                                    "duration": 4,
+                                    "x": 434.1966
+                                }
+                            ],
+                            "name": "太空怪物1",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 789.4122,
+                                    "duration": 4,
+                                    "x": 328.2574
+                                }
+                            ],
+                            "name": "太空怪物4",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 931.1941,
+                                    "duration": 4,
+                                    "x": -524.3078
+                                }
+                            ],
+                            "name": "太空怪物11",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": -883.0864,
+                                    "duration": 4,
+                                    "x": -721.588
+                                }
+                            ],
+                            "name": "太空怪物12",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 328.3131,
+                                    "duration": 4,
+                                    "x": -773.2113
+                                }
+                            ],
+                            "name": "太空怪物7",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 896.191,
+                                    "duration": 4,
+                                    "x": -773.8894
+                                }
+                            ],
+                            "name": "bone1",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": -191.0349,
+                                    "duration": 4,
+                                    "x": -845.6451
+                                }
+                            ],
+                            "name": "太空怪物10",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": -1140.5695,
+                                    "duration": 4,
+                                    "x": -95.9244
+                                }
+                            ],
+                            "name": "bone2",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": -1053.4334,
+                                    "duration": 4,
+                                    "x": -551.2844
+                                }
+                            ],
+                            "name": "太空怪物13",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 1105.7657,
+                                    "duration": 4,
+                                    "x": -43.1907
+                                }
+                            ],
+                            "name": "太空怪物6",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 241.4378,
+                                    "duration": 4,
+                                    "x": 622.021
+                                }
+                            ],
+                            "name": "太空怪物8",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "duration": 24
+                                },
+                                {
+                                    "y": 485.5988,
+                                    "duration": 4,
+                                    "x": 700.3327
+                                }
+                            ],
+                            "name": "太空怪物5",
+                            "rotateFrame": [],
+                            "scaleFrame": []
+                        }
+                    ],
+                    "frame": [],
+                    "slot": [
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物1"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物2"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物3"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物4"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物5"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物6"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物7"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物8"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物9"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物10"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物11"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物12"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "太空怪物13"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "ik": [],
+                    "duration": 28,
+                    "name": "bomb",
+                    "ffd": []
+                }
+            ]
+        }
+    ],
+    "isGlobal": 0,
+    "name": "bomb",
+    "version": "5.5"
+}

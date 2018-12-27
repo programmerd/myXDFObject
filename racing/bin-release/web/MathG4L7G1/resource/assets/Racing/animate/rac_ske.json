@@ -1,0 +1,685 @@
+{
+    "armature": [
+        {
+            "slot": [
+                {
+                    "displayIndex": -1,
+                    "name": "car0024",
+                    "parent": "car0024",
+                    "color": {}
+                },
+                {
+                    "z": 1,
+                    "displayIndex": -1,
+                    "name": "newLayer",
+                    "parent": "newLayer",
+                    "color": {}
+                },
+                {
+                    "z": 2,
+                    "displayIndex": -1,
+                    "name": "newLayer1",
+                    "parent": "newLayer1",
+                    "color": {}
+                },
+                {
+                    "z": 3,
+                    "displayIndex": -1,
+                    "name": "newLayer2",
+                    "parent": "newLayer2",
+                    "color": {}
+                },
+                {
+                    "z": 4,
+                    "displayIndex": -1,
+                    "name": "newLayer3",
+                    "parent": "newLayer3",
+                    "color": {}
+                },
+                {
+                    "z": 5,
+                    "displayIndex": -1,
+                    "name": "newLayer4",
+                    "parent": "newLayer4",
+                    "color": {}
+                },
+                {
+                    "z": 6,
+                    "displayIndex": -1,
+                    "name": "newLayer5",
+                    "parent": "newLayer5",
+                    "color": {}
+                }
+            ],
+            "type": "MovieClip",
+            "frameRate": 24,
+            "aabb": {
+                "width": 0,
+                "y": 0,
+                "height": 0,
+                "x": 0
+            },
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "newAnimation"
+                }
+            ],
+            "ik": [],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "car0026",
+                                    "type": "image",
+                                    "name": "car0026",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "newLayer1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "car0027",
+                                    "type": "image",
+                                    "name": "car0027",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "newLayer2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "car0028",
+                                    "type": "image",
+                                    "name": "car0028",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "newLayer3"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "car0029",
+                                    "type": "image",
+                                    "name": "car0029",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "newLayer4"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "car0030",
+                                    "type": "image",
+                                    "name": "car0030",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "newLayer5"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "car0024",
+                                    "type": "image",
+                                    "name": "car0024",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "car0024"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "car0025",
+                                    "type": "image",
+                                    "name": "car0025",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "newLayer"
+                        }
+                    ]
+                }
+            ],
+            "name": "MovieClip",
+            "bone": [
+                {
+                    "transform": {},
+                    "name": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "car0024",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "newLayer",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "newLayer1",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "newLayer2",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "newLayer3",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "newLayer4",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "newLayer5",
+                    "parent": "root"
+                }
+            ],
+            "animation": [
+                {
+                    "playTimes": 0,
+                    "frame": [],
+                    "ffd": [],
+                    "duration": 16,
+                    "slot": [
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 10,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.47641509433962265,
+                                        1.22279792746114
+                                    ]
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 5,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 10
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 5
+                                }
+                            ],
+                            "name": "car0024"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 11
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 4,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": -1,
+                                    "duration": 11
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 4
+                                }
+                            ],
+                            "name": "newLayer"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 12
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 3,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": -1,
+                                    "duration": 12
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ],
+                            "name": "newLayer1"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 13
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": -1,
+                                    "duration": 13
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "newLayer2"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 14
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": -1,
+                                    "duration": 14
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                }
+                            ],
+                            "name": "newLayer3"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 15
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": -1,
+                                    "duration": 15
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "newLayer4"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 16
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": -1,
+                                    "duration": 16
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "newLayer5"
+                        }
+                    ],
+                    "ik": [],
+                    "name": "MovieClip",
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "rotateFrame": [],
+                            "name": "root",
+                            "scaleFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 10,
+                                    "y": -780,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.47641509433962265,
+                                        1.22279792746114
+                                    ],
+                                    "x": 630
+                                },
+                                {
+                                    "duration": 1,
+                                    "y": -5
+                                },
+                                {
+                                    "duration": 5,
+                                    "y": -5
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 10,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.47641509433962265,
+                                        1.22279792746114
+                                    ]
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 5
+                                }
+                            ],
+                            "name": "car0024",
+                            "scaleFrame": [
+                                {
+                                    "duration": 10,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.47641509433962265,
+                                        1.22279792746114
+                                    ]
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 5
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 11
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 4
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 11
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "rotate": 0.1348,
+                                    "duration": 4
+                                }
+                            ],
+                            "name": "newLayer",
+                            "scaleFrame": [
+                                {
+                                    "duration": 11
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 4
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 12
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 12
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ],
+                            "name": "newLayer1",
+                            "scaleFrame": [
+                                {
+                                    "duration": 12
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 13
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 13
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "newLayer2",
+                            "scaleFrame": [
+                                {
+                                    "duration": 13
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 14
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 14
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                }
+                            ],
+                            "name": "newLayer3",
+                            "scaleFrame": [
+                                {
+                                    "duration": 14
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 15
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 15
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "newLayer4",
+                            "scaleFrame": [
+                                {
+                                    "duration": 15
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 16
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 16
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "newLayer5",
+                            "scaleFrame": [
+                                {
+                                    "duration": 16
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "frameRate": 24,
+    "isGlobal": 0,
+    "name": "rac",
+    "version": "5.5"
+}

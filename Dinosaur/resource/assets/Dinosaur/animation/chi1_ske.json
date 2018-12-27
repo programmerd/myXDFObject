@@ -1,0 +1,184 @@
+{
+    "frameRate": 24,
+    "name": "chi1-1",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Sheet",
+            "frameRate": 24,
+            "name": "Chi1",
+            "aabb": {
+                "x": -450,
+                "y": -500,
+                "width": 900,
+                "height": 1000
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "恐龙-20001"
+                                },
+                                {
+                                    "name": "恐龙-20002"
+                                },
+                                {
+                                    "name": "恐龙-20003"
+                                },
+                                {
+                                    "name": "恐龙-20004"
+                                },
+                                {
+                                    "name": "恐龙-20005"
+                                },
+                                {
+                                    "name": "恐龙-20006"
+                                },
+                                {
+                                    "name": "恐龙-20007"
+                                },
+                                {
+                                    "name": "恐龙-20008"
+                                },
+                                {
+                                    "name": "恐龙-20009"
+                                },
+                                {
+                                    "name": "恐龙-20010"
+                                },
+                                {
+                                    "name": "恐龙-20011"
+                                },
+                                {
+                                    "name": "恐龙-20012"
+                                },
+                                {
+                                    "name": "恐龙-20013"
+                                },
+                                {
+                                    "name": "恐龙-20014"
+                                },
+                                {
+                                    "name": "恐龙-20015"
+                                },
+                                {
+                                    "name": "恐龙-20016"
+                                },
+                                {
+                                    "name": "恐龙-20017"
+                                },
+                                {
+                                    "name": "恐龙-20018"
+                                },
+                                {
+                                    "name": "恐龙-20019"
+                                },
+                                {
+                                    "name": "恐龙-20020"
+                                },
+                                {
+                                    "name": "恐龙-20021"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 21,
+                    "playTimes": 0,
+                    "name": "Chi1",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                },
+                                {
+                                    "value": 16
+                                },
+                                {
+                                    "value": 17
+                                },
+                                {
+                                    "value": 18
+                                },
+                                {
+                                    "value": 19
+                                },
+                                {
+                                    "value": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "Chi1"
+                }
+            ]
+        }
+    ]
+}

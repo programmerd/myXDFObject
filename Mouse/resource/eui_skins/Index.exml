@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="166f66674ae" ></w:Config>
+	<e:Image source="bj1_png" x="0" y="0"/>
+	<e:Image source="bj2_png" x="127" y="296"/>
+	<e:Image source="bj3_png" x="-2" y="-1.83"/>
+	<e:Image id="subject" source="timu_png" x="273" y="0" locked="true"/>
+	<e:Image id="music" source="music_png" x="1724.7" y="19" locked="true"/>
+	<e:Button id="submit" label="" x="1661" y="784" enabled="false" width="259" height="264" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bisai_png" source.disabled="bisai2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="reset" source="revise_png" x="1579.12" y="25" locked="true"/>
+	<e:Image id="mouse2" source="mouse_left_png" x="273" y="108" locked="true"/>
+	<e:Image id="mouse1" source="mouse_right_png" x="14.59" y="101.99" rotation="358.87" locked="true" visible="false"/>
+	<e:Group id="shapeOne" width="1192" height="639" x="224" y="362" locked="true"/>
+	<e:Group id="clickLineBtn" x="224" y="362.5" anchorOffsetX="0" width="1192" anchorOffsetY="0" height="639" name="group">
+		<e:Button label="" x="0" y="0" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="0" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="524" y="0" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="742" y="0" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="986" y="0" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1192" y="0" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="0" y="228" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="228" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="986" y="192" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1192" y="192" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="0" y="454" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="0" y="636" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="636" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="454" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="513.35" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="314" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="271" y="124" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="524" y="124" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="524" y="314" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="742" y="314" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="810" y="314" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="986" y="314" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="986" y="452" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1192" y="452" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1192" y="636" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="810" y="636" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="810" y="513.35" width="31" height="31" anchorOffsetX="15.5" anchorOffsetY="15.5" enabled="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yuan_png" source.down="yuan_png" source.disabled="an_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="mouseGroup" width="103.03" height="53.33" x="275" y="390" anchorOffsetX="53.48" anchorOffsetY="30.69" rotation="359.39" visible="false"/>
+	<e:Group id="mouseGroup2" width="103.03" height="53.33" x="275" y="390" anchorOffsetX="53.48" anchorOffsetY="30.69" rotation="359.39" visible="false"/>
+	<e:Group id="resultGroup" width="350" height="200" x="1514" y="511.5" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+		<e:Image id="nailao" source="nailao_png" x="2" y="2" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="subjectGroup" x="0" y="0" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image source="tanchuang_png" x="384.12" y="304.35"/>
+	</e:Group>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="clickStart" source="startpic_png" x="741.5" y="451.5"/>
+	</e:Group>Button>
+</e:Skin>

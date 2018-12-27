@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="successTween">
+			<tween:TweenItem target="{image}">
+				<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object  rotation="{360}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="166f66674ae"></w:Config>
+	<e:Image source="jiezoudashi_02_png" x="0" y="0" />
+	<e:Image source="jiezoudashi_05_png" x="0" y="0" />
+	<e:Image x="0" y="0"  source="jiezoudashi_04_png"/>
+	<e:Group id="animateGroup" width="1920" height="1080" x="0" y="0" locked="true" />
+	<e:Image id="subject" source="jiezoudashi_01_png" x="450" y="20.5" />
+	<e:Image source="jiezoudashi_01_5_png" x="374" y="0" />
+	<e:Group id="changpianGroup" width="152" height="150" x="374" y="0" anchorOffsetX="0" anchorOffsetY="0" />
+	<e:Image id="music" source="music_png" x="1724.7" y="19" locked="true" />
+	<e:Image id="reset" source="revise_png" x="1579.12" y="25" locked="true" />
+	<e:Group id="keyingGroup" x="57" y="144" anchorOffsetY="0" height="913" anchorOffsetX="0" width="1867" locked="true">
+		<e:Image x="913" y="17"  source="jiezoudashi_22_png"/>
+		<e:Image x="1049.5" y="16"  source="jiezoudashi_23_png"/>
+		<e:Image x="1189.32" y="17" source="jiezoudashi_24_png"/>
+		<e:Image x="407.52" y="114"  source="jiezoudashi_25_png"/>
+		<e:Image x="574.52" y="114"  source="jiezoudashi_26_png"/>
+		<e:Image x="750" y="114"  source="jiezoudashi_27_png"/>
+		<e:Image x="913.5" y="114"  source="jiezoudashi_28_png"/>
+		<e:Image x="1072.51" y="114"  source="jiezoudashi_29_png"/>
+		<e:Image x="1225.52" y="114"  source="jiezoudashi_30_png"/>
+		<e:Image x="720" y="224"  source="jiezoudashi_31_png"/>
+		<e:Image x="913" y="223"  source="jiezoudashi_32_png"/>
+		<e:Image x="907" y="367"  source="jiezoudashi_33_png"/>
+		<e:Image x="1131.84" y="367"  source="jiezoudashi_34_png"/>
+		<e:Image x="1348.69" y="367" source="jiezoudashi_35_png"/>
+		<e:Image source="jiezoudashi_36_png" x="904" y="524"/>
+		<e:Image source="jiezoudashi_37_png" x="1153.02" y="523"/>
+		<e:Image source="jiezoudashi_38_png" x="1411.02" y="524"/>
+		<e:Image x="1189.32" y="683" source="jiezoudashi_40_png"/>
+		<e:Image source="jiezoudashi_39_png" x="1482.84" y="683"/>
+	</e:Group>
+	<e:Group id="showNumGroup" x="2.5" y="151" anchorOffsetY="0" height="909" anchorOffsetX="0" width="1915" locked="true">
+		<e:Image source="" x="1005.45" y="18" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45" />
+		<e:Image source="" x="1147.5" y="18" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45"/>
+		<e:Image source="" x="1294.3" y="18" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45"/>
+		<e:Image source="" x="514.36" y="115.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.52" scaleY="0.52"/>
+		<e:Image source="" x="684.88" y="115.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.52" scaleY="0.52"/>
+		<e:Image source="" x="852.22" y="115.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.52" scaleY="0.52"/>
+		<e:Image source="" x="1019.36" y="115.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.52" scaleY="0.52"/>
+		<e:Image source="" x="1180.36" y="115.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.52" scaleY="0.52"/>
+		<e:Image source="" x="1343.5" y="115.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.52" scaleY="0.52"/>
+		<e:Image source="" x="829.43" y="231" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.63" scaleY="0.63"/>
+		<e:Image source="" x="1024.5" y="230" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.63" scaleY="0.63"/>
+		<e:Image source="" x="1026.5" y="375" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.74" scaleY="0.74"/>
+		<e:Image source="" x="1261.37" y="375" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.74" scaleY="0.74"/>
+		<e:Image source="" x="1489.26" y="375" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.74" scaleY="0.74"/>
+		<e:Image source="" x="1028.35" y="535.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.85" scaleY="0.85"/>
+		<e:Image source="" x="1296.52" y="535.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.85" scaleY="0.85"/>
+		<e:Image source="" x="1565.54" y="535.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.85" scaleY="0.85"/>
+		<e:Image source="" x="1346.34" y="695" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image source="" x="1641.19" y="692.88" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="labelGroup" x="3" y="156" name="group" anchorOffsetY="0" height="904" anchorOffsetX="0" width="1912.33" locked="true">
+		<e:Label text="" x="971.33" y="8.5" width="119" height="61" verticalAlign="middle" textAlign="center"  anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1110.67" y="9" width="119" height="61" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1252" y="11" width="127" height="55.67" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="468.33" y="103.77" width="149.67" height="69.01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="636.85" y="103.77" width="149.67" height="69.01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="808.33" y="103.77" width="149.67" height="69.01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="966.32" y="105.1" width="149.67" height="69.01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1129.85" y="105.1" width="149.67" height="69.01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1288.18" y="102" width="153.67" height="70.34" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="786.52" y="214.88" width="160.34" height="85.01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="971.87" y="214.88" width="165.67" height="86.34" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="969.2" y="358.16" width="197.67" height="99.67" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1194.96" y="358.16" width="208.34" height="99.67" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1417.52" y="358.16" width="221.67" height="105" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="966.17" y="517.5" width="223" height="107.67" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1218.85" y="517.5" width="241.67" height="113" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1478.02" y="514.84" width="249.67" height="113" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1258.63" y="675.59" width="270.4" height="131.91" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="" x="1577.26" y="678.62" width="270.4" height="131.91" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Image id="next" source="next_png" x="1771" y="283" locked="true" visible="false" />
+	<e:Image id="prev" source="prev_png" x="40" y="281" locked="true" visible="false" />
+	<e:Button id="submit" label="" x="1673" y="374.5" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="jiezoudashi_06_png" source.disabled="jiezoudashi_06_1_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="showSubject" x="0" y="0" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5" />
+		<e:Image source="jiezoudashi_49_png" x="306.5" y="297" />
+	</e:Group>
+	<e:Group id="gameOver" x="0" y="-0.5" height="1080" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image source="suc5_png" x="472" y="0"/>
+		<e:Image id="image" source="suc6_png" x="970" y="515.5" anchorOffsetX="550" anchorOffsetY="510"/>
+		<e:Image source="suc1_png" x="371" y="193"/>
+		<e:Image source="suc2_png" x="472" y="714.5"/>
+		<e:Image source="suc2_png" x="579" y="181.5"/>
+		<e:Image source="suc3_png" x="651.5" y="364"/>
+		<e:Image source="suc4_png" x="622" y="438"/>
+	</e:Group>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="clickStart" source="startpic_png" x="741.5" y="451.5"/>
+	</e:Group>
+</e:Skin>

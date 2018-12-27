@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="166f66674ae"></w:Config>
+	<e:Image source="beijing_png" x="-3" y="0" />
+	<e:Image id="pandas" x="455.5" y="221.5" source="pandaImg_png" locked="true"/>
+	<e:Image id="music" source="music_png" x="1724.7" y="12"  locked="true"/>
+	<e:Image id="reset" source="revise_png" x="1579.12" y="17"  locked="true"/>
+	<e:Image id="subject" source="timu1_png" x="157.5" y="0"  locked="true"/>
+	<e:Image id="result" source="daan_png" x="64.5" y="14"  locked="true"/>
+	<e:Image id="resultImg" source="daan1_png" x="1476" y="925" locked="true"/>
+	<e:Image id="digit" source="xiamian1_png" x="475" y="939"  locked="true"/>
+
+	<e:Group id="rank" x="94.5" y="202" anchorOffsetX="0" width="148" anchorOffsetY="0" height="551" name="group"
+	         locked="true">
+		<e:Group id="rank1" x="0" y="0" name="group" locked="true">
+			<e:Image source="A33_png" x="0" y="0" />
+		</e:Group>
+		<e:Group id="rank2" x="0" y="0" name="group" locked="true" visible="false">
+			<e:Image source="A51_png" x="0" y="0" />
+			<e:Image source="A53_png" x="0" y="195" />
+		</e:Group>
+		<e:Group id="rank3" x="0" y="1" name="group" locked="true" visible="false">
+			<e:Image source="A73_png" x="4.5" y="0" />
+			<e:Image source="A42_png" x="0" y="194" />
+			<e:Image source="A22_png" y="390" x="4.5" />
+		</e:Group>
+		<e:Group id="rank4" x="2" y="3" name="group" locked="true" visible="false">
+			<e:Image source="A42_png" x="0" y="194" />
+			<e:Image source="A22_png" y="390" x="4.5" />
+			<e:Image source="A63_png" x="0" y="0" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="assemble" x="1657.88" y="203" anchorOffsetY="0" height="560" anchorOffsetX="0" width="153" name="group"
+	        >
+		<e:Group id="assemble1" x="0" y="0" name="group" locked="true">
+			<e:Image source="C33_png" x="3.5" y="0" />
+		</e:Group>
+		<e:Group id="assemble2" x="6.12" y="-1" name="group" locked="true" visible="false">
+			<e:Image source="C51_png" x="0" y="0" />
+			<e:Image source="C53_png" x="0.88" y="195.5" />
+		</e:Group>
+		<e:Group id="assemble3" x="0" y="-1" name="group" locked="true" visible="false">
+			<e:Image source="C73_png" x="2" y="0" />
+			<e:Image source="C42_png" x="0" y="201" />
+			<e:Image source="C22_png" x="4" y="391" />
+		</e:Group>
+		<e:Group id="assemble4" x="-1" y="0" name="group" locked="true" visible="false">
+			<e:Image source="C63_png" x="0" y="0" />
+			<e:Image source="C42_png" y="196" x="1" />
+			<e:Image source="C22_png" x="5" y="392" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="panda" width="933.33" height="421.21" x="490.83" y="335.76" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:Group id="dataGroup" width="1346" height="200" x="420" y="739" anchorOffsetX="0" horizontalCenter="1" locked="true">
+		<e:Group id="resultGroup1" x="0" y="0" width="1346" height="200" locked="true" visible="false">
+			<e:Image source="kuohao_png" x="528" y="62"/>
+		</e:Group>
+		<e:Group id="resultGroup2" x="0" y="0" anchorOffsetX="0" width="1346" anchorOffsetY="0" height="200" locked="true" visible="false">
+			<e:Image source="kuohao_png" x="324" y="55"/>
+			<e:Image source="kuohao_png" x="764.5" y="52.5"/>
+			<e:Image source="X_png" x="613" y="44.5"/>
+		</e:Group>
+		<e:Group id="resultGroup3" x="0" y="0" anchorOffsetX="0" width="1346" anchorOffsetY="0" height="200" locked="true" visible="false">
+			<e:Image source="kuohao_png" x="115" y="52"/>
+			<e:Image source="kuohao_png" x="542" y="52"/>
+			<e:Image source="kuohao_png" x="988.62" y="48"/>
+			<e:Image source="X_png" x="404" y="40"/>
+			<e:Image source="X_png" x="829.5" y="41"/>
+		</e:Group>
+		<e:Group id="resultGroup4" x="0" y="0" anchorOffsetX="0" width="1346" anchorOffsetY="0" height="200" locked="true">
+			<e:Image source="kuohao_png" x="115" y="52"/>
+			<e:Image source="kuohao_png" x="542" y="52"/>
+			<e:Image source="kuohao_png" x="988.62" y="48"/>
+			<e:Image source="X_png" x="404" y="40"/>
+			<e:Image source="X_png" x="829.5" y="41"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bomb" x="832.5" y="1085.34" anchorOffsetX="0" width="246" anchorOffsetY="0" height="274" locked="true">
+		<e:Image source="boo_png" x="0" y="0" locked="true"/>
+	</e:Group>
+	<e:Group id="bombGroup" width="200" height="200" x="955.5" y="521.5" locked="true"/>
+	<e:Group id="panzi" x="385.68" y="746" locked="true">
+		<e:Group id="panzi1" x="414.29" y="15" visible="false" locked="true">
+			<e:Image source="panzi_png" x="0" y="0"/>
+		</e:Group>
+		<e:Group id="panzi2" x="192.88" y="4.56" locked="true" visible="false">
+			<e:Image source="panzi_png" x="0" y="0"/>
+			<e:Image source="panzi_png" x="461" y="1"/>
+		</e:Group>
+		<e:Group id="panzi3" x="0" y="2.12" locked="true" visible="false">
+			<e:Image source="panzi_png" x="415" y="0.5"/>
+			<e:Image source="panzi_png" x="864.62" y="0"/>
+			<e:Image source="panzi_png" x="0" y="3"/>
+		</e:Group>
+		<e:Group id="panzi4" x="0.91" y="0" locked="true" visible="false">
+			<e:Image source="panzi_png" x="415" y="0.5"/>
+			<e:Image source="panzi_png" x="864.62" y="0"/>
+			<e:Image source="panzi_png" x="0" y="3"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="shiwu" x="377.59" y="739.89" anchorOffsetX="0" width="1181.66" anchorOffsetY="0" height="171.61" name="group" touchEnabled="true" locked="true">
+		<e:Group id="shiwu1" x="493.33" anchorOffsetX="0" width="175.69" anchorOffsetY="0" height="150.3" y="24.75" name="group" visible="false" locked="true">
+			<e:Image x="17.97" y="5.95" source="xigua_png"/>
+		</e:Group>
+		<e:Group id="shiwu2" x="281.82" y="18.18" name="group" locked="true" visible="false">
+			<e:Image x="0" y="0" source="luobo_png"/>
+			<e:Image x="465.77" y="0" source="nangua_png"/>
+		</e:Group>
+		<e:Group id="shiwu3" x="100" y="12.12" name="group" locked="true" visible="false">
+			<e:Image x="0" y="2.5" source="zhuzi_png"/>
+			<e:Image x="415.5" y="2.5" source="zhuzi_png"/>
+			<e:Image x="864.5" y="0" source="zhuzi_png"/>
+		</e:Group>
+		<e:Group id="shiwu4" x="96.97" y="15.15" name="group" locked="true" visible="false">
+			<e:Image x="0" y="2.5" source="wosun_png"/>
+			<e:Image x="413.5" y="2.5" source="wosun_png"/>
+			<e:Image x="864.5" y="0" source="wosun_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="resultMask" x="0" y="0" touchEnabled="true" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="tipResult" source="xiti1_png" x="386.5" y="120"/>
+	</e:Group>
+	<e:Group id="hint" x="0" y="0" touchEnabled="true" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="tipSub" x="295" y="357" source="fangda1_png"/>
+	</e:Group>
+	<e:Image id="keep" source="zailaiyici2_png" x="0" y="0" locked="true" visible="false"/>
+	<e:Image id="revise" source="chexiao_png" x="1632" y="775.27" locked="true"/>
+	<e:Group id="keepMask" x="0" y="0" locked="true" visible="false">
+		<e:Image source="jiesuo_png" x="0" y="0"/>
+		<e:Image id="keepOn" source="jixutiaozhan2_png" x="740" y="449"/>
+	</e:Group>
+	<e:Group id="gameOver" x="0" y="0" width="1920" height="1080" touchChildren="false" locked="true" visible="false">
+		<e:Group id="overs" width="139.39" height="145.45" x="957" y="580" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0"/>
+	</e:Group>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="clickStart" source="startpic_png" x="741.5" y="451.5"/>
+	</e:Group>
+</e:Skin>

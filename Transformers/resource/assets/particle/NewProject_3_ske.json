@@ -1,0 +1,206 @@
+{
+    "frameRate": 24,
+    "name": "NewProject_3",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Sheet",
+            "frameRate": 24,
+            "name": "Sprite",
+            "aabb": {
+                "x": -500,
+                "y": -400,
+                "width": 1000,
+                "height": 800
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 13,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "四年级-数列3修改0126",
+                                    "transform": {
+                                        "y": -1.6
+                                    }
+                                },
+                                {
+                                    "name": "四年级-数列3修改0125"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0124"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0123"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0122"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0121"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0120"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0119"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0118"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0117"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0116"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0115"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0114"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0113"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0112"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0111"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0110"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0109"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0108"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0107"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0106"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0105"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0104"
+                                },
+                                {
+                                    "name": "四年级-数列3修改0103"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 24,
+                    "playTimes": 0,
+                    "name": "Sprite",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                },
+                                {
+                                    "value": 16
+                                },
+                                {
+                                    "value": 17
+                                },
+                                {
+                                    "value": 18
+                                },
+                                {
+                                    "value": 19
+                                },
+                                {
+                                    "value": 20
+                                },
+                                {
+                                    "value": 21
+                                },
+                                {
+                                    "value": 22
+                                },
+                                {
+                                    "value": 23
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "Sprite"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "frameRate": 24,
+    "name": "guangxian01",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Sheet",
+            "frameRate": 24,
+            "name": "guangxian01",
+            "aabb": {
+                "x": -320,
+                "y": -320,
+                "width": 640,
+                "height": 640
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 10,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "未标题-1"
+                                },
+                                {
+                                    "name": "未标题-2"
+                                },
+                                {
+                                    "name": "未标题-3"
+                                },
+                                {
+                                    "name": "未标题-4"
+                                },
+                                {
+                                    "name": "未标题-5"
+                                },
+                                {
+                                    "name": "未标题-6"
+                                },
+                                {
+                                    "name": "未标题-7"
+                                },
+                                {
+                                    "name": "未标题-8"
+                                },
+                                {
+                                    "name": "未标题-9"
+                                },
+                                {
+                                    "name": "未标题-10"
+                                },
+                                {
+                                    "name": "未标题-11"
+                                },
+                                {
+                                    "name": "未标题-12"
+                                },
+                                {
+                                    "name": "未标题-13"
+                                },
+                                {
+                                    "name": "未标题-14"
+                                },
+                                {
+                                    "name": "未标题-15"
+                                },
+                                {
+                                    "name": "未标题-16"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 16,
+                    "playTimes": 0,
+                    "name": "guangxian01",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "guangxian01"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1523 @@
+{
+    "frameRate": 24,
+    "name": "xiaolaoshu",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "xiaolaoshu",
+            "aabb": {
+                "x": -102.99,
+                "y": -50.89,
+                "width": 250.27,
+                "height": 250.69
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "length": 79,
+                    "name": "右0008",
+                    "parent": "root",
+                    "transform": {
+                        "x": 0.0332,
+                        "y": 28.6137,
+                        "skX": -90,
+                        "skY": -90
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "右0008",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0007",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0006",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0005",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0004",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0003",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0002",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "右0001",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0008",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0007",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0006",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0005",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0004",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0003",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0002",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "左0001",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "转0003",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "转0002",
+                    "parent": "右0008"
+                },
+                {
+                    "name": "转0001",
+                    "parent": "右0008"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "左0007",
+                            "display": [
+                                {
+                                    "name": "左0007",
+                                    "transform": {
+                                        "x": 29.05,
+                                        "y": -3.02,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0003",
+                            "display": [
+                                {
+                                    "name": "右0003",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0001",
+                            "display": [
+                                {
+                                    "name": "右0001",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0005",
+                            "display": [
+                                {
+                                    "name": "左0005",
+                                    "transform": {
+                                        "x": 29.16,
+                                        "y": -2.63,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0005",
+                            "display": [
+                                {
+                                    "name": "右0005",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0004",
+                            "display": [
+                                {
+                                    "name": "右0004",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0006",
+                            "display": [
+                                {
+                                    "name": "右0006",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0003",
+                            "display": [
+                                {
+                                    "name": "转0003",
+                                    "transform": {
+                                        "x": -46.19,
+                                        "y": 22.09,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0002",
+                            "display": [
+                                {
+                                    "name": "左0002",
+                                    "transform": {
+                                        "x": 29.02,
+                                        "y": -2.88,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0001",
+                            "display": [
+                                {
+                                    "name": "左0001",
+                                    "transform": {
+                                        "x": 29.22,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0007",
+                            "display": [
+                                {
+                                    "name": "右0007",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0004",
+                            "display": [
+                                {
+                                    "name": "左0004",
+                                    "transform": {
+                                        "x": 28.94,
+                                        "y": -2.61,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0008",
+                            "display": [
+                                {
+                                    "name": "右0008",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0002",
+                            "display": [
+                                {
+                                    "name": "转0002",
+                                    "transform": {
+                                        "x": -46.02,
+                                        "y": 22.25,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0001",
+                            "display": [
+                                {
+                                    "name": "转0001",
+                                    "transform": {
+                                        "x": -46.07,
+                                        "y": 22.17,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0006",
+                            "display": [
+                                {
+                                    "name": "左0006",
+                                    "transform": {
+                                        "x": 29.08,
+                                        "y": -2.9,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0008",
+                            "display": [
+                                {
+                                    "name": "左0008",
+                                    "transform": {
+                                        "x": 29.08,
+                                        "y": -2.91,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0003",
+                            "display": [
+                                {
+                                    "name": "左0003",
+                                    "transform": {
+                                        "x": 28.96,
+                                        "y": -2.88,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0002",
+                            "display": [
+                                {
+                                    "name": "右0002",
+                                    "transform": {
+                                        "x": 29.5,
+                                        "y": -3,
+                                        "skX": 90,
+                                        "skY": 90
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 24,
+                    "playTimes": 0,
+                    "name": "you",
+                    "slot": [
+                        {
+                            "name": "右0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 24,
+                    "playTimes": 0,
+                    "name": "xia",
+                    "bone": [
+                        {
+                            "name": "右0008",
+                            "translateFrame": [
+                                {
+                                    "duration": 24,
+                                    "x": -28.27,
+                                    "y": -28.57
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 24,
+                                    "rotate": 90
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "右0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 24,
+                    "playTimes": 0,
+                    "name": "shang",
+                    "bone": [
+                        {
+                            "name": "右0008",
+                            "translateFrame": [
+                                {
+                                    "duration": 24,
+                                    "x": 31.57,
+                                    "y": -28.45
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 24,
+                                    "rotate": -90
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "右0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 6,
+                    "playTimes": 0,
+                    "name": "zhuan",
+                    "slot": [
+                        {
+                            "name": "右0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 4,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 2,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 4,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 24,
+                    "playTimes": 0,
+                    "name": "zuo",
+                    "slot": [
+                        {
+                            "name": "右0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "右0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "左0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "转0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "you"
+                }
+            ]
+        }
+    ]
+}

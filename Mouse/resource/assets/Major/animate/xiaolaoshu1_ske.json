@@ -1,0 +1,861 @@
+{
+    "frameRate": 24,
+    "name": "xiaolaoshu1",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "xiaolaoshu1",
+            "aabb": {
+                "x": -0.11,
+                "y": -0.09,
+                "width": 350.18,
+                "height": 200.2
+            },
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {
+                        "x": 0.7743,
+                        "y": -0.7743
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "小老鼠比赛0010",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0009",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0008",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0007",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0006",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0005",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0004",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0003",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0002",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠比赛0001",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0010",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0009",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0008",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0007",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0006",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0005",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0004",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0003",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0002",
+                    "parent": "root"
+                },
+                {
+                    "name": "小老鼠0001",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "小老鼠0003",
+                            "display": [
+                                {
+                                    "name": "小老鼠0003",
+                                    "transform": {
+                                        "x": 174.19,
+                                        "y": 100.77
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0005",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0005",
+                                    "transform": {
+                                        "x": 174.23,
+                                        "y": 100.76
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0007",
+                            "display": [
+                                {
+                                    "name": "小老鼠0007",
+                                    "transform": {
+                                        "x": 174.23,
+                                        "y": 100.75
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0005",
+                            "display": [
+                                {
+                                    "name": "小老鼠0005",
+                                    "transform": {
+                                        "x": 174.29,
+                                        "y": 100.8
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0009",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0009",
+                                    "transform": {
+                                        "x": 174.15,
+                                        "y": 100.86
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0002",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0002",
+                                    "transform": {
+                                        "x": 174.14,
+                                        "y": 100.84
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0010",
+                            "display": [
+                                {
+                                    "name": "小老鼠0010",
+                                    "transform": {
+                                        "x": 174.11,
+                                        "y": 100.71
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0004",
+                            "display": [
+                                {
+                                    "name": "小老鼠0004",
+                                    "transform": {
+                                        "x": 174.2,
+                                        "y": 100.75
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0002",
+                            "display": [
+                                {
+                                    "name": "小老鼠0002",
+                                    "transform": {
+                                        "x": 174.16,
+                                        "y": 100.69
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0001",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0001",
+                                    "transform": {
+                                        "x": 174.21,
+                                        "y": 100.8
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0006",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0006",
+                                    "transform": {
+                                        "x": 174.14,
+                                        "y": 100.71
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0010",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0010",
+                                    "transform": {
+                                        "x": 174.24,
+                                        "y": 100.79
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0006",
+                            "display": [
+                                {
+                                    "name": "小老鼠0006",
+                                    "transform": {
+                                        "x": 174.19,
+                                        "y": 100.79
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0001",
+                            "display": [
+                                {
+                                    "name": "小老鼠0001",
+                                    "transform": {
+                                        "x": 174.22,
+                                        "y": 100.76
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0009",
+                            "display": [
+                                {
+                                    "name": "小老鼠0009",
+                                    "transform": {
+                                        "x": 174.17,
+                                        "y": 100.75
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0004",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0004",
+                                    "transform": {
+                                        "x": 174.25,
+                                        "y": 100.74
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0007",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0007",
+                                    "transform": {
+                                        "x": 174.19,
+                                        "y": 100.73
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0008",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0008",
+                                    "transform": {
+                                        "x": 174.24,
+                                        "y": 100.89
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0003",
+                            "display": [
+                                {
+                                    "name": "小老鼠比赛0003",
+                                    "transform": {
+                                        "x": 174.2,
+                                        "y": 100.84
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0008",
+                            "display": [
+                                {
+                                    "name": "小老鼠0008",
+                                    "transform": {
+                                        "x": 174.23,
+                                        "y": 100.73
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 27,
+                    "playTimes": 0,
+                    "name": "dui",
+                    "slot": [
+                        {
+                            "name": "小老鼠比赛0010",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0009",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0010",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0009",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 30,
+                    "playTimes": 0,
+                    "name": "cuo",
+                    "slot": [
+                        {
+                            "name": "小老鼠比赛0010",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0009",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠比赛0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 30,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0010",
+                            "displayFrame": [
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0009",
+                            "displayFrame": [
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0008",
+                            "displayFrame": [
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0007",
+                            "displayFrame": [
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0006",
+                            "displayFrame": [
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0005",
+                            "displayFrame": [
+                                {
+                                    "duration": 12,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 15,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0004",
+                            "displayFrame": [
+                                {
+                                    "duration": 9,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0003",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 21,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0002",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 24,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小老鼠0001",
+                            "displayFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 27,
+                                    "value": -1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "dui"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "166f66674ae": {
+    "path": "Index.ts",
+    "class": "Index",
+    "parentPath": ""
+  },
+  "167869a2d95": {
+    "path": "component\\aaaa.ts",
+    "class": "aaaa",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  }
+}

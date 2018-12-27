@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BilliardsSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="lose">
+			
+			<tween:TweenItem target="{image1}">
+			<tween:props>
+					<e:Object loop="true" />
+				</tween:props>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{30}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="166e190c045"></w:Config>
+	<e:Image source="huanletaiqiu_01_png" x="0" y="0" />
+	<e:Image id="music" source="music_png" x="1749" y="14" />
+	<e:Image id="revise" source="revise_png" x="1605.5" y="19" />
+	<e:Image id="subject" source="huanletaiqiu_43_png" x="200" y="0" />
+	<e:Image id="writePosition" x="36" y="335" touchEnabled="true" source="position1_png" />
+	<e:Image id="writeNumber" x="1504" y="292.5" source="number1_png" />
+	<e:Button id="clickOk" label="" x="822" y="934">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="huanletaiqiu_38_png" source.disabled="huanletaiqiu_38_1_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="clickPosition" x="95.83" y="440" name="group" locked="true">
+		<e:Label id="inputPos1" text="输入" x="40.67" y="0" anchorOffsetX="0" width="196" anchorOffsetY="0" height="79.33"
+		         verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="48" textColor="0xaa4801"
+		         name="position" />
+		<e:Label id="inputPos2" text="输入" x="40.67" y="100" anchorOffsetX="0" width="196" anchorOffsetY="0" height="79.33"
+		         verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="48" textColor="0xaa4801"
+		         name="position" />
+		<e:Label id="inputSum" text="" x="0" y="247.01" anchorOffsetX="0" width="276" anchorOffsetY="0" height="72.66"
+		         verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="48" textColor="0xaa4801"
+		         name="position" />
+	</e:Group>
+	<e:Group id="clickNumber" x="1564.5" y="401.01" name="group" locked="true">
+		<e:Label id="inputNum" text="输入" x="0" y="0" anchorOffsetX="0" width="276" anchorOffsetY="0" height="72.66"
+		         verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="48" textColor="0xaa4801"
+		         name="number" />
+		<e:Label id="inputNum1" text="" x="40" y="144.33" anchorOffsetX="0" width="196" anchorOffsetY="0" height="72.66"
+		         verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="48" textColor="0xaa4801"
+		         name="number" />
+		<e:Label id="inputNum2" text="" x="40" y="243.67" anchorOffsetX="0" width="196" anchorOffsetY="0" height="72.66"
+		         verticalAlign="middle" textAlign="center" fontFamily="fz" bold="true" size="48" textColor="0xaa4801"
+		         name="number" />
+	</e:Group>
+	<e:Group x="880.4" y="889.8" locked="true">
+		<e:Image source="huanletaiqiu_23_png" x="0" y="0" />
+		<e:Image source="huanletaiqiu_23_png" x="33" y="0" />
+		<e:Image source="huanletaiqiu_23_png" x="66" y="0" />
+		<e:Image source="huanletaiqiu_23_png" x="99" y="0" />
+		<e:Image source="huanletaiqiu_23_png" x="132.4" y="0" />
+	</e:Group>
+	<e:Group id="taiqiu" width="1866" height="720" x="26.5" y="154" anchorOffsetX="0" anchorOffsetY="0" locked="true" />
+	<e:Group width="989" height="720" x="462.5" y="154" anchorOffsetX="0" locked="true">
+		<e:Image id="taiqiu2" source="taiqiu_png" x="0" y="13" />
+		<e:Image id="taiqiu1" source="taiqiu1_png" x="0" y="13" visible="false" />
+	</e:Group>
+	<e:Group id="showTip" width="1920" height="1080" x="0" y="0" locked="true" visible="false">
+		<e:Rect id="closeTip" width="1920" height="1080" x="0" y="0" fillAlpha="0.6" />
+		<e:Image source="huanletaiqiu_44_png" x="304" y="292.5" />
+	</e:Group>
+	<e:Group id="resultGroup" x="0" y="0" visible="false" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5" />
+		<e:Image source="huanletaiqiu_24_png" x="530" y="258" />
+		<e:Image source="huanletaiqiu_25_png" x="676" y="401.01" />
+		<e:Image source="huanletaiqiu_25_png" x="1056" y="395.34" />
+		<e:Image source="huanletaiqiu_23_png" x="1088" y="618" />
+		<e:Image source="huanletaiqiu_23_png" x="1132" y="618" />
+		<e:Image source="huanletaiqiu_23_png" x="1176.5" y="618" />
+		<e:Image source="huanletaiqiu_23_png" x="702" y="618" />
+		<e:Image source="huanletaiqiu_23_png" x="746" y="618" />
+		<e:Image source="huanletaiqiu_23_png" x="790.5" y="618" />
+		<e:Image source="huanletaiqiu_45_png" x="836" y="517" />
+		<e:Label text="第" x="612" y="414" textColor="0xaa4801" size="48" fontFamily="fz" verticalAlign="middle"
+		         textAlign="center" bold="true" />
+		<e:Label text="个" x="1263" y="414" textColor="0xAA4801" size="48" fontFamily="fz" verticalAlign="middle"
+		         textAlign="center" bold="true" />
+		<e:Label text="行， 第" x="888" y="414" textColor="0xAA4801" size="48" fontFamily="fz" verticalAlign="middle"
+		         textAlign="center" bold="true" />
+		<e:Label id="textRow" text="" x="683" y="405.34" textColor="0xAA4801" size="48" fontFamily="fz" verticalAlign="middle"
+		         textAlign="center" bold="true" anchorOffsetX="0" width="187" anchorOffsetY="0" height="72" />
+		<e:Label id="textNum" text="" x="1064" y="401.01" textColor="0xAA4801" size="48" fontFamily="fz"
+		         verticalAlign="middle" textAlign="center" bold="true" anchorOffsetX="0" width="187" anchorOffsetY="0"
+		         height="72" />
+		<e:Label id="textSum" text="" x="888.5" y="564" textColor="0xAA4801" size="48" fontFamily="fz" verticalAlign="middle"
+		         textAlign="center" bold="true" anchorOffsetX="0" width="121" anchorOffsetY="0" height="124" />
+		<e:Group id="sumGroup" width="100" height="100" x="900" y="578" anchorOffsetX="0" anchorOffsetY="0" />
+		<e:Group id="rowGroup" width="100" height="100" x="726" y="392" anchorOffsetX="0" anchorOffsetY="0" />
+		<e:Group id="numGroup" width="100" height="76" x="1120" y="396" anchorOffsetX="0" anchorOffsetY="0" />
+	</e:Group>
+	<e:Group id="loseGroup" x="0" y="0" visible="false" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5" />
+		<e:Image id="image" source="huanletaiqiu_32_png" x="940.5" y="514.5" anchorOffsetX="540" anchorOffsetY="515" />
+		<e:Image id="image1" source="huanletaiqiu_32_1_png" x="981" y="517.5" anchorOffsetX="548" anchorOffsetY="518"/>
+		<e:Image source="huanletaiqiu_33_png" x="641.5" y="427.5" />
+		<e:Image source="huanletaiqiu_34_png" x="794" y="335" />
+		<e:Image source="huanletaiqiu_35_png" x="587" y="540" />
+	</e:Group>
+	<e:Group id="successGroup" x="0" y="0" touchChildren="false" visible="false" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5" />
+		<e:Image id="image0" source="huanletaiqiu_26_png" x="960" y="509" anchorOffsetX="540" anchorOffsetY="515" />
+		<e:Group id="guangshu" width="320" height="320" x="960" y="533.5" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false"/>
+		<e:Image source="huanletaiqiu_29_png" x="641.5" y="316" />
+		<e:Image source="huanletaiqiu_30_png" x="802" y="317" />
+		<e:Image source="huanletaiqiu_31_png" x="600" y="586.5" />
+	</e:Group>
+	<e:Group id="taiqiuOver" width="1920" height="1080" x="0" y="0" visible="false" locked="true"/>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.6"/>
+		<e:Image id="clickStart" source="startpic_png" x="741.5" y="494"/>
+	</e:Group>
+	<!--letaiqiu_23_png" x="774.5" y="623" rotation="235.27"/>-->
+</e:Skin>

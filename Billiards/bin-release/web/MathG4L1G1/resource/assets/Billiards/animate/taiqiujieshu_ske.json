@@ -1,0 +1,415 @@
+{
+    "frameRate": 24,
+    "name": "taiqiujieshu",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "taiqiujieshu",
+            "aabb": {
+                "x": -960,
+                "y": -540,
+                "width": 2467.07,
+                "height": 1766.86
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "length": 1073,
+                    "name": "bone",
+                    "parent": "root",
+                    "transform": {
+                        "x": 2.35,
+                        "y": 532.05,
+                        "skX": -90.1254,
+                        "skY": -90.1254
+                    }
+                },
+                {
+                    "length": 1261,
+                    "name": "QQ图片20181102105715",
+                    "parent": "bone",
+                    "transform": {
+                        "x": -505.9826,
+                        "y": 1433.5959,
+                        "skX": -52.864,
+                        "skY": -52.864
+                    }
+                },
+                {
+                    "length": 73,
+                    "name": "QQ图片20181102110239",
+                    "parent": "bone",
+                    "transform": {
+                        "x": 601.5866,
+                        "y": 75.3169,
+                        "skX": 0.1254,
+                        "skY": 0.1254
+                    }
+                },
+                {
+                    "length": 73,
+                    "name": "QQ图片20181102105626",
+                    "parent": "bone",
+                    "transform": {
+                        "x": 336.7157,
+                        "y": 321.741,
+                        "skX": 4.0277,
+                        "skY": 4.0277
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "huanletaiqiu_01",
+                    "parent": "bone"
+                },
+                {
+                    "name": "QQ图片20181102110239",
+                    "parent": "QQ图片20181102110239"
+                },
+                {
+                    "name": "QQ图片20181102105626",
+                    "parent": "QQ图片20181102105626"
+                },
+                {
+                    "name": "QQ图片20181102105715",
+                    "parent": "QQ图片20181102105715"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "QQ图片20181102105626",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102105626",
+                                    "transform": {
+                                        "x": -0.33,
+                                        "y": 0.01,
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "scX": 0.4062,
+                                        "scY": 0.4062
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "huanletaiqiu_01",
+                            "display": [
+                                {
+                                    "name": "huanletaiqiu_01",
+                                    "transform": {
+                                        "x": 532.05,
+                                        "y": -1.19,
+                                        "skX": 90.13,
+                                        "skY": 90.13
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102110239",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102110239",
+                                    "transform": {
+                                        "x": 1,
+                                        "y": -0.42,
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "scX": 0.4062,
+                                        "scY": 0.4062
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102105715",
+                            "display": [
+                                {
+                                    "name": "QQ图片20181102105715",
+                                    "transform": {
+                                        "x": 629.61,
+                                        "y": 1.29,
+                                        "skX": 134.92,
+                                        "skY": 134.92,
+                                        "scX": 0.7921,
+                                        "scY": 0.7921
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 120,
+                    "playTimes": 0,
+                    "name": "taiqiujieshu",
+                    "bone": [
+                        {
+                            "name": "QQ图片20181102105715",
+                            "translateFrame": [
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 54.43,
+                                    "y": -61.59
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": -59.46,
+                                    "y": 88.77
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 54.43,
+                                    "y": -61.59
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": -59.46,
+                                    "y": 88.77
+                                },
+                                {
+                                    "duration": 8,
+                                    "tweenEasing": 0,
+                                    "x": 54.43,
+                                    "y": -61.59
+                                },
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": -84.68,
+                                    "y": 119.51
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 62.61,
+                                    "y": -73.81
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "x": 54.43,
+                                    "y": -61.59
+                                },
+                                {
+                                    "duration": 72,
+                                    "tweenEasing": 0,
+                                    "x": 57.49,
+                                    "y": -61.58
+                                },
+                                {
+                                    "duration": 0,
+                                    "x": -59.46,
+                                    "y": 88.77
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102105626",
+                            "translateFrame": [
+                                {
+                                    "duration": 36,
+                                    "tweenEasing": 0,
+                                    "x": 1.54
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0.5,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "x": 1.54
+                                },
+                                {
+                                    "curve": [
+                                        0.5,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "x": 210.48,
+                                    "y": -243.03
+                                },
+                                {
+                                    "duration": 13,
+                                    "tweenEasing": 0,
+                                    "x": 210.48,
+                                    "y": -243.03
+                                },
+                                {
+                                    "duration": 20,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "x": -64.1,
+                                    "y": -1344.69
+                                },
+                                {
+                                    "duration": 34,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "x": -424.45,
+                                    "y": -879.77
+                                },
+                                {
+                                    "duration": 10,
+                                    "x": 307.46,
+                                    "y": -156.98
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 36,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0.5,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "clockwise": -6
+                                },
+                                {
+                                    "curve": [
+                                        0.5,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "clockwise": -6
+                                },
+                                {
+                                    "duration": 13,
+                                    "tweenEasing": 0,
+                                    "clockwise": 11
+                                },
+                                {
+                                    "duration": 20,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "clockwise": -4
+                                },
+                                {
+                                    "duration": 34,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1
+                                    ],
+                                    "clockwise": 6
+                                },
+                                {
+                                    "duration": 10
+                                }
+                            ]
+                        },
+                        {
+                            "name": "QQ图片20181102110239",
+                            "translateFrame": [
+                                {
+                                    "duration": 43,
+                                    "tweenEasing": 0,
+                                    "x": 6.2,
+                                    "y": 0.01
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "x": 6.2,
+                                    "y": 0.01
+                                },
+                                {
+                                    "duration": 70,
+                                    "x": 372.16,
+                                    "y": -74.87
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 43,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "clockwise": -7
+                                },
+                                {
+                                    "duration": 70
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 50,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": 0.67,
+                                    "y": 0.67
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "QQ图片20181102110239",
+                            "colorFrame": [
+                                {
+                                    "duration": 53
+                                },
+                                {
+                                    "duration": 67,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "taiqiujieshu"
+                }
+            ]
+        }
+    ]
+}

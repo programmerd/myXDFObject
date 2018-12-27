@@ -1,0 +1,250 @@
+{
+    "width": 2041,
+    "imagePath": "over.png",
+    "height": 4096,
+    "name": "over",
+    "SubTexture": [
+        {
+            "width": 1920,
+            "y": 1,
+            "height": 1080,
+            "name": "结束动画/背景",
+            "x": 1
+        },
+        {
+            "frameX": -144,
+            "y": 1083,
+            "frameY": -35,
+            "frameWidth": 1920,
+            "width": 1680,
+            "frameHeight": 1080,
+            "height": 1023,
+            "name": "结束动画/光束",
+            "x": 1
+        },
+        {
+            "frameX": -30,
+            "y": 1463,
+            "frameY": -31,
+            "frameWidth": 331,
+            "width": 272,
+            "frameHeight": 251,
+            "height": 188,
+            "name": "结束动画/左角",
+            "x": 1683
+        },
+        {
+            "frameX": -25,
+            "y": 3722,
+            "frameY": -37,
+            "frameWidth": 435,
+            "width": 375,
+            "frameHeight": 272,
+            "height": 197,
+            "name": "结束动画/右角",
+            "x": 789
+        },
+        {
+            "width": 120,
+            "y": 1804,
+            "height": 163,
+            "name": "左4",
+            "x": 1683
+        },
+        {
+            "width": 163,
+            "y": 1653,
+            "height": 149,
+            "name": "左1",
+            "x": 1683
+        },
+        {
+            "width": 238,
+            "y": 3921,
+            "height": 163,
+            "name": "左2",
+            "x": 789
+        },
+        {
+            "width": 174,
+            "y": 1083,
+            "height": 360,
+            "name": "左3",
+            "x": 1858
+        },
+        {
+            "width": 303,
+            "y": 3722,
+            "height": 217,
+            "name": "左 翅膀",
+            "x": 1166
+        },
+        {
+            "width": 303,
+            "y": 3722,
+            "height": 217,
+            "name": "右 翅膀2",
+            "x": 1471
+        },
+        {
+            "width": 359,
+            "y": 2108,
+            "height": 400,
+            "name": "下身",
+            "x": 1497
+        },
+        {
+            "frameX": -33,
+            "y": 3722,
+            "frameY": -38,
+            "frameWidth": 854,
+            "width": 786,
+            "frameHeight": 383,
+            "height": 310,
+            "name": "结束动画/中间",
+            "x": 1
+        },
+        {
+            "frameX": -169,
+            "y": 2872,
+            "frameY": -155,
+            "frameWidth": 854,
+            "width": 529,
+            "frameHeight": 383,
+            "height": 147,
+            "name": "结束动画/挑战成功",
+            "x": 1497
+        },
+        {
+            "width": 369,
+            "y": 2510,
+            "height": 360,
+            "name": "上身",
+            "x": 1497
+        },
+        {
+            "width": 200,
+            "y": 3941,
+            "height": 153,
+            "name": "舌头",
+            "x": 1029
+        },
+        {
+            "width": 40,
+            "y": 1821,
+            "height": 36,
+            "name": "眼睛",
+            "x": 1859
+        },
+        {
+            "width": 66,
+            "y": 1445,
+            "height": 136,
+            "name": "右4",
+            "x": 1957
+        },
+        {
+            "frameX": 0,
+            "y": 1969,
+            "frameY": 0,
+            "frameWidth": 107,
+            "width": 107,
+            "frameHeight": 134,
+            "height": 130,
+            "name": "右1",
+            "x": 1683
+        },
+        {
+            "width": 171,
+            "y": 1653,
+            "height": 166,
+            "name": "右2",
+            "x": 1858
+        },
+        {
+            "width": 156,
+            "y": 1083,
+            "height": 378,
+            "name": "右3",
+            "x": 1683
+        },
+        {
+            "width": 73,
+            "y": 1969,
+            "height": 51,
+            "name": "1-1",
+            "x": 1792
+        },
+        {
+            "width": 61,
+            "y": 1583,
+            "height": 68,
+            "name": "1-2",
+            "x": 1957
+        },
+        {
+            "width": 87,
+            "y": 2068,
+            "height": 26,
+            "name": "1-3",
+            "x": 1792
+        },
+        {
+            "width": 40,
+            "y": 1883,
+            "height": 64,
+            "name": "1-4",
+            "x": 1805
+        },
+        {
+            "width": 52,
+            "y": 1821,
+            "height": 60,
+            "name": "2-1",
+            "x": 1805
+        },
+        {
+            "width": 37,
+            "y": 1883,
+            "height": 67,
+            "name": "2-2",
+            "x": 1847
+        },
+        {
+            "width": 71,
+            "y": 2022,
+            "height": 44,
+            "name": "2-3",
+            "x": 1805
+        },
+        {
+            "width": 19,
+            "y": 1583,
+            "height": 60,
+            "name": "2-4",
+            "x": 2020
+        },
+        {
+            "frameX": -170,
+            "y": 2108,
+            "frameY": -62,
+            "frameWidth": 1920,
+            "width": 1494,
+            "frameHeight": 1080,
+            "height": 939,
+            "name": "结束动画/光斑",
+            "x": 1
+        },
+        {
+            "frameX": -140,
+            "y": 3049,
+            "frameY": -154,
+            "frameWidth": 1920,
+            "width": 1579,
+            "frameHeight": 1080,
+            "height": 671,
+            "name": "结束动画/纸片",
+            "x": 1
+        }
+    ]
+}

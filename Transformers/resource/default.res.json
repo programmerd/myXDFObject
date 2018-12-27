@@ -1,0 +1,540 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,beam_click_png,beam_disable_png,bottom_count_png,capacity_png,capacity_click_png,capacity_disable_png,left_count_png,music_png,next_png,next_click_png,next_disable_png,revise_png,beam_png,plane_png,flame_json,flame_png,yanwu_png,yanwu_json,startPlane_json,v1_png,v1_json,startPlane3_png,King_bj_jpg,NewProject_3_ske_json,NewProject_3_tex_json,NewProject_3_tex_png,huan03_png,huan04_png,huan01_png,huan02_png,end_v3_mp4,resultSize_png,result_png,startpic_png,line_top_png,dot_top_json,dot_top_png,face_top_json,face_top_png,line_top_json,dot_json,dot_png,line_json,line_png,bx_bj_mp3,bx_beam_success_mp3,bx_capacity_mp3,bx_capacity_gudong_mp3,bx_transition_mp3,bx_beam_error_mp3,subject_top2_png,music_close_png,subject_top_png,subject_top1_png,bx_subject01_mp3,bx_subject02_mp3,bx_next_mp3,endV5_mp4,endV4_mp4,endV2_mp4,endV1_mp4,startV5_mp4,startV4_mp4,startV2_mp4,startV1_mp4,beam_bj_png,V5_png,V1_png,V4_png,V2_png,V3_png,startV3_mp4,endV3_mp4,gameOver_png,over_mp4,shou2_png,shou2_json,shou_json,shou_png,shou3_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/KingKong/beam_click.png",
+			"type": "image",
+			"name": "beam_click_png"
+		},
+		{
+			"url": "assets/KingKong/beam_disable.png",
+			"type": "image",
+			"name": "beam_disable_png"
+		},
+		{
+			"url": "assets/KingKong/bottom_count.png",
+			"type": "image",
+			"name": "bottom_count_png"
+		},
+		{
+			"url": "assets/KingKong/capacity.png",
+			"type": "image",
+			"name": "capacity_png"
+		},
+		{
+			"url": "assets/KingKong/capacity_click.png",
+			"type": "image",
+			"name": "capacity_click_png"
+		},
+		{
+			"url": "assets/KingKong/capacity_disable.png",
+			"type": "image",
+			"name": "capacity_disable_png"
+		},
+		{
+			"url": "assets/KingKong/left_count.png",
+			"type": "image",
+			"name": "left_count_png"
+		},
+		{
+			"url": "assets/KingKong/music.png",
+			"type": "image",
+			"name": "music_png"
+		},
+		{
+			"url": "assets/KingKong/next.png",
+			"type": "image",
+			"name": "next_png"
+		},
+		{
+			"url": "assets/KingKong/next_click.png",
+			"type": "image",
+			"name": "next_click_png"
+		},
+		{
+			"url": "assets/KingKong/next_disable.png",
+			"type": "image",
+			"name": "next_disable_png"
+		},
+		{
+			"url": "assets/KingKong/revise.png",
+			"type": "image",
+			"name": "revise_png"
+		},
+		{
+			"url": "assets/KingKong/beam.png",
+			"type": "image",
+			"name": "beam_png"
+		},
+		{
+			"url": "assets/KingKong/plane.png",
+			"type": "image",
+			"name": "plane_png"
+		},
+		{
+			"url": "assets/particle/flame.json",
+			"type": "json",
+			"name": "flame_json"
+		},
+		{
+			"url": "assets/particle/flame.png",
+			"type": "image",
+			"name": "flame_png"
+		},
+		{
+			"url": "assets/particle/yanwu.png",
+			"type": "image",
+			"name": "yanwu_png"
+		},
+		{
+			"url": "assets/particle/yanwu.json",
+			"type": "json",
+			"name": "yanwu_json"
+		},
+		{
+			"url": "assets/particle/startPlane.json",
+			"type": "json",
+			"name": "startPlane_json"
+		},
+		{
+			"url": "assets/particle/v1.png",
+			"type": "image",
+			"name": "v1_png"
+		},
+		{
+			"url": "assets/particle/v1.json",
+			"type": "json",
+			"name": "v1_json"
+		},
+		{
+			"url": "assets/particle/startPlane3.png",
+			"type": "image",
+			"name": "startPlane3_png"
+		},
+		{
+			"url": "assets/KingKong/King_bj.jpg",
+			"type": "image",
+			"name": "King_bj_jpg"
+		},
+		{
+			"url": "assets/particle/NewProject_3_ske.json",
+			"type": "json",
+			"name": "NewProject_3_ske_json"
+		},
+		{
+			"url": "assets/particle/NewProject_3_tex.json",
+			"type": "json",
+			"name": "NewProject_3_tex_json"
+		},
+		{
+			"url": "assets/particle/NewProject_3_tex.png",
+			"type": "image",
+			"name": "NewProject_3_tex_png"
+		},
+		{
+			"url": "assets/KingKong/huan03.png",
+			"type": "image",
+			"name": "huan03_png"
+		},
+		{
+			"url": "assets/KingKong/huan04.png",
+			"type": "image",
+			"name": "huan04_png"
+		},
+		{
+			"url": "assets/KingKong/huan01.png",
+			"type": "image",
+			"name": "huan01_png"
+		},
+		{
+			"url": "assets/KingKong/huan02.png",
+			"type": "image",
+			"name": "huan02_png"
+		},
+		{
+			"url": "assets/particle/end_v3.mp4",
+			"type": "bin",
+			"name": "end_v3_mp4"
+		},
+		{
+			"url": "assets/KingKong/resultSize.png",
+			"type": "image",
+			"name": "resultSize_png"
+		},
+		{
+			"url": "assets/KingKong/result.png",
+			"type": "image",
+			"name": "result_png"
+		},
+		{
+			"url": "assets/KingKong/startpic.png",
+			"type": "image",
+			"name": "startpic_png"
+		},
+		{
+			"url": "assets/particle/line_top.png",
+			"type": "image",
+			"name": "line_top_png"
+		},
+		{
+			"url": "assets/particle/dot_top.json",
+			"type": "json",
+			"name": "dot_top_json"
+		},
+		{
+			"url": "assets/particle/dot_top.png",
+			"type": "image",
+			"name": "dot_top_png"
+		},
+		{
+			"url": "assets/particle/face_top.json",
+			"type": "json",
+			"name": "face_top_json"
+		},
+		{
+			"url": "assets/particle/face_top.png",
+			"type": "image",
+			"name": "face_top_png"
+		},
+		{
+			"url": "assets/particle/line_top.json",
+			"type": "json",
+			"name": "line_top_json"
+		},
+		{
+			"url": "assets/particle/dot.json",
+			"type": "json",
+			"name": "dot_json"
+		},
+		{
+			"url": "assets/particle/dot.png",
+			"type": "image",
+			"name": "dot_png"
+		},
+		{
+			"url": "assets/particle/line.json",
+			"type": "json",
+			"name": "line_json"
+		},
+		{
+			"url": "assets/particle/line.png",
+			"type": "image",
+			"name": "line_png"
+		},
+		{
+			"url": "assets/music/bx_bj.mp3",
+			"type": "sound",
+			"name": "bx_bj_mp3"
+		},
+		{
+			"url": "assets/music/bx_beam_success.mp3",
+			"type": "sound",
+			"name": "bx_beam_success_mp3"
+		},
+		{
+			"url": "assets/music/bx_capacity.mp3",
+			"type": "sound",
+			"name": "bx_capacity_mp3"
+		},
+		{
+			"url": "assets/music/bx_capacity_gudong.mp3",
+			"type": "sound",
+			"name": "bx_capacity_gudong_mp3"
+		},
+		{
+			"url": "assets/music/bx_transition.mp3",
+			"type": "sound",
+			"name": "bx_transition_mp3"
+		},
+		{
+			"url": "assets/music/bx_beam_error.mp3",
+			"type": "sound",
+			"name": "bx_beam_error_mp3"
+		},
+		{
+			"url": "assets/KingKong/subject_top2.png",
+			"type": "image",
+			"name": "subject_top2_png"
+		},
+		{
+			"url": "assets/KingKong/music_close.png",
+			"type": "image",
+			"name": "music_close_png"
+		},
+		{
+			"url": "assets/KingKong/subject_top.png",
+			"type": "image",
+			"name": "subject_top_png"
+		},
+		{
+			"url": "assets/KingKong/subject_top1.png",
+			"type": "image",
+			"name": "subject_top1_png"
+		},
+		{
+			"url": "assets/music/bx_subject01.mp3",
+			"type": "sound",
+			"name": "bx_subject01_mp3"
+		},
+		{
+			"url": "assets/music/bx_subject02.mp3",
+			"type": "sound",
+			"name": "bx_subject02_mp3"
+		},
+		{
+			"url": "assets/music/bx_next.mp3",
+			"type": "sound",
+			"name": "bx_next_mp3"
+		},
+		{
+			"url": "assets/particle/startV1.mp4",
+			"type": "bin",
+			"name": "startV1_mp4"
+		},
+		{
+			"url": "assets/particle/startV2.mp4",
+			"type": "bin",
+			"name": "startV2_mp4"
+		},
+		{
+			"url": "assets/particle/startV4.mp4",
+			"type": "bin",
+			"name": "startV4_mp4"
+		},
+		{
+			"url": "assets/particle/startV5.mp4",
+			"type": "bin",
+			"name": "startV5_mp4"
+		},
+		{
+			"url": "assets/particle/endV1.mp4",
+			"type": "bin",
+			"name": "endV1_mp4"
+		},
+		{
+			"url": "assets/particle/endV2.mp4",
+			"type": "bin",
+			"name": "endV2_mp4"
+		},
+		{
+			"url": "assets/particle/endV4.mp4",
+			"type": "bin",
+			"name": "endV4_mp4"
+		},
+		{
+			"url": "assets/particle/endV5.mp4",
+			"type": "bin",
+			"name": "endV5_mp4"
+		},
+		{
+			"url": "assets/KingKong/beam_bj.png",
+			"type": "image",
+			"name": "beam_bj_png"
+		},
+		{
+			"url": "assets/KingKong/V5.png",
+			"type": "image",
+			"name": "V5_png"
+		},
+		{
+			"url": "assets/KingKong/V1.png",
+			"type": "image",
+			"name": "V1_png"
+		},
+		{
+			"url": "assets/KingKong/V4.png",
+			"type": "image",
+			"name": "V4_png"
+		},
+		{
+			"url": "assets/KingKong/V2.png",
+			"type": "image",
+			"name": "V2_png"
+		},
+		{
+			"url": "assets/KingKong/V3.png",
+			"type": "image",
+			"name": "V3_png"
+		},
+		{
+			"url": "assets/particle/startV3.mp4",
+			"type": "bin",
+			"name": "startV3_mp4"
+		},
+		{
+			"url": "assets/particle/endV3.mp4",
+			"type": "bin",
+			"name": "endV3_mp4"
+		},
+		{
+			"url": "assets/particle/gameOver.png",
+			"type": "image",
+			"name": "gameOver_png"
+		},
+		{
+			"url": "assets/particle/over.mp4",
+			"type": "bin",
+			"name": "over_mp4"
+		},
+		{
+			"name": "shou2_png",
+			"type": "image",
+			"url": "assets/particle/shou2.png"
+		},
+		{
+			"name": "shou2_json",
+			"type": "json",
+			"url": "assets/particle/shou2.json"
+		},
+		{
+			"name": "shou_json",
+			"type": "json",
+			"url": "assets/particle/shou.json"
+		},
+		{
+			"name": "shou_png",
+			"type": "image",
+			"url": "assets/particle/shou.png"
+		},
+		{
+			"name": "shou3_png",
+			"type": "image",
+			"url": "assets/particle/shou.png"
+		}
+	]
+}

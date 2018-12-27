@@ -1,0 +1,85 @@
+{
+    "SubTexture": [
+        {
+            "frameHeight": 716,
+            "y": 1375,
+            "frameWidth": 840,
+            "frameX": -17,
+            "width": 786,
+            "frameY": -36,
+            "height": 673,
+            "name": "car0024",
+            "x": 1
+        },
+        {
+            "frameHeight": 716,
+            "y": 2050,
+            "frameWidth": 840,
+            "frameX": -21,
+            "width": 785,
+            "frameY": -29,
+            "height": 671,
+            "name": "car0025",
+            "x": 1
+        },
+        {
+            "frameHeight": 716,
+            "y": 1378,
+            "frameWidth": 840,
+            "frameX": -25,
+            "width": 785,
+            "frameY": -21,
+            "height": 672,
+            "name": "car0026",
+            "x": 789
+        },
+        {
+            "frameHeight": 716,
+            "y": 698,
+            "frameWidth": 840,
+            "frameX": -23,
+            "width": 787,
+            "frameY": -21,
+            "height": 675,
+            "name": "car0027",
+            "x": 1
+        },
+        {
+            "frameHeight": 716,
+            "y": 692,
+            "frameWidth": 840,
+            "frameX": -15,
+            "width": 795,
+            "frameY": -20,
+            "height": 684,
+            "name": "car0028",
+            "x": 813
+        },
+        {
+            "frameHeight": 716,
+            "y": 1,
+            "frameWidth": 840,
+            "frameX": -11,
+            "width": 799,
+            "frameY": -20,
+            "height": 689,
+            "name": "car0029",
+            "x": 813
+        },
+        {
+            "frameHeight": 716,
+            "y": 1,
+            "frameWidth": 840,
+            "frameX": 0,
+            "width": 810,
+            "frameY": -21,
+            "height": 695,
+            "name": "car0030",
+            "x": 1
+        }
+    ],
+    "width": 1614,
+    "imagePath": "rac_tex.png",
+    "height": 2723,
+    "name": "rac"
+}

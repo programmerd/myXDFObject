@@ -1,0 +1,555 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,col_1_1_png,col_1_2_png,col_1_3_png,col_1_4_png,option_1_1_png,option_1_2_png,subject1_png,col_3_1_png,col_3_2_png,col_3_3_png,col_3_4_png,option_3_1_png,option_3_2_png,subject3_png,col_2_1_png,col_2_2_png,col_2_3_png,col_2_4_png,option_2_1_png,option_2_2_png,subject2_png,ask_png,col_png,go_png,music_png,next_png,previous_png,rac_bj_jpg,rac_bule_png,rac_purple_png,rac_red_png,rac_yellow_png,result_png,revise_png,set_png,undo_png,key+_png,key-_png,key0_png,key1_png,key2_png,key3_png,key4_png,key5_png,key6_png,key7_png,key8_png,key9_png,keyset_png,keyx_png,ok_png,revise2_png,saicheweibu01_json,saicheweibu01_png,heiyan01_json,heiyan01_png,fire_json,fire_png,prosit_png,hebberg_png,rac_tex_png,rac_ske_json,rac_tex_json,xingguang01_json,xingguang01_png,xingguang02_json,xingguang02_png,rac_bj_mp3,tip1_png,tip2_png,tip3_png,startpic_png,rac_ok_mp3,rac_go_mp3,rac_start_fire_mp3,rac_go_stop_mp3,rac_fete_mp3,rac_sub_3_mp3,rac_sub_1_mp3,rac_sub_2_mp3,rac_error_mp3,music_close_png,font_TTF",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Racing/img/one/col_1_1.png",
+			"type": "image",
+			"name": "col_1_1_png"
+		},
+		{
+			"url": "assets/Racing/img/one/col_1_2.png",
+			"type": "image",
+			"name": "col_1_2_png"
+		},
+		{
+			"url": "assets/Racing/img/one/col_1_3.png",
+			"type": "image",
+			"name": "col_1_3_png"
+		},
+		{
+			"url": "assets/Racing/img/one/col_1_4.png",
+			"type": "image",
+			"name": "col_1_4_png"
+		},
+		{
+			"url": "assets/Racing/img/one/option_1_1.png",
+			"type": "image",
+			"name": "option_1_1_png"
+		},
+		{
+			"url": "assets/Racing/img/one/option_1_2.png",
+			"type": "image",
+			"name": "option_1_2_png"
+		},
+		{
+			"url": "assets/Racing/img/one/subject1.png",
+			"type": "image",
+			"name": "subject1_png"
+		},
+		{
+			"url": "assets/Racing/img/three/col_3_1.png",
+			"type": "image",
+			"name": "col_3_1_png"
+		},
+		{
+			"url": "assets/Racing/img/three/col_3_2.png",
+			"type": "image",
+			"name": "col_3_2_png"
+		},
+		{
+			"url": "assets/Racing/img/three/col_3_3.png",
+			"type": "image",
+			"name": "col_3_3_png"
+		},
+		{
+			"url": "assets/Racing/img/three/col_3_4.png",
+			"type": "image",
+			"name": "col_3_4_png"
+		},
+		{
+			"url": "assets/Racing/img/three/option_3_1.png",
+			"type": "image",
+			"name": "option_3_1_png"
+		},
+		{
+			"url": "assets/Racing/img/three/option_3_2.png",
+			"type": "image",
+			"name": "option_3_2_png"
+		},
+		{
+			"url": "assets/Racing/img/three/subject3.png",
+			"type": "image",
+			"name": "subject3_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/col_2_1.png",
+			"type": "image",
+			"name": "col_2_1_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/col_2_2.png",
+			"type": "image",
+			"name": "col_2_2_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/col_2_3.png",
+			"type": "image",
+			"name": "col_2_3_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/col_2_4.png",
+			"type": "image",
+			"name": "col_2_4_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/option_2_1.png",
+			"type": "image",
+			"name": "option_2_1_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/option_2_2.png",
+			"type": "image",
+			"name": "option_2_2_png"
+		},
+		{
+			"url": "assets/Racing/img/tow/subject2.png",
+			"type": "image",
+			"name": "subject2_png"
+		},
+		{
+			"url": "assets/Racing/img/ask.png",
+			"type": "image",
+			"name": "ask_png"
+		},
+		{
+			"url": "assets/Racing/img/col.png",
+			"type": "image",
+			"name": "col_png"
+		},
+		{
+			"url": "assets/Racing/img/go.png",
+			"type": "image",
+			"name": "go_png"
+		},
+		{
+			"url": "assets/Racing/img/music.png",
+			"type": "image",
+			"name": "music_png"
+		},
+		{
+			"url": "assets/Racing/img/next.png",
+			"type": "image",
+			"name": "next_png"
+		},
+		{
+			"url": "assets/Racing/img/previous.png",
+			"type": "image",
+			"name": "previous_png"
+		},
+		{
+			"url": "assets/Racing/img/rac_bj.jpg",
+			"type": "image",
+			"name": "rac_bj_jpg"
+		},
+		{
+			"url": "assets/Racing/img/rac_bule.png",
+			"type": "image",
+			"name": "rac_bule_png"
+		},
+		{
+			"url": "assets/Racing/img/rac_purple.png",
+			"type": "image",
+			"name": "rac_purple_png"
+		},
+		{
+			"url": "assets/Racing/img/rac_red.png",
+			"type": "image",
+			"name": "rac_red_png"
+		},
+		{
+			"url": "assets/Racing/img/rac_yellow.png",
+			"type": "image",
+			"name": "rac_yellow_png"
+		},
+		{
+			"url": "assets/Racing/img/result.png",
+			"type": "image",
+			"name": "result_png"
+		},
+		{
+			"url": "assets/Racing/img/revise.png",
+			"type": "image",
+			"name": "revise_png"
+		},
+		{
+			"url": "assets/Racing/img/set.png",
+			"type": "image",
+			"name": "set_png"
+		},
+		{
+			"url": "assets/Racing/img/undo.png",
+			"type": "image",
+			"name": "undo_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key+.png",
+			"type": "image",
+			"name": "key+_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key-.png",
+			"type": "image",
+			"name": "key-_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key0.png",
+			"type": "image",
+			"name": "key0_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key1.png",
+			"type": "image",
+			"name": "key1_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key2.png",
+			"type": "image",
+			"name": "key2_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key3.png",
+			"type": "image",
+			"name": "key3_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key4.png",
+			"type": "image",
+			"name": "key4_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key5.png",
+			"type": "image",
+			"name": "key5_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key6.png",
+			"type": "image",
+			"name": "key6_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key7.png",
+			"type": "image",
+			"name": "key7_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key8.png",
+			"type": "image",
+			"name": "key8_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/key9.png",
+			"type": "image",
+			"name": "key9_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/keyset.png",
+			"type": "image",
+			"name": "keyset_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/keyx.png",
+			"type": "image",
+			"name": "keyx_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/ok.png",
+			"type": "image",
+			"name": "ok_png"
+		},
+		{
+			"url": "assets/Racing/img/keyset/revise.png",
+			"type": "image",
+			"name": "revise2_png"
+		},
+		{
+			"url": "assets/Racing/animate/saicheweibu01.json",
+			"type": "json",
+			"name": "saicheweibu01_json"
+		},
+		{
+			"url": "assets/Racing/animate/saicheweibu01.png",
+			"type": "image",
+			"name": "saicheweibu01_png"
+		},
+		{
+			"url": "assets/Racing/animate/heiyan01.json",
+			"type": "json",
+			"name": "heiyan01_json"
+		},
+		{
+			"url": "assets/Racing/animate/heiyan01.png",
+			"type": "image",
+			"name": "heiyan01_png"
+		},
+		{
+			"url": "assets/Racing/animate/fire.json",
+			"type": "json",
+			"name": "fire_json"
+		},
+		{
+			"url": "assets/Racing/animate/fire.png",
+			"type": "image",
+			"name": "fire_png"
+		},
+		{
+			"url": "assets/Racing/img/prosit.png",
+			"type": "image",
+			"name": "prosit_png"
+		},
+		{
+			"url": "assets/Racing/img/hebberg.png",
+			"type": "image",
+			"name": "hebberg_png"
+		},
+		{
+			"url": "assets/Racing/animate/rac_tex.png",
+			"type": "image",
+			"name": "rac_tex_png"
+		},
+		{
+			"url": "assets/Racing/animate/rac_ske.json",
+			"type": "json",
+			"name": "rac_ske_json"
+		},
+		{
+			"url": "assets/Racing/animate/rac_tex.json",
+			"type": "json",
+			"name": "rac_tex_json"
+		},
+		{
+			"url": "assets/Racing/animate/xingguang01.json",
+			"type": "json",
+			"name": "xingguang01_json"
+		},
+		{
+			"url": "assets/Racing/animate/xingguang01.png",
+			"type": "image",
+			"name": "xingguang01_png"
+		},
+		{
+			"url": "assets/Racing/animate/xingguang02.json",
+			"type": "json",
+			"name": "xingguang02_json"
+		},
+		{
+			"url": "assets/Racing/animate/xingguang02.png",
+			"type": "image",
+			"name": "xingguang02_png"
+		},
+		{
+			"url": "assets/Racing/music/rac_bj.mp3",
+			"type": "sound",
+			"name": "rac_bj_mp3"
+		},
+		{
+			"url": "assets/Racing/img/tip1.png",
+			"type": "image",
+			"name": "tip1_png"
+		},
+		{
+			"url": "assets/Racing/img/tip2.png",
+			"type": "image",
+			"name": "tip2_png"
+		},
+		{
+			"url": "assets/Racing/img/tip3.png",
+			"type": "image",
+			"name": "tip3_png"
+		},
+		{
+			"url": "assets/Racing/img/startpic.png",
+			"type": "image",
+			"name": "startpic_png"
+		},
+		{
+			"url": "assets/Racing/music/rac_ok.mp3",
+			"type": "sound",
+			"name": "rac_ok_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_go.mp3",
+			"type": "sound",
+			"name": "rac_go_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_start_fire.mp3",
+			"type": "sound",
+			"name": "rac_start_fire_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_go_stop.mp3",
+			"type": "sound",
+			"name": "rac_go_stop_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_fete.mp3",
+			"type": "sound",
+			"name": "rac_fete_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_sub_3.mp3",
+			"type": "sound",
+			"name": "rac_sub_3_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_sub_1.mp3",
+			"type": "sound",
+			"name": "rac_sub_1_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_sub_2.mp3",
+			"type": "sound",
+			"name": "rac_sub_2_mp3"
+		},
+		{
+			"url": "assets/Racing/music/rac_error.mp3",
+			"type": "sound",
+			"name": "rac_error_mp3"
+		},
+		{
+			"url": "assets/Racing/img/music_close.png",
+			"type": "image",
+			"name": "music_close_png"
+		},
+		{
+			"url": "assets/font.TTF",
+			"type": "bin",
+			"name": "font_TTF"
+		}
+	]
+}

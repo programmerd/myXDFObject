@@ -1,0 +1,520 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,revise_png,startpic_png,music_png,music_close_png,key0_png,key1_png,key2_png,key3_png,key4_png,key5_png,key6_png,key7_png,key8_png,key9_png,keyset-mask_png,keyset-revise_png,ok_png,bj_jpg,fire_png,ordnance_png,resultMax1_png,resultMax2_png,resultMax3_png,resultMin1_png,resultMin3_png,subject_png,subject1_png,subject2_png,subject3_png,resultMin2_png,warcraft_png,hit_tex_png,hit_ske_json,hit_tex_json,stand_ske_json,stand_tex_json,stand_tex_png,chongneng_json,chongneng_png,guangsu1_json,guangsu1_png,guangsu2_json,guangsu2_png,huiju_json,huiju_png,bomb_ske_json,bomb_tex_json,bomb_tex_png,tuzi_ske_json,tuzi_tex_json,tuzi_tex_png,over_ske_json,over_tex_json,over_tex_png,jiguang_mc_json,jiguang_mc_png,startpic2_png,music2_png,music_close2_png,revise2_png,subTip_png,ms_bj_mp3,ms_subject_mp3,ms_jn_mp3,ms_doud_mp3,ms_cj_mp3,ms_yd_mp3,ms_bf_mp3,ms_bl_mp3,ms_bz_mp3,ms_sl_mp3,ms_fs_mp3,liehen_json,liehen_png,liehen01_mc_json,liehen01_tex_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "revise_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/revise.png"
+		},
+		{
+			"name": "startpic_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/startpic.png"
+		},
+		{
+			"name": "music_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/music.png"
+		},
+		{
+			"name": "music_close_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/music_close.png"
+		},
+		{
+			"name": "key0_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key0.png"
+		},
+		{
+			"name": "key1_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key1.png"
+		},
+		{
+			"name": "key2_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key2.png"
+		},
+		{
+			"name": "key3_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key3.png"
+		},
+		{
+			"name": "key4_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key4.png"
+		},
+		{
+			"name": "key5_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key5.png"
+		},
+		{
+			"name": "key6_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key6.png"
+		},
+		{
+			"name": "key7_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key7.png"
+		},
+		{
+			"name": "key8_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key8.png"
+		},
+		{
+			"name": "key9_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/key9.png"
+		},
+		{
+			"name": "keyset-mask_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/keyset-mask.png"
+		},
+		{
+			"name": "keyset-revise_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/keyset-revise.png"
+		},
+		{
+			"name": "ok_png",
+			"type": "image",
+			"url": "assets/Warcraft/keyset/ok.png"
+		},
+		{
+			"name": "bj_jpg",
+			"type": "image",
+			"url": "assets/Warcraft/img/bj.jpg"
+		},
+		{
+			"name": "fire_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/fire.png"
+		},
+		{
+			"name": "ordnance_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/ordnance.png"
+		},
+		{
+			"name": "resultMax1_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/resultMax1.png"
+		},
+		{
+			"name": "resultMax2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/resultMax2.png"
+		},
+		{
+			"name": "resultMax3_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/resultMax3.png"
+		},
+		{
+			"name": "resultMin1_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/resultMin1.png"
+		},
+		{
+			"name": "resultMin3_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/resultMin3.png"
+		},
+		{
+			"name": "subject_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/subject.png"
+		},
+		{
+			"name": "subject1_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/subject1.png"
+		},
+		{
+			"name": "subject2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/subject2.png"
+		},
+		{
+			"name": "subject3_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/subject3.png"
+		},
+		{
+			"name": "resultMin2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/resultMin2.png"
+		},
+		{
+			"name": "warcraft_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/warcraft.png"
+		},
+		{
+			"name": "hit_tex_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/hit_tex.png"
+		},
+		{
+			"name": "hit_ske_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/hit_ske.json"
+		},
+		{
+			"name": "hit_tex_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/hit_tex.json"
+		},
+		{
+			"name": "stand_ske_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/stand_ske.json"
+		},
+		{
+			"name": "stand_tex_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/stand_tex.json"
+		},
+		{
+			"name": "stand_tex_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/stand_tex.png"
+		},
+		{
+			"name": "chongneng_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/chongneng.json"
+		},
+		{
+			"name": "chongneng_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/chongneng.png"
+		},
+		{
+			"name": "guangsu1_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/guangsu1.json"
+		},
+		{
+			"name": "guangsu1_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/guangsu1.png"
+		},
+		{
+			"name": "guangsu2_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/guangsu2.json"
+		},
+		{
+			"name": "guangsu2_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/guangsu2.png"
+		},
+		{
+			"name": "huiju_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/huiju.json"
+		},
+		{
+			"name": "huiju_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/huiju.png"
+		},
+		{
+			"name": "bomb_ske_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/bomb_ske.json"
+		},
+		{
+			"name": "bomb_tex_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/bomb_tex.json"
+		},
+		{
+			"name": "bomb_tex_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/bomb_tex.png"
+		},
+		{
+			"name": "tuzi_ske_json",
+			"type": "json",
+			"url": "assets/Warcraft/img/tuzi_ske.json"
+		},
+		{
+			"name": "tuzi_tex_json",
+			"type": "json",
+			"url": "assets/Warcraft/img/tuzi_tex.json"
+		},
+		{
+			"name": "tuzi_tex_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/tuzi_tex.png"
+		},
+		{
+			"name": "over_ske_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/over_ske.json"
+		},
+		{
+			"name": "over_tex_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/over_tex.json"
+		},
+		{
+			"name": "over_tex_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/over_tex.png"
+		},
+		{
+			"name": "jiguang_mc_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/jiguang_mc.json"
+		},
+		{
+			"name": "jiguang_mc_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/jiguang_mc.png"
+		},
+		{
+			"name": "startpic2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/startpic.png"
+		},
+		{
+			"name": "music2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/music.png"
+		},
+		{
+			"name": "music_close2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/music_close.png"
+		},
+		{
+			"name": "revise2_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/revise.png"
+		},
+		{
+			"name": "subTip_png",
+			"type": "image",
+			"url": "assets/Warcraft/img/subTip.png"
+		},
+		{
+			"name": "ms_bj_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_bj.mp3"
+		},
+		{
+			"name": "ms_subject_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_subject.mp3"
+		},
+		{
+			"name": "ms_jn_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_jn.mp3"
+		},
+		{
+			"name": "ms_doud_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_doud.mp3"
+		},
+		{
+			"name": "ms_cj_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_cj.mp3"
+		},
+		{
+			"name": "ms_yd_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_yd.mp3"
+		},
+		{
+			"name": "ms_bf_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_bf.mp3"
+		},
+		{
+			"name": "ms_bl_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_bl.mp3"
+		},
+		{
+			"name": "ms_bz_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_bz.mp3"
+		},
+		{
+			"name": "ms_sl_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_sl.mp3"
+		},
+		{
+			"name": "ms_fs_mp3",
+			"type": "sound",
+			"url": "assets/Warcraft/music/ms_fs.mp3"
+		},
+		{
+			"name": "liehen_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/liehen.json"
+		},
+		{
+			"name": "liehen_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/liehen.png"
+		},
+		{
+			"name": "liehen01_mc_json",
+			"type": "json",
+			"url": "assets/Warcraft/animate/liehen01_mc.json"
+		},
+		{
+			"name": "liehen01_tex_png",
+			"type": "image",
+			"url": "assets/Warcraft/animate/liehen01_tex.png"
+		}
+	]
+}

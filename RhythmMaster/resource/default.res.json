@@ -1,0 +1,825 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,key0_png,key1_png,key2_png,key3_png,key4_png,key5_png,key6_png,key7_png,key8_png,key9_png,keyset-mask_png,keyset-revise_png,ok_png,startpic_png,music_png,music_close_png,revise_png,tq_bj_mp3,font_TTF,add_png,amount_png,cacl_png,cacl0_png,cacl00_png,cacl1_png,cacl2_png,cacl3_png,cacl4_png,cacl5_png,cacl6_png,cacl7_png,cacl8_png,cacl9_png,caclAC_png,caclx_png,minus_png,remove_png,jiezoudashi_02_png,jiezoudashi_01_png,jiezoudashi_01_1_png,jiezoudashi_01_2_png,jiezoudashi_01_3_png,jiezoudashi_01_4_png,jiezoudashi_01_5_png,jiezoudashi_03_png,jiezoudashi_04_png,jiezoudashi_05_png,jiezoudashi_06_png,jiezoudashi_07_png,jiezoudashi_08_png,jiezoudashi_09_png,jiezoudashi_10_png,jiezoudashi_11_png,jiezoudashi_12_png,jiezoudashi_13_png,jiezoudashi_14_png,jiezoudashi_15_png,jiezoudashi_16_png,jiezoudashi_17_png,jiezoudashi_18_png,jiezoudashi_19_png,jiezoudashi_20_png,jiezoudashi_21_png,9_png,0_png,1_png,2_png,3_png,4_png,5_png,6_png,7_png,8_png,prev_png,next_png,jiezoudashi_49_png,jiezoudashi_d_07_png,jiezoudashi_d_09_png,jiezoudashi_d_11_png,jiezoudashi_d_16_png,jiezoudashi_d_21_png,x_png,jiezou1_ske_json,jiezou1_tex_json,jiezou1_tex_png,jiezou2_ske_json,jiezou2_tex_json,jiezou2_tex_png,jiezou3_ske_json,jiezou3_tex_json,jiezou3_tex_png,jiezou4_ske_json,jiezou4_tex_json,jiezou4_tex_png,success_mp3,error_mp3,changpian_ske_json,changpian_tex_json,changpian_tex_png,jiezoudashi_d_12_png,jiezoudashi_06_1_png,music2_mp3,bj_mp3,tip_mp3,music1_mp3,suc2_png,suc3_png,suc4_png,suc5_png,suc6_png,suc1_png,jiezoudashi_22_png,jiezoudashi_23_png,jiezoudashi_24_png,jiezoudashi_25_png,jiezoudashi_26_png,jiezoudashi_27_png,jiezoudashi_28_png,jiezoudashi_29_png,jiezoudashi_30_png,jiezoudashi_31_png,jiezoudashi_32_png,jiezoudashi_33_png,jiezoudashi_34_png,jiezoudashi_35_png,jiezoudashi_36_png,jiezoudashi_37_png,jiezoudashi_38_png,jiezoudashi_39_png,jiezoudashi_d_22_png,jiezoudashi_d_24_png,jiezoudashi_d_30_png,jiezoudashi_d_35_png,jiezoudashi_d_38_png,jiezoudashi_d_39_png,jiezoudashi_d_23_png,jiezoudashi_d_32_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Major/keyset/key0.png",
+			"type": "image",
+			"name": "key0_png"
+		},
+		{
+			"url": "assets/Major/keyset/key1.png",
+			"type": "image",
+			"name": "key1_png"
+		},
+		{
+			"url": "assets/Major/keyset/key2.png",
+			"type": "image",
+			"name": "key2_png"
+		},
+		{
+			"url": "assets/Major/keyset/key3.png",
+			"type": "image",
+			"name": "key3_png"
+		},
+		{
+			"url": "assets/Major/keyset/key4.png",
+			"type": "image",
+			"name": "key4_png"
+		},
+		{
+			"url": "assets/Major/keyset/key5.png",
+			"type": "image",
+			"name": "key5_png"
+		},
+		{
+			"url": "assets/Major/keyset/key6.png",
+			"type": "image",
+			"name": "key6_png"
+		},
+		{
+			"url": "assets/Major/keyset/key7.png",
+			"type": "image",
+			"name": "key7_png"
+		},
+		{
+			"url": "assets/Major/keyset/key8.png",
+			"type": "image",
+			"name": "key8_png"
+		},
+		{
+			"url": "assets/Major/keyset/key9.png",
+			"type": "image",
+			"name": "key9_png"
+		},
+		{
+			"url": "assets/Major/keyset/keyset-mask.png",
+			"type": "image",
+			"name": "keyset-mask_png"
+		},
+		{
+			"url": "assets/Major/keyset/keyset-revise.png",
+			"type": "image",
+			"name": "keyset-revise_png"
+		},
+		{
+			"url": "assets/Major/keyset/ok.png",
+			"type": "image",
+			"name": "ok_png"
+		},
+		{
+			"url": "assets/Major/img/startpic.png",
+			"type": "image",
+			"name": "startpic_png"
+		},
+		{
+			"url": "assets/Major/img/music.png",
+			"type": "image",
+			"name": "music_png"
+		},
+		{
+			"url": "assets/Major/img/music_close.png",
+			"type": "image",
+			"name": "music_close_png"
+		},
+		{
+			"url": "assets/Major/img/revise.png",
+			"type": "image",
+			"name": "revise_png"
+		},
+		{
+			"url": "assets/Major/music/tq_bj.mp3",
+			"type": "sound",
+			"name": "tq_bj_mp3"
+		},
+		{
+			"url": "assets/font.TTF",
+			"type": "bin",
+			"name": "font_TTF"
+		},
+		{
+			"url": "assets/Major/cacl/add.png",
+			"type": "image",
+			"name": "add_png"
+		},
+		{
+			"url": "assets/Major/cacl/amount.png",
+			"type": "image",
+			"name": "amount_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl.png",
+			"type": "image",
+			"name": "cacl_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl0.png",
+			"type": "image",
+			"name": "cacl0_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl00.png",
+			"type": "image",
+			"name": "cacl00_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl1.png",
+			"type": "image",
+			"name": "cacl1_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl2.png",
+			"type": "image",
+			"name": "cacl2_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl3.png",
+			"type": "image",
+			"name": "cacl3_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl4.png",
+			"type": "image",
+			"name": "cacl4_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl5.png",
+			"type": "image",
+			"name": "cacl5_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl6.png",
+			"type": "image",
+			"name": "cacl6_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl7.png",
+			"type": "image",
+			"name": "cacl7_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl8.png",
+			"type": "image",
+			"name": "cacl8_png"
+		},
+		{
+			"url": "assets/Major/cacl/cacl9.png",
+			"type": "image",
+			"name": "cacl9_png"
+		},
+		{
+			"url": "assets/Major/cacl/caclAC.png",
+			"type": "image",
+			"name": "caclAC_png"
+		},
+		{
+			"url": "assets/Major/cacl/caclx.png",
+			"type": "image",
+			"name": "caclx_png"
+		},
+		{
+			"url": "assets/Major/cacl/minus.png",
+			"type": "image",
+			"name": "minus_png"
+		},
+		{
+			"url": "assets/Major/cacl/remove.png",
+			"type": "image",
+			"name": "remove_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_02.png",
+			"type": "image",
+			"name": "jiezoudashi_02_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_01.png",
+			"type": "image",
+			"name": "jiezoudashi_01_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_01_1.png",
+			"type": "image",
+			"name": "jiezoudashi_01_1_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_01_2.png",
+			"type": "image",
+			"name": "jiezoudashi_01_2_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_01_3.png",
+			"type": "image",
+			"name": "jiezoudashi_01_3_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_01_4.png",
+			"type": "image",
+			"name": "jiezoudashi_01_4_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_01_5.png",
+			"type": "image",
+			"name": "jiezoudashi_01_5_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_03.png",
+			"type": "image",
+			"name": "jiezoudashi_03_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_04.png",
+			"type": "image",
+			"name": "jiezoudashi_04_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_05.png",
+			"type": "image",
+			"name": "jiezoudashi_05_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_06.png",
+			"type": "image",
+			"name": "jiezoudashi_06_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_07.png",
+			"type": "image",
+			"name": "jiezoudashi_07_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_08.png",
+			"type": "image",
+			"name": "jiezoudashi_08_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_09.png",
+			"type": "image",
+			"name": "jiezoudashi_09_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_10.png",
+			"type": "image",
+			"name": "jiezoudashi_10_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_11.png",
+			"type": "image",
+			"name": "jiezoudashi_11_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_12.png",
+			"type": "image",
+			"name": "jiezoudashi_12_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_13.png",
+			"type": "image",
+			"name": "jiezoudashi_13_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_14.png",
+			"type": "image",
+			"name": "jiezoudashi_14_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_15.png",
+			"type": "image",
+			"name": "jiezoudashi_15_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_16.png",
+			"type": "image",
+			"name": "jiezoudashi_16_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_17.png",
+			"type": "image",
+			"name": "jiezoudashi_17_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_18.png",
+			"type": "image",
+			"name": "jiezoudashi_18_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_19.png",
+			"type": "image",
+			"name": "jiezoudashi_19_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_20.png",
+			"type": "image",
+			"name": "jiezoudashi_20_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_21.png",
+			"type": "image",
+			"name": "jiezoudashi_21_png"
+		},
+		{
+			"url": "assets/Major/img/9.png",
+			"type": "image",
+			"name": "9_png"
+		},
+		{
+			"url": "assets/Major/img/0.png",
+			"type": "image",
+			"name": "0_png"
+		},
+		{
+			"url": "assets/Major/img/1.png",
+			"type": "image",
+			"name": "1_png"
+		},
+		{
+			"url": "assets/Major/img/2.png",
+			"type": "image",
+			"name": "2_png"
+		},
+		{
+			"url": "assets/Major/img/3.png",
+			"type": "image",
+			"name": "3_png"
+		},
+		{
+			"url": "assets/Major/img/4.png",
+			"type": "image",
+			"name": "4_png"
+		},
+		{
+			"url": "assets/Major/img/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "assets/Major/img/6.png",
+			"type": "image",
+			"name": "6_png"
+		},
+		{
+			"url": "assets/Major/img/7.png",
+			"type": "image",
+			"name": "7_png"
+		},
+		{
+			"url": "assets/Major/img/8.png",
+			"type": "image",
+			"name": "8_png"
+		},
+		{
+			"url": "assets/Major/img/prev.png",
+			"type": "image",
+			"name": "prev_png"
+		},
+		{
+			"url": "assets/Major/img/next.png",
+			"type": "image",
+			"name": "next_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_49.png",
+			"type": "image",
+			"name": "jiezoudashi_49_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_d_07.png",
+			"type": "image",
+			"name": "jiezoudashi_d_07_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_d_09.png",
+			"type": "image",
+			"name": "jiezoudashi_d_09_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_d_11.png",
+			"type": "image",
+			"name": "jiezoudashi_d_11_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_d_16.png",
+			"type": "image",
+			"name": "jiezoudashi_d_16_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_d_21.png",
+			"type": "image",
+			"name": "jiezoudashi_d_21_png"
+		},
+		{
+			"url": "assets/Major/img/x.png",
+			"type": "image",
+			"name": "x_png"
+		},
+		{
+			"url": "assets/Major/animate/jiezou1_ske.json",
+			"type": "json",
+			"name": "jiezou1_ske_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou1_tex.json",
+			"type": "json",
+			"name": "jiezou1_tex_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou1_tex.png",
+			"type": "image",
+			"name": "jiezou1_tex_png"
+		},
+		{
+			"url": "assets/Major/animate/jiezou2_ske.json",
+			"type": "json",
+			"name": "jiezou2_ske_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou2_tex.json",
+			"type": "json",
+			"name": "jiezou2_tex_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou2_tex.png",
+			"type": "image",
+			"name": "jiezou2_tex_png"
+		},
+		{
+			"url": "assets/Major/animate/jiezou3_ske.json",
+			"type": "json",
+			"name": "jiezou3_ske_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou3_tex.json",
+			"type": "json",
+			"name": "jiezou3_tex_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou3_tex.png",
+			"type": "image",
+			"name": "jiezou3_tex_png"
+		},
+		{
+			"url": "assets/Major/animate/jiezou4_ske.json",
+			"type": "json",
+			"name": "jiezou4_ske_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou4_tex.json",
+			"type": "json",
+			"name": "jiezou4_tex_json"
+		},
+		{
+			"url": "assets/Major/animate/jiezou4_tex.png",
+			"type": "image",
+			"name": "jiezou4_tex_png"
+		},
+		{
+			"url": "assets/Major/music/success.mp3",
+			"type": "sound",
+			"name": "success_mp3"
+		},
+		{
+			"url": "assets/Major/music/error.mp3",
+			"type": "sound",
+			"name": "error_mp3"
+		},
+		{
+			"url": "assets/Major/animate/changpian_ske.json",
+			"type": "json",
+			"name": "changpian_ske_json"
+		},
+		{
+			"url": "assets/Major/animate/changpian_tex.json",
+			"type": "json",
+			"name": "changpian_tex_json"
+		},
+		{
+			"url": "assets/Major/animate/changpian_tex.png",
+			"type": "image",
+			"name": "changpian_tex_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_d_12.png",
+			"type": "image",
+			"name": "jiezoudashi_d_12_png"
+		},
+		{
+			"url": "assets/Major/img/jiezoudashi_06_1.png",
+			"type": "image",
+			"name": "jiezoudashi_06_1_png"
+		},
+		{
+			"url": "assets/Major/music/music2.mp3",
+			"type": "sound",
+			"name": "music2_mp3"
+		},
+		{
+			"url": "assets/Major/music/bj.mp3",
+			"type": "sound",
+			"name": "bj_mp3"
+		},
+		{
+			"url": "assets/Major/music/tip.mp3",
+			"type": "sound",
+			"name": "tip_mp3"
+		},
+		{
+			"url": "assets/Major/music/music1.mp3",
+			"type": "sound",
+			"name": "music1_mp3"
+		},
+		{
+			"url": "assets/Major/img/suc2.png",
+			"type": "image",
+			"name": "suc2_png"
+		},
+		{
+			"url": "assets/Major/img/suc3.png",
+			"type": "image",
+			"name": "suc3_png"
+		},
+		{
+			"url": "assets/Major/img/suc4.png",
+			"type": "image",
+			"name": "suc4_png"
+		},
+		{
+			"url": "assets/Major/img/suc5.png",
+			"type": "image",
+			"name": "suc5_png"
+		},
+		{
+			"url": "assets/Major/img/suc6.png",
+			"type": "image",
+			"name": "suc6_png"
+		},
+		{
+			"url": "assets/Major/img/suc1.png",
+			"type": "image",
+			"name": "suc1_png"
+		},
+		{
+			"name": "jiezoudashi_22_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_22.png"
+		},
+		{
+			"name": "jiezoudashi_23_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_23.png"
+		},
+		{
+			"name": "jiezoudashi_24_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_24.png"
+		},
+		{
+			"name": "jiezoudashi_25_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_25.png"
+		},
+		{
+			"name": "jiezoudashi_26_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_26.png"
+		},
+		{
+			"name": "jiezoudashi_27_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_27.png"
+		},
+		{
+			"name": "jiezoudashi_28_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_28.png"
+		},
+		{
+			"name": "jiezoudashi_29_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_29.png"
+		},
+		{
+			"name": "jiezoudashi_30_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_30.png"
+		},
+		{
+			"name": "jiezoudashi_31_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_31.png"
+		},
+		{
+			"name": "jiezoudashi_32_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_32.png"
+		},
+		{
+			"name": "jiezoudashi_33_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_33.png"
+		},
+		{
+			"name": "jiezoudashi_34_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_34.png"
+		},
+		{
+			"name": "jiezoudashi_35_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_35.png"
+		},
+		{
+			"name": "jiezoudashi_36_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_36.png"
+		},
+		{
+			"name": "jiezoudashi_37_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_37.png"
+		},
+		{
+			"name": "jiezoudashi_38_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_38.png"
+		},
+		{
+			"name": "jiezoudashi_39_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_39.png"
+		},
+		{
+			"name": "jiezoudashi_d_22_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_22.png"
+		},
+		{
+			"name": "jiezoudashi_d_24_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_24.png"
+		},
+		{
+			"name": "jiezoudashi_d_30_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_30.png"
+		},
+		{
+			"name": "jiezoudashi_d_35_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_35.png"
+		},
+		{
+			"name": "jiezoudashi_d_38_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_38.png"
+		},
+		{
+			"name": "jiezoudashi_d_39_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_39.png"
+		},
+		{
+			"name": "jiezoudashi_d_23_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_23.png"
+		},
+		{
+			"name": "jiezoudashi_d_32_png",
+			"type": "image",
+			"url": "assets/Major/img/jiezoudashi_d_32.png"
+		}
+	]
+}

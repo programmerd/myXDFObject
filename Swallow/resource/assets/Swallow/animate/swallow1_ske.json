@@ -1,0 +1,1680 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 65,
+                    "transform": {
+                        "skY": 15.1607,
+                        "y": 582.166,
+                        "skX": 15.1607,
+                        "x": 395.8061
+                    },
+                    "parent": "root",
+                    "name": "燕子身体"
+                },
+                {
+                    "length": 91,
+                    "transform": {
+                        "skY": -17.0489,
+                        "y": -98.7616,
+                        "skX": -17.0489,
+                        "x": 265.2416
+                    },
+                    "parent": "燕子身体",
+                    "name": "燕子头"
+                },
+                {
+                    "transform": {
+                        "y": 6.5429,
+                        "x": 140.4379
+                    },
+                    "name": "燕子左",
+                    "parent": "燕子身体"
+                },
+                {
+                    "length": 92,
+                    "transform": {
+                        "skY": 172.8822,
+                        "y": 4.7915,
+                        "skX": 172.8822,
+                        "x": -17.5176
+                    },
+                    "parent": "燕子身体",
+                    "name": "燕子尾巴2"
+                },
+                {
+                    "length": 116,
+                    "transform": {
+                        "skY": -155.6342,
+                        "y": -20.5652,
+                        "skX": -155.6342,
+                        "x": -23.3521
+                    },
+                    "parent": "燕子身体",
+                    "name": "燕子尾巴1"
+                },
+                {
+                    "transform": {
+                        "y": -34.1943,
+                        "x": 147.5618
+                    },
+                    "name": "燕子右",
+                    "parent": "燕子身体"
+                },
+                {
+                    "length": 88,
+                    "transform": {
+                        "skY": -6.807,
+                        "y": 1.104,
+                        "skX": -6.807,
+                        "x": 65.3004
+                    },
+                    "parent": "燕子身体",
+                    "name": "bone4"
+                },
+                {
+                    "length": 94,
+                    "transform": {
+                        "skY": 13.6037,
+                        "y": -0.9339,
+                        "skX": 13.6037,
+                        "x": 123.6896
+                    },
+                    "parent": "燕子尾巴1",
+                    "name": "bone2"
+                },
+                {
+                    "length": 113,
+                    "transform": {
+                        "skY": 14.6931,
+                        "skX": 14.6931,
+                        "x": 92.9139
+                    },
+                    "parent": "燕子尾巴2",
+                    "name": "bone"
+                },
+                {
+                    "length": 75,
+                    "transform": {
+                        "skY": -7.6698,
+                        "skX": -7.6698,
+                        "x": 88.7921
+                    },
+                    "parent": "bone4",
+                    "name": "bone5"
+                },
+                {
+                    "length": 119,
+                    "transform": {
+                        "skY": 15.475,
+                        "skX": 15.475,
+                        "x": 113.8464
+                    },
+                    "parent": "bone",
+                    "name": "bone1"
+                },
+                {
+                    "length": 101,
+                    "transform": {
+                        "skY": 9.2953,
+                        "skX": 9.2953,
+                        "x": 95
+                    },
+                    "parent": "bone2",
+                    "name": "bone3"
+                },
+                {
+                    "length": 76,
+                    "transform": {
+                        "skY": -28.7807,
+                        "skX": -28.7807,
+                        "x": 75.4054
+                    },
+                    "parent": "bone5",
+                    "name": "bone6"
+                }
+            ],
+            "ik": [],
+            "frameRate": 24,
+            "slot": [
+                {
+                    "color": {},
+                    "name": "R1",
+                    "parent": "燕子右",
+                    "displayIndex": 5
+                },
+                {
+                    "z": 1,
+                    "color": {},
+                    "name": "燕子身体",
+                    "parent": "燕子身体"
+                },
+                {
+                    "z": 2,
+                    "color": {},
+                    "name": "燕子头",
+                    "parent": "燕子头"
+                },
+                {
+                    "z": 3,
+                    "color": {},
+                    "name": "燕子尾巴1",
+                    "parent": "燕子尾巴1"
+                },
+                {
+                    "z": 4,
+                    "color": {},
+                    "name": "燕子尾巴2",
+                    "parent": "燕子尾巴2"
+                },
+                {
+                    "z": 5,
+                    "color": {},
+                    "name": "燕子睁眼",
+                    "parent": "燕子头"
+                },
+                {
+                    "z": 6,
+                    "color": {},
+                    "name": "L1",
+                    "parent": "燕子左",
+                    "displayIndex": 5
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "swallow1"
+                }
+            ],
+            "aabb": {
+                "width": 758.9731789496244,
+                "y": 51.462267699208496,
+                "height": 649.6345807469149,
+                "x": 66.61051459202079
+            },
+            "type": "Armature",
+            "name": "swallow1",
+            "animation": [
+                {
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "root",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -20.5204,
+                                    "duration": 10,
+                                    "x": -1.2825
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 20
+                                }
+                            ],
+                            "name": "燕子身体",
+                            "rotateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -1.75
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -8.3087,
+                                    "duration": 10,
+                                    "x": -6.5758
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [],
+                            "name": "燕子头",
+                            "rotateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": 6.3447
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "燕子左",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "duration": 10,
+                                    "x": 0.6381
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 20
+                                }
+                            ],
+                            "name": "燕子尾巴2",
+                            "rotateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -8.9512
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 20
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 20
+                                }
+                            ],
+                            "name": "燕子尾巴1",
+                            "rotateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -7.9403
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "燕子右",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -7.4541,
+                                    "duration": 10,
+                                    "x": -2.0197
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [],
+                            "name": "bone4",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -6.2558
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "bone2",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -11.0191
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "bone",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -7.5556
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -9.2707,
+                                    "duration": 10,
+                                    "x": -3.3127
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [],
+                            "name": "bone5",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "bone1",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": -15.6593
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "bone3",
+                            "rotateFrame": [
+                                {
+                                    "duration": 11
+                                },
+                                {
+                                    "duration": 10,
+                                    "rotate": -15.1489
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "bone6",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "rotate": 27.1715
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "frame": [],
+                    "playTimes": 0,
+                    "slot": [
+                        {
+                            "displayFrame": [],
+                            "name": "燕子身体",
+                            "colorFrame": []
+                        },
+                        {
+                            "displayFrame": [],
+                            "name": "燕子头",
+                            "colorFrame": []
+                        },
+                        {
+                            "displayFrame": [],
+                            "name": "燕子尾巴1",
+                            "colorFrame": []
+                        },
+                        {
+                            "displayFrame": [],
+                            "name": "燕子尾巴2",
+                            "colorFrame": []
+                        },
+                        {
+                            "displayFrame": [],
+                            "name": "燕子睁眼",
+                            "colorFrame": []
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 5,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 5,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 4,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 4,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 5,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "L1",
+                            "colorFrame": []
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 5,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 5,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 4,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 4,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 5,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "R1",
+                            "colorFrame": []
+                        }
+                    ],
+                    "duration": 21,
+                    "name": "swallow1",
+                    "ffd": [],
+                    "ik": []
+                }
+            ],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "燕子头",
+                                    "type": "image",
+                                    "name": "燕子头",
+                                    "transform": {
+                                        "skY": 1.8882,
+                                        "y": 27.6828,
+                                        "skX": 1.8882,
+                                        "x": 50.6154
+                                    }
+                                }
+                            ],
+                            "name": "燕子头"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "weights": [
+                                        2,
+                                        12,
+                                        0.9992781775542324,
+                                        8,
+                                        0.0007218224457675496,
+                                        3,
+                                        5,
+                                        0.010733340092027907,
+                                        12,
+                                        0.9293797566194891,
+                                        8,
+                                        0.05988690328848287,
+                                        3,
+                                        5,
+                                        0.019296473934151744,
+                                        12,
+                                        0.7413581916540093,
+                                        8,
+                                        0.23934533441183892,
+                                        3,
+                                        5,
+                                        0.44228534878691567,
+                                        8,
+                                        0.5106311082920613,
+                                        12,
+                                        0.047083542921023014,
+                                        2,
+                                        5,
+                                        0.8381744916252121,
+                                        8,
+                                        0.161825508374788,
+                                        2,
+                                        5,
+                                        0.9199410476702002,
+                                        8,
+                                        0.08005895232979976,
+                                        2,
+                                        5,
+                                        0.9122865216929703,
+                                        8,
+                                        0.08771347830702965,
+                                        2,
+                                        5,
+                                        0.9521071358346962,
+                                        8,
+                                        0.04789286416530374,
+                                        3,
+                                        5,
+                                        0.8947126318750931,
+                                        8,
+                                        0.08108079589317535,
+                                        12,
+                                        0.024206572231731557,
+                                        3,
+                                        5,
+                                        0.28332181467169865,
+                                        8,
+                                        0.6350638726904583,
+                                        12,
+                                        0.0816143126378431,
+                                        3,
+                                        5,
+                                        0.01670678595419067,
+                                        12,
+                                        0.757149886772122,
+                                        8,
+                                        0.22614332727368716,
+                                        3,
+                                        5,
+                                        0.004751809701140751,
+                                        12,
+                                        0.9757912667205606,
+                                        8,
+                                        0.01945692357829878
+                                    ],
+                                    "edges": [
+                                        0,
+                                        1,
+                                        1,
+                                        2,
+                                        2,
+                                        3,
+                                        3,
+                                        4,
+                                        4,
+                                        5,
+                                        5,
+                                        6,
+                                        6,
+                                        7,
+                                        7,
+                                        8,
+                                        8,
+                                        9,
+                                        9,
+                                        10,
+                                        10,
+                                        11,
+                                        11,
+                                        0
+                                    ],
+                                    "vertices": [
+                                        -115,
+                                        -145.5,
+                                        -115,
+                                        -109.55,
+                                        -99.65,
+                                        -72.8,
+                                        -30.6,
+                                        43.45,
+                                        46.55,
+                                        139.3,
+                                        91.35,
+                                        145.55,
+                                        115,
+                                        145.55,
+                                        115,
+                                        83.9,
+                                        89.5,
+                                        59.05,
+                                        -1.95,
+                                        -15.6,
+                                        -61.7,
+                                        -89.6,
+                                        -97.15,
+                                        -145.5
+                                    ],
+                                    "path": "燕子尾巴1",
+                                    "bonePose": [
+                                        5,
+                                        -0.771331058141351,
+                                        -0.6364341275784532,
+                                        0.6364341275784532,
+                                        -0.771331058141351,
+                                        305.00000000000085,
+                                        247.00000000000063,
+                                        8,
+                                        -0.5999999999999983,
+                                        -0.8000000000000032,
+                                        0.8000000000000032,
+                                        -0.5999999999999983,
+                                        209.0000000000011,
+                                        168.9999999999995,
+                                        12,
+                                        -0.46290256591123674,
+                                        -0.8864091687662059,
+                                        0.8864091687662059,
+                                        -0.46290256591123674,
+                                        152.00000000000134,
+                                        92.99999999999919
+                                    ],
+                                    "slotPose": [
+                                        1.0000000000000004,
+                                        3.552713678800501e-15,
+                                        -3.552713678800501e-15,
+                                        1.0000000000000004,
+                                        217.5000000000012,
+                                        148.49999999999932
+                                    ],
+                                    "triangles": [
+                                        4,
+                                        5,
+                                        7,
+                                        8,
+                                        4,
+                                        7,
+                                        7,
+                                        5,
+                                        6,
+                                        3,
+                                        4,
+                                        8,
+                                        9,
+                                        3,
+                                        8,
+                                        2,
+                                        3,
+                                        9,
+                                        10,
+                                        2,
+                                        9,
+                                        11,
+                                        1,
+                                        10,
+                                        1,
+                                        2,
+                                        10,
+                                        0,
+                                        1,
+                                        11
+                                    ],
+                                    "type": "mesh",
+                                    "transform": {
+                                        "skY": 140.4736,
+                                        "y": 20.2881,
+                                        "skX": 140.4736,
+                                        "x": 130.1802
+                                    },
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        0,
+                                        0.12354,
+                                        0.06674,
+                                        0.24983,
+                                        0.36696,
+                                        0.64931,
+                                        0.70239,
+                                        0.97869,
+                                        0.89717,
+                                        1.00017,
+                                        1,
+                                        1.00017,
+                                        1,
+                                        0.78832,
+                                        0.88913,
+                                        0.70292,
+                                        0.49152,
+                                        0.44639,
+                                        0.23174,
+                                        0.1921,
+                                        0.07761,
+                                        0
+                                    ],
+                                    "width": 230,
+                                    "userEdges": [],
+                                    "height": 291,
+                                    "name": "燕子尾巴1"
+                                }
+                            ],
+                            "name": "燕子尾巴1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "weights": [
+                                        2,
+                                        11,
+                                        0.9910516285921561,
+                                        9,
+                                        0.00894837140784389,
+                                        2,
+                                        11,
+                                        0.9794107008497459,
+                                        9,
+                                        0.020589299150254176,
+                                        3,
+                                        4,
+                                        0.01718996661964472,
+                                        11,
+                                        0.8562064789248103,
+                                        9,
+                                        0.12660355445554505,
+                                        3,
+                                        4,
+                                        0.04178453723489243,
+                                        9,
+                                        0.5373126571031082,
+                                        11,
+                                        0.42090280566199945,
+                                        3,
+                                        4,
+                                        0.4776575397811274,
+                                        9,
+                                        0.48087102361483464,
+                                        11,
+                                        0.04147143660403804,
+                                        2,
+                                        4,
+                                        0.91346746749266,
+                                        9,
+                                        0.08653253250734001,
+                                        2,
+                                        4,
+                                        0.8895246346140808,
+                                        9,
+                                        0.11047536538591922,
+                                        2,
+                                        4,
+                                        0.8933450171141389,
+                                        9,
+                                        0.10665498288586106,
+                                        3,
+                                        4,
+                                        0.8329146408438642,
+                                        9,
+                                        0.1349296912628328,
+                                        11,
+                                        0.03215566789330307,
+                                        3,
+                                        4,
+                                        0.4233363626590538,
+                                        9,
+                                        0.5023141663899789,
+                                        11,
+                                        0.07434947095096725,
+                                        3,
+                                        4,
+                                        0.023497629188155567,
+                                        11,
+                                        0.5503590458852808,
+                                        9,
+                                        0.4261433249265635,
+                                        3,
+                                        4,
+                                        0.00625130535574084,
+                                        11,
+                                        0.96024847443944,
+                                        9,
+                                        0.033500220204819214,
+                                        2,
+                                        11,
+                                        0.9825796052661779,
+                                        9,
+                                        0.017420394733821995
+                                    ],
+                                    "edges": [
+                                        0,
+                                        1,
+                                        1,
+                                        2,
+                                        2,
+                                        3,
+                                        3,
+                                        4,
+                                        4,
+                                        5,
+                                        5,
+                                        6,
+                                        6,
+                                        7,
+                                        7,
+                                        8,
+                                        8,
+                                        9,
+                                        9,
+                                        10,
+                                        10,
+                                        11,
+                                        11,
+                                        12,
+                                        12,
+                                        0
+                                    ],
+                                    "vertices": [
+                                        -166,
+                                        -86.5,
+                                        -164.8,
+                                        -57.25,
+                                        -130.6,
+                                        -18.75,
+                                        -64.65,
+                                        31.05,
+                                        28.05,
+                                        77.7,
+                                        128.2,
+                                        86.5,
+                                        165.95,
+                                        86.5,
+                                        165.95,
+                                        29.8,
+                                        131.3,
+                                        16.15,
+                                        37.35,
+                                        -1.3,
+                                        -62.2,
+                                        -29.95,
+                                        -121.25,
+                                        -63.5,
+                                        -149.25,
+                                        -85.9
+                                    ],
+                                    "path": "燕子尾巴2",
+                                    "bonePose": [
+                                        4,
+                                        -0.9901635999130867,
+                                        -0.13991442172685442,
+                                        0.13991442172685442,
+                                        -0.9901635999130867,
+                                        303.9999999999996,
+                                        273.00000000000097,
+                                        9,
+                                        -0.9222954025177823,
+                                        -0.38648569248364806,
+                                        0.38648569248364806,
+                                        -0.9222954025177823,
+                                        211.99999999999955,
+                                        260.00000000000045,
+                                        11,
+                                        -0.7857378783126804,
+                                        -0.6185596063312658,
+                                        0.6185596063312658,
+                                        -0.7857378783126804,
+                                        106.99999999999963,
+                                        215.99999999999983
+                                    ],
+                                    "slotPose": [
+                                        1.0000000000000016,
+                                        6.467049118441537e-15,
+                                        -6.467049118441537e-15,
+                                        1.0000000000000016,
+                                        174.4999999999997,
+                                        217.50000000000023
+                                    ],
+                                    "triangles": [
+                                        8,
+                                        5,
+                                        7,
+                                        7,
+                                        5,
+                                        6,
+                                        4,
+                                        5,
+                                        8,
+                                        9,
+                                        4,
+                                        8,
+                                        3,
+                                        4,
+                                        9,
+                                        10,
+                                        3,
+                                        9,
+                                        2,
+                                        3,
+                                        10,
+                                        11,
+                                        2,
+                                        10,
+                                        1,
+                                        2,
+                                        11,
+                                        12,
+                                        1,
+                                        11,
+                                        0,
+                                        1,
+                                        12
+                                    ],
+                                    "type": "mesh",
+                                    "transform": {
+                                        "skY": 171.9571,
+                                        "y": 36.8352,
+                                        "skX": 171.9571,
+                                        "x": 135.9914
+                                    },
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        0.00361,
+                                        0.16908,
+                                        0.10663,
+                                        0.39162,
+                                        0.30527,
+                                        0.67948,
+                                        0.58449,
+                                        0.94913,
+                                        0.88614,
+                                        1,
+                                        0.99985,
+                                        1,
+                                        0.99985,
+                                        0.67225,
+                                        0.89548,
+                                        0.59335,
+                                        0.6125,
+                                        0.49249,
+                                        0.31265,
+                                        0.32688,
+                                        0.13479,
+                                        0.13295,
+                                        0.05045,
+                                        0.00347
+                                    ],
+                                    "width": 332,
+                                    "userEdges": [],
+                                    "height": 173,
+                                    "name": "燕子尾巴2"
+                                }
+                            ],
+                            "name": "燕子尾巴2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "燕子睁眼",
+                                    "type": "image",
+                                    "name": "燕子睁眼",
+                                    "transform": {
+                                        "skY": 1.8882,
+                                        "y": -6.3043,
+                                        "skX": 1.8882,
+                                        "x": 66.744
+                                    }
+                                }
+                            ],
+                            "name": "燕子睁眼"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "L1",
+                                    "type": "image",
+                                    "name": "L1",
+                                    "transform": {
+                                        "skY": -20.0741,
+                                        "y": 166.0132,
+                                        "skX": -20.0741,
+                                        "x": 155.4518
+                                    }
+                                },
+                                {
+                                    "path": "L2",
+                                    "type": "image",
+                                    "name": "L2",
+                                    "transform": {
+                                        "y": 191.5686,
+                                        "x": 46.8492
+                                    }
+                                },
+                                {
+                                    "path": "L3",
+                                    "type": "image",
+                                    "name": "L3",
+                                    "transform": {
+                                        "y": 106.9535,
+                                        "x": -180.891
+                                    }
+                                },
+                                {
+                                    "path": "L4",
+                                    "type": "image",
+                                    "name": "L4",
+                                    "transform": {
+                                        "y": -67.8233,
+                                        "x": -215.3725
+                                    }
+                                },
+                                {
+                                    "path": "L5",
+                                    "type": "image",
+                                    "name": "L5",
+                                    "transform": {
+                                        "y": -123.1775,
+                                        "x": -205.9076
+                                    }
+                                },
+                                {
+                                    "path": "L6",
+                                    "type": "image",
+                                    "name": "L6",
+                                    "transform": {
+                                        "y": -240.4937,
+                                        "x": -96.0647
+                                    }
+                                }
+                            ],
+                            "name": "L1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "R1",
+                                    "type": "image",
+                                    "name": "R1",
+                                    "transform": {
+                                        "y": 99.0789,
+                                        "x": 212.6648
+                                    }
+                                },
+                                {
+                                    "path": "R2",
+                                    "type": "image",
+                                    "name": "R2",
+                                    "transform": {
+                                        "skY": 12.8711,
+                                        "y": 155.8578,
+                                        "skX": 12.8711,
+                                        "x": 140.243
+                                    }
+                                },
+                                {
+                                    "path": "R3",
+                                    "type": "image",
+                                    "name": "R3",
+                                    "transform": {
+                                        "y": -100.4319,
+                                        "x": -28.5003
+                                    }
+                                },
+                                {
+                                    "path": "R4",
+                                    "type": "image",
+                                    "name": "R4",
+                                    "transform": {
+                                        "y": -120.2738,
+                                        "x": -31.3015
+                                    }
+                                },
+                                {
+                                    "path": "R5",
+                                    "type": "image",
+                                    "name": "R5",
+                                    "transform": {
+                                        "y": -170.5354,
+                                        "x": 25.8951
+                                    }
+                                },
+                                {
+                                    "path": "R6",
+                                    "type": "image",
+                                    "name": "R6",
+                                    "transform": {
+                                        "skY": -7.1267,
+                                        "y": -190.4006,
+                                        "skX": -7.1267,
+                                        "x": 8.9245
+                                    }
+                                }
+                            ],
+                            "name": "R1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "weights": [
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1,
+                                        2,
+                                        13,
+                                        0.99,
+                                        1,
+                                        0.01,
+                                        2,
+                                        10,
+                                        0.48,
+                                        13,
+                                        0.52,
+                                        1,
+                                        10,
+                                        1,
+                                        1,
+                                        7,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        1,
+                                        7,
+                                        1,
+                                        1,
+                                        7,
+                                        1,
+                                        1,
+                                        10,
+                                        1,
+                                        2,
+                                        10,
+                                        0.38,
+                                        13,
+                                        0.62,
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1,
+                                        1,
+                                        13,
+                                        1
+                                    ],
+                                    "edges": [
+                                        0,
+                                        1,
+                                        1,
+                                        2,
+                                        2,
+                                        3,
+                                        3,
+                                        4,
+                                        4,
+                                        5,
+                                        5,
+                                        6,
+                                        6,
+                                        7,
+                                        7,
+                                        8,
+                                        8,
+                                        9,
+                                        9,
+                                        10,
+                                        10,
+                                        11,
+                                        11,
+                                        12,
+                                        12,
+                                        13,
+                                        13,
+                                        14,
+                                        14,
+                                        15,
+                                        15,
+                                        16,
+                                        16,
+                                        17,
+                                        17,
+                                        18,
+                                        18,
+                                        19,
+                                        19,
+                                        20,
+                                        20,
+                                        21,
+                                        21,
+                                        22,
+                                        22,
+                                        23,
+                                        23,
+                                        0
+                                    ],
+                                    "vertices": [
+                                        198.55,
+                                        3.1,
+                                        193.25,
+                                        -39.7,
+                                        178.55,
+                                        -77.45,
+                                        149.55,
+                                        -100.4,
+                                        120.6,
+                                        -109,
+                                        89.35,
+                                        -109,
+                                        68.7,
+                                        -94.9,
+                                        34.15,
+                                        -77.85,
+                                        -14.1,
+                                        -64.05,
+                                        -68.8,
+                                        -57.65,
+                                        -132.35,
+                                        -65.9,
+                                        -175.1,
+                                        -63.6,
+                                        -194.35,
+                                        -48.5,
+                                        -198.5,
+                                        -32.35,
+                                        -198.5,
+                                        10.45,
+                                        -179.25,
+                                        35.75,
+                                        -141,
+                                        63.3,
+                                        -97.4,
+                                        84.95,
+                                        -49.95,
+                                        100.1,
+                                        14.85,
+                                        109,
+                                        80.2,
+                                        109,
+                                        128.4,
+                                        100.1,
+                                        173.05,
+                                        79.9,
+                                        198.55,
+                                        50
+                                    ],
+                                    "path": "燕子身体",
+                                    "bonePose": [
+                                        1,
+                                        0.9651962581288892,
+                                        0.26152663974057494,
+                                        -0.26152663974057494,
+                                        0.9651962581288892,
+                                        322.1610161977955,
+                                        272.9566166926608,
+                                        7,
+                                        0.9893901056073081,
+                                        0.14528323690761835,
+                                        -0.14528323690761835,
+                                        0.9893901056073081,
+                                        384.9,
+                                        291.09999999999997,
+                                        10,
+                                        0.9999287695107957,
+                                        0.011935489291242857,
+                                        -0.011935489291242857,
+                                        0.9999287695107957,
+                                        472.75000000000006,
+                                        304,
+                                        13,
+                                        0.8821528510436212,
+                                        -0.47096321235910343,
+                                        0.47096321235910343,
+                                        0.8821528510436212,
+                                        548.15,
+                                        304.9
+                                    ],
+                                    "slotPose": [
+                                        1,
+                                        0,
+                                        0,
+                                        1,
+                                        483,
+                                        291
+                                    ],
+                                    "triangles": [
+                                        21,
+                                        22,
+                                        0,
+                                        1,
+                                        6,
+                                        0,
+                                        6,
+                                        21,
+                                        0,
+                                        22,
+                                        23,
+                                        0,
+                                        6,
+                                        7,
+                                        21,
+                                        2,
+                                        3,
+                                        1,
+                                        3,
+                                        6,
+                                        1,
+                                        7,
+                                        20,
+                                        21,
+                                        4,
+                                        6,
+                                        3,
+                                        5,
+                                        6,
+                                        4,
+                                        8,
+                                        19,
+                                        7,
+                                        7,
+                                        19,
+                                        20,
+                                        8,
+                                        18,
+                                        19,
+                                        9,
+                                        18,
+                                        8,
+                                        9,
+                                        17,
+                                        18,
+                                        16,
+                                        17,
+                                        9,
+                                        10,
+                                        16,
+                                        9,
+                                        15,
+                                        16,
+                                        10,
+                                        14,
+                                        15,
+                                        10,
+                                        13,
+                                        14,
+                                        10,
+                                        11,
+                                        13,
+                                        10,
+                                        12,
+                                        13,
+                                        11
+                                    ],
+                                    "type": "mesh",
+                                    "transform": {
+                                        "skY": -15.1607,
+                                        "y": -24.6483,
+                                        "skX": -15.1607,
+                                        "x": 159.96
+                                    },
+                                    "uvs": [
+                                        1.00013,
+                                        0.51422,
+                                        0.98678,
+                                        0.31789,
+                                        0.94975,
+                                        0.14472,
+                                        0.8767,
+                                        0.03945,
+                                        0.80378,
+                                        0,
+                                        0.72506,
+                                        0,
+                                        0.67305,
+                                        0.06468,
+                                        0.58602,
+                                        0.14289,
+                                        0.46448,
+                                        0.20619,
+                                        0.3267,
+                                        0.23555,
+                                        0.16662,
+                                        0.19771,
+                                        0.05894,
+                                        0.20826,
+                                        0.01045,
+                                        0.27752,
+                                        0,
+                                        0.35161,
+                                        0,
+                                        0.54794,
+                                        0.04849,
+                                        0.66399,
+                                        0.14484,
+                                        0.79037,
+                                        0.25466,
+                                        0.88968,
+                                        0.37418,
+                                        0.95917,
+                                        0.53741,
+                                        1,
+                                        0.70202,
+                                        1,
+                                        0.82343,
+                                        0.95917,
+                                        0.93589,
+                                        0.86651,
+                                        1.00013,
+                                        0.72936
+                                    ],
+                                    "width": 397,
+                                    "userEdges": [],
+                                    "height": 218,
+                                    "name": "燕子身体"
+                                }
+                            ],
+                            "name": "燕子身体"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "swallow1",
+    "version": "5.5"
+}

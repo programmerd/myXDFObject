@@ -1,0 +1,558 @@
+{
+    "frameRate": 24,
+    "armature": [
+        {
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                }
+            ],
+            "type": "Armature",
+            "name": "Piano",
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "Piano"
+                }
+            ],
+            "aabb": {
+                "width": 1917,
+                "y": 1.1611489303794542,
+                "height": 330.53352855984224,
+                "x": -20.437415791335297
+            },
+            "ik": [],
+            "slot": [
+                {
+                    "color": {},
+                    "name": "di",
+                    "parent": "root"
+                },
+                {
+                    "z": 1,
+                    "color": {},
+                    "name": "do",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 2,
+                    "color": {},
+                    "name": "fa",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 3,
+                    "color": {},
+                    "name": "la",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 4,
+                    "color": {},
+                    "name": "mi",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 5,
+                    "color": {},
+                    "name": "re",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 6,
+                    "color": {},
+                    "name": "si",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 7,
+                    "color": {},
+                    "name": "so",
+                    "parent": "root",
+                    "displayIndex": 1
+                },
+                {
+                    "z": 8,
+                    "color": {},
+                    "name": "Do_8",
+                    "parent": "root"
+                }
+            ],
+            "frameRate": 24,
+            "animation": [
+                {
+                    "bone": [
+                        {
+                            "scaleFrame": [],
+                            "rotateFrame": [],
+                            "translateFrame": [],
+                            "name": "root"
+                        }
+                    ],
+                    "frame": [
+                        {
+                            "duration": 4,
+                            "tweenEasing": null
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x360",
+                                    "strings": [
+                                        "x:946"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x946"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x555"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x1140"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x166"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x748"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x1336"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 6,
+                            "events": [
+                                {
+                                    "name": "x1530"
+                                }
+                            ]
+                        },
+                        {
+                            "tweenEasing": null,
+                            "duration": 0,
+                            "events": [
+                                {
+                                    "name": "x748"
+                                }
+                            ]
+                        }
+                    ],
+                    "playTimes": 0,
+                    "slot": [
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 28
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 24
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "do"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 34
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 14
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 0
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "fa"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 22
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 30
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "la"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 16
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 36
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "mi"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 48
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "re"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 40
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 12
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "si"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 10
+                                },
+                                {
+                                    "duration": 4
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 42
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "so"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "duration": 46
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 4
+                                },
+                                {
+                                    "duration": 6
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "Do_8"
+                        },
+                        {
+                            "displayFrame": [
+                                {
+                                    "duration": 56
+                                }
+                            ],
+                            "colorFrame": [],
+                            "name": "di"
+                        }
+                    ],
+                    "ik": [],
+                    "duration": 56,
+                    "name": "Piano",
+                    "ffd": []
+                }
+            ],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "si",
+                                    "type": "image",
+                                    "name": "si",
+                                    "transform": {
+                                        "y": 165.2292,
+                                        "x": 1431.8225
+                                    }
+                                },
+                                {
+                                    "path": "Ti1",
+                                    "type": "image",
+                                    "name": "Ti1",
+                                    "transform": {
+                                        "y": 164.7642,
+                                        "x": 1432.2182
+                                    }
+                                }
+                            ],
+                            "name": "si"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "Do_8",
+                                    "type": "image",
+                                    "name": "Do_8",
+                                    "transform": {
+                                        "y": 163.1611,
+                                        "x": 1628.469
+                                    }
+                                },
+                                {
+                                    "path": "Do_8_2",
+                                    "type": "image",
+                                    "name": "Do_8_2",
+                                    "transform": {
+                                        "y": 165.3319,
+                                        "x": 1626.9561
+                                    }
+                                }
+                            ],
+                            "name": "Do_8"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "la",
+                                    "type": "image",
+                                    "name": "la",
+                                    "transform": {
+                                        "y": 164.7912,
+                                        "x": 1237.975
+                                    }
+                                },
+                                {
+                                    "path": "La1",
+                                    "type": "image",
+                                    "name": "La1",
+                                    "transform": {
+                                        "y": 164.1869,
+                                        "x": 1237.5817
+                                    }
+                                }
+                            ],
+                            "name": "la"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "so",
+                                    "type": "image",
+                                    "name": "so",
+                                    "transform": {
+                                        "y": 165.22,
+                                        "x": 1042.7671
+                                    }
+                                },
+                                {
+                                    "path": "So1",
+                                    "type": "image",
+                                    "name": "So1",
+                                    "transform": {
+                                        "y": 164.7642,
+                                        "x": 1042.4538
+                                    }
+                                }
+                            ],
+                            "name": "so"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "di",
+                                    "type": "image",
+                                    "name": "di",
+                                    "transform": {
+                                        "y": 165.3903,
+                                        "x": 938.0626
+                                    }
+                                }
+                            ],
+                            "name": "di"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "fa",
+                                    "type": "image",
+                                    "name": "fa",
+                                    "transform": {
+                                        "y": 163.6018,
+                                        "x": 846.8122
+                                    }
+                                },
+                                {
+                                    "path": "Fa1",
+                                    "type": "image",
+                                    "name": "Fa1",
+                                    "transform": {
+                                        "y": 164.1869,
+                                        "x": 847.8173
+                                    }
+                                }
+                            ],
+                            "name": "fa"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "mi",
+                                    "type": "image",
+                                    "name": "mi",
+                                    "transform": {
+                                        "y": 163.9558,
+                                        "x": 653.1078
+                                    }
+                                },
+                                {
+                                    "path": "Mi1",
+                                    "type": "image",
+                                    "name": "Mi1",
+                                    "transform": {
+                                        "y": 164.5444,
+                                        "x": 652.128
+                                    }
+                                }
+                            ],
+                            "name": "mi"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "re",
+                                    "type": "image",
+                                    "name": "re",
+                                    "transform": {
+                                        "y": 164.62,
+                                        "x": 457.4105
+                                    }
+                                },
+                                {
+                                    "path": "Re1",
+                                    "type": "image",
+                                    "name": "Re1",
+                                    "transform": {
+                                        "y": 164.7004,
+                                        "x": 457.0724
+                                    }
+                                }
+                            ],
+                            "name": "re"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "do",
+                                    "type": "image",
+                                    "name": "do",
+                                    "transform": {
+                                        "y": 168.3621,
+                                        "x": 262.254
+                                    }
+                                },
+                                {
+                                    "path": "Do1",
+                                    "type": "image",
+                                    "name": "Do1",
+                                    "transform": {
+                                        "y": 167.1947,
+                                        "x": 263.0672
+                                    }
+                                }
+                            ],
+                            "name": "do"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "isGlobal": 0,
+    "name": "Piano",
+    "version": "5.5"
+}

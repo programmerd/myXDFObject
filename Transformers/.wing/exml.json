@@ -1,0 +1,18 @@
+{
+  "1661e010a43": {
+    "path": "project\\Transformers.ts",
+    "class": "Transformers",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": false
+  },
+  "166525952db": {
+    "guideLinesEnabled": true
+  },
+  "166578c776f": {
+    "path": "project\\RandomClass.ts",
+    "class": "RandomClass",
+    "parentPath": ""
+  }
+}

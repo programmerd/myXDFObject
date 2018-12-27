@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyList" width="60" height="60" xmlns:e="http://ns.egret.com/eui">
+	<e:Label text="Label" x="0" y="0" anchorOffsetX="0" width="60" anchorOffsetY="0" height="60" verticalAlign="middle" textAlign="center" size="45" bold="true" fontFamily="fz" textColor="0xb8fefc"/>
+</e:Skin>

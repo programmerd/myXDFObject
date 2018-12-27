@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SwallowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="Reel">
+			<tween:TweenItem target="{image}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{194.24}" y="{179}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{1478.92}" y="{180.79}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{group}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object width="{1305.24}" x="{282.77}" y="{174.73}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{6.21}" y="{82.47}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{showSwallow}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="closeSwallow">
+			<tween:TweenItem target="{swallow}">
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{group}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{music}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{revise}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{labelGroup}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="closeSub">
+			<tween:TweenItem target="{clickSubject}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="166afaa49a4" ></w:Config>
+	<e:Image id="bj" source="bj_png" x="0" y="0" locked="true"/>
+	<e:Image id="music" source="music_png" x="1763.27" y="25.41"/>
+	<e:Image id="revise" source="revise_png" x="1633.45" y="25.41" locked="true"/>
+	<e:Image source="yanweimoxing_32_png" x="194.89" y="183.82" locked="true" visible="false"/>
+	<e:Group id="group" width="214.34" height="878" x="822.16" y="177.76" scrollEnabled="true" anchorOffsetX="0" locked="true">
+		<e:Image id="image1" source="yanweimoxing_032_png" x="-542.27" y="82.47" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="image" source="yanweimoxing_012_png" x="736.66" y="182.03" locked="true"/>
+	<e:Image id="image0" source="yanweimoxing_022_png" x="933.47" y="177.76" locked="true"/>
+	<e:Group id="showSwallow" x="59" y="179" alpha="0" locked="true">
+		<e:Image source="yanweimoxing_30_png" x="1312.45" y="121.23"/>
+		<e:Image source="yanweimoxing_31_png" x="0" y="515"/>
+		<e:Image source="yanweimoxing_31_png" x="1074.47" y="716.23"/>
+		<e:Image id="swallow" source="yanweimoxing_33_png" x="134.45" y="0"/>
+		<e:Group id="clickSubject" x="533" y="153" name="group">
+			<e:Image x="440" y="0" name="1" source="sub_1_click_png"/>
+			<e:Image x="160" y="374" name="2" source="sub_2_en_png"/>
+			<e:Image x="0" y="62" anchorOffsetX="0" width="216" anchorOffsetY="0" height="216" name="3" source="sub_3_en_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="flie" width="757" height="697" x="582.5" y="257.5" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false"/>
+	<e:Group id="showSubject" x="0" y="0" visible="false" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image source="yanweimoxing_06_png" x="545" y="169"/>
+		<e:Image id="subject" x="632" y="216" source="subject3_png"/>
+		<e:Image source="yanweimoxing_07_png" x="1260" y="217"/>
+		<e:Image id="title" x="1298" y="374" source="title1_png"/>
+		<e:Group width="1914" height="312" x="0" y="768" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="input" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="input1_png"/>
+			<e:Image id="imgBorder" source="border1_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		</e:Group>
+		<e:Button id="switch" label="" x="358.5" y="567" enabled="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="switch_png" source.disabled="switch_enable_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="affirm" label="" x="87" y="374" enabled="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="affirm_png" source.disabled="affirm_enable_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="back" source="back_png" x="1639" y="28" locked="true"/>
+	</e:Group>
+	<e:Group id="labelGroup" x="216.77" y="10.02" touchChildren="false">
+		<e:Image id="subjectImage" source="yanweimoxing_04_png" x="0" y="0"/>
+		<e:Image id="tipLabel" source="yanweimoxing_04_1_png" x="91" y="30" locked="true"/>
+		<e:Image id="tipLabelOpen" source="yanweimoxing_04_2_png" x="88.23" y="30" locked="true" visible="false"/>
+	</e:Group>
+	<e:Label text="E" x="862.5" y="396" size="48" textColor="0x28e1fc" anchorOffsetX="0" width="53" anchorOffsetY="0" height="96" verticalAlign="middle" textAlign="center" bold="true" fontFamily="fz" strokeColor="0x0a6cb1" stroke="3" visible="false"/>
+	<e:Group id="clickBtn" x="542.5" y="180.5" name="group" anchorOffsetX="0" width="610" anchorOffsetY="0" height="594" locked="true" visible="false">
+		<e:Group id="clickBtn1" x="88" y="81" name="group" visible="false">
+			<e:Button label="" x="147.5" y="-20" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="A"/>
+			<e:Button label="" x="216.5" y="288" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="D"/>
+			<e:Button label="" x="393.5" y="288" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="C"/>
+			<e:Button label="" x="191.5" y="181" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="E"/>
+			<e:Button label="" x="-22" y="288" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="B"/>
+		</e:Group>
+		<e:Group id="clickBtn2" x="98" y="91" name="group" locked="true" visible="false">
+			<e:Button label="" x="-26" y="277" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="A"/>
+			<e:Button label="" x="56" y="119" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="D"/>
+			<e:Button label="" x="137.5" y="-27.5" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="C"/>
+			<e:Button label="" x="160.5" y="169" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="E"/>
+			<e:Button label="" x="375.5" y="273" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="B"/>
+		</e:Group>
+		<e:Group id="clickBtn3" x="80" y="77" name="group" anchorOffsetY="0" height="356" anchorOffsetX="0" width="468" visible="false" locked="true">
+			<e:Button label="" x="154" y="-20" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="A"/>
+			<e:Button label="" x="154" y="294" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="D"/>
+			<e:Button label="" x="394.5" y="292" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="C"/>
+			<e:Button label="" x="74" y="133.5" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="E"/>
+			<e:Button label="" x="-12" y="294" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="B"/>
+			<e:Button label="" x="154" y="171.5" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="O"/>
+			<e:Button label="" x="250.5" y="105.5" skinName="" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" name="F"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="moveGroup" x="100.48" y="774" locked="true" visible="false">
+		<e:Group id="moveGroup1" x="299" y="51" name="group" touchThrough="false" touchEnabled="true" touchChildren="true" visible="false">
+			<e:Image source="yanweimoxing_09_png" x="0" y="2"/>
+			<e:Image source="yanweimoxing_09_png" x="276.5" y="0"/>
+			<e:Image source="yanweimoxing_09_png" x="634.5" y="0"/>
+			<e:Image source="yanweimoxing_09_png" x="920" y="0"/>
+		</e:Group>
+		<e:Group id="moveGroup2" x="297" y="51" name="group" visible="false">
+			<e:Image source="yanweimoxing_09_png" x="0" y="2"/>
+			<e:Image source="yanweimoxing_09_png" x="276.5" y="0"/>
+			<e:Image source="yanweimoxing_09_png" x="634.5" y="0"/>
+			<e:Image source="yanweimoxing_09_png" x="920" y="0"/>
+		</e:Group>
+		<e:Group id="moveGroup3" x="0" y="0" alpha="1" name="group" visible="false">
+			<e:Image source="yanweimoxing_10_png" x="0" y="2"/>
+			<e:Image source="yanweimoxing_10_png" x="192" y="0"/>
+			<e:Image source="yanweimoxing_10_png" x="453" y="1"/>
+			<e:Image source="yanweimoxing_10_png" x="642.5" y="5"/>
+			<e:Image source="yanweimoxing_10_png" x="923.5" y="3"/>
+			<e:Image source="yanweimoxing_10_png" x="1114" y="3"/>
+			<e:Image source="yanweimoxing_10_png" x="1370" y="1"/>
+			<e:Image source="yanweimoxing_10_png" x="1563" y="1"/>
+			<e:Image source="yanweimoxing_10_png" x="3" y="153"/>
+			<e:Image source="yanweimoxing_10_png" x="191" y="152"/>
+			<e:Image source="yanweimoxing_10_png" x="453" y="151"/>
+			<e:Image source="yanweimoxing_10_png" x="642.5" y="153"/>
+			<e:Image x="920.46" y="151" source="BD_png"/>
+			<e:Image x="1110" y="152" source="DC_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imgTransition" width="184" height="178" x="1056" y="816" source="img_1_ACE_png" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false"/>
+	<e:Group id="subLabel1" x="414" y="848" visible="false">
+		<e:Label id="label1_0" text="27" x="0" y="0" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xf1c411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+		<e:Label id="label1_2" text="3" x="638.47" y="0" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+		<e:Label id="label1_3" text="2" x="927" y="0" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+	</e:Group>
+	<e:Group id="subLabel2" x="414" y="848" locked="true" visible="false">
+		<e:Label id="label2_0" text="3" x="0" y="0" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+		<e:Label id="label2_1" text="5" x="281.5" y="2" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+		<e:Label id="label2_3" text="12" x="638.47" y="0" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+	</e:Group>
+	<e:Group id="subLabel3" x="101" y="778" anchorOffsetX="0" width="1719" anchorOffsetY="0" height="290" locked="true" visible="false">
+		<e:Label text="2" x="451.5" y="0" anchorOffsetX="0" width="150" anchorOffsetY="0" height="142" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" id="label3_2"/>
+		<e:Label text="3" x="639.66" y="1" anchorOffsetX="0" width="150" anchorOffsetY="0" height="142" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" id="label3_3"/>
+		<e:Label text="1" x="1370" y="0" anchorOffsetX="0" width="150" anchorOffsetY="0" height="142" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" id="label3_6"/>
+		<e:Label text="1" x="1561" y="0" anchorOffsetX="0" width="150" anchorOffsetY="0" height="142" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" id="label3_7"/>
+		<e:Image source="img_3_ABO_png" x="3" y="-4"/>
+		<e:Image source="img_3_BCO_png" x="189.48" y="-5"/>
+		<e:Image source="img_3_ACO_png" x="923" y="-2"/>
+		<e:Image source="img_3_BCO_png" x="1113" y="-6"/>
+		<e:Image source="img_3_ABO_png" x="3" y="146"/>
+		<e:Image source="img_3_ACO_png" x="195" y="144"/>
+		<e:Image source="img_3_BD_png" x="451" y="146"/>
+		<e:Image source="img_3_CD_png" x="641" y="146"/>
+		<e:Image source="BD_png" x="921" y="146"/>
+		<e:Image source="DC_png" x="1113" y="146"/>
+	</e:Group>
+	<e:Group id="clickSubLabel" x="648.47" y="804" name="group" anchorOffsetY="0" height="236" locked="true" visible="false">
+		<e:Group id="clickSubLabel1" x="49.03" y="36" name="group" anchorOffsetY="0" height="160" visible="false">
+			<e:Label id="label1_1" text="27" x="-2" y="10" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="clickSubLabel2" x="686" y="36" name="group" anchorOffsetY="0" height="164" anchorOffsetX="0" width="175" visible="false">
+			<e:Label id="label2_4" text="12" x="0" y="12" anchorOffsetX="0" width="162" anchorOffsetY="0" height="148" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz"/>
+		</e:Group>
+		<e:Group id="clickSubLabel3" x="824" y="122" name="group" visible="false">
+			<e:Label text="2" x="0" y="2" anchorOffsetX="0" width="150" anchorOffsetY="0" height="142" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" id="label3_0"/>
+			<e:Label text="2" x="190.48" y="0" anchorOffsetX="0" width="150" anchorOffsetY="0" height="142" verticalAlign="middle" textAlign="center" size="48" bold="true" textColor="0xF1C411" stroke="3" strokeColor="0x663500" fontFamily="fz" id="label3_1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="showTipGroup" x="0" y="0" touchChildren="false" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="showSubjectTip" source="yanweimoxing_70_png" x="266" y="309.5"/>
+	</e:Group>
+	<e:Rect id="overRect" width="1920" height="1080" x="0" y="0" fillAlpha="0" locked="true" visible="false"/>
+	<e:Group id="endStart" x="0" y="0" locked="true">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.7"/>
+		<e:Image id="clickStart" source="startpic_png" x="719" y="451.5"/>
+	</e:Group>
+</e:Skin>

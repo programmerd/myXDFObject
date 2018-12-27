@@ -1,0 +1,599 @@
+{
+    "frameRate": 24,
+    "name": "zhanshi01",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Sheet",
+            "frameRate": 20,
+            "name": "over2",
+            "aabb": {
+                "x": -0.25,
+                "y": -1.25,
+                "width": 585.5,
+                "height": 304.5
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 41,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "03",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "04",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "05",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "06",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "07",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "08",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "09",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "10",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "11",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "12",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "13",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "14",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "15",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "16",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "17",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "18",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "19",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "20",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "21",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "22",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "23",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "24",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "25",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "26",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "27",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "28",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "29",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "30",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "31",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "32",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "33",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "34",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "35",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "36",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "37",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "38",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "39",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "40",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "41",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "42",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "43",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "44",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "45",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "46",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "47",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "48",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "49",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "50",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "51",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "52",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "53",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "54",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "55",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                },
+                                {
+                                    "name": "56",
+                                    "transform": {
+                                        "x": 292.5,
+                                        "y": 151
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 54,
+                    "playTimes": 0,
+                    "name": "over2",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                },
+                                {
+                                    "value": 16
+                                },
+                                {
+                                    "value": 17
+                                },
+                                {
+                                    "value": 18
+                                },
+                                {
+                                    "value": 19
+                                },
+                                {
+                                    "value": 20
+                                },
+                                {
+                                    "value": 21
+                                },
+                                {
+                                    "value": 22
+                                },
+                                {
+                                    "value": 23
+                                },
+                                {
+                                    "value": 24
+                                },
+                                {
+                                    "value": 25
+                                },
+                                {
+                                    "value": 26
+                                },
+                                {
+                                    "value": 27
+                                },
+                                {
+                                    "value": 28
+                                },
+                                {
+                                    "value": 29
+                                },
+                                {
+                                    "value": 30
+                                },
+                                {
+                                    "value": 31
+                                },
+                                {
+                                    "value": 32
+                                },
+                                {
+                                    "value": 33
+                                },
+                                {
+                                    "value": 34
+                                },
+                                {
+                                    "value": 35
+                                },
+                                {
+                                    "value": 36
+                                },
+                                {
+                                    "value": 37
+                                },
+                                {
+                                    "value": 38
+                                },
+                                {
+                                    "value": 39
+                                },
+                                {
+                                    "value": 40
+                                },
+                                {
+                                    "value": 41
+                                },
+                                {
+                                    "value": 42
+                                },
+                                {
+                                    "value": 43
+                                },
+                                {
+                                    "value": 44
+                                },
+                                {
+                                    "value": 45
+                                },
+                                {
+                                    "value": 46
+                                },
+                                {
+                                    "value": 47
+                                },
+                                {
+                                    "value": 48
+                                },
+                                {
+                                    "value": 49
+                                },
+                                {
+                                    "value": 50
+                                },
+                                {
+                                    "value": 51
+                                },
+                                {
+                                    "value": 52
+                                },
+                                {
+                                    "value": 53
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "over2"
+                }
+            ]
+        }
+    ]
+}

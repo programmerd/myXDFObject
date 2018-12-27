@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166f66674ae" ></w:Config>
+	<e:Image id="music" source="music_png" x="1724.7" y="19" locked="true" visible="false"/>
+	<e:Image id="reset" source="revise_png" x="1579.12" y="25" locked="true" visible="false"/>
+	<e:Group id="endStart" x="0" y="0" locked="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+		<e:Image id="clickStart" source="startpic_png" x="741.5" y="451.5"/>
+	</e:Group>
+</e:Skin>

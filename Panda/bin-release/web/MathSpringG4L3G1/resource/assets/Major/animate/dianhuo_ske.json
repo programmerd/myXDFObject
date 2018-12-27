@@ -1,0 +1,130 @@
+{
+    "frameRate": 24,
+    "name": "dianhuo",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Sheet",
+            "frameRate": 40,
+            "name": "dianhuo",
+            "aabb": {
+                "x": -40,
+                "y": -40,
+                "width": 80,
+                "height": 80
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "01"
+                                },
+                                {
+                                    "name": "02"
+                                },
+                                {
+                                    "name": "03"
+                                },
+                                {
+                                    "name": "04"
+                                },
+                                {
+                                    "name": "05"
+                                },
+                                {
+                                    "name": "06"
+                                },
+                                {
+                                    "name": "07"
+                                },
+                                {
+                                    "name": "08"
+                                },
+                                {
+                                    "name": "09"
+                                },
+                                {
+                                    "name": "10"
+                                },
+                                {
+                                    "name": "11"
+                                },
+                                {
+                                    "name": "12"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 12,
+                    "playTimes": 0,
+                    "name": "dianhuo",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "dianhuo"
+                }
+            ]
+        }
+    ]
+}
